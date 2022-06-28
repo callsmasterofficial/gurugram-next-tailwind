@@ -7,7 +7,7 @@ export default function FeatureArea() {
         <div className="featureHeading mx-6 font-bold text-xl">
             <h1>Feature News</h1>
         </div>
-        <div className="md:grid md:grid-cols-4 md:mx-3">
+        <div className="pt-4">
             <FeatureSinglePost />
         </div>
     </div>

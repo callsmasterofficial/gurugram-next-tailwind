@@ -13,11 +13,12 @@ export default function Header_smallSlider() {
     spaceBetween={50}
     slidesPerView={1}
     navigation
-    autoplay
-    pagination={{ clickable: true }}
+    autoplay    
+    pagination={{
+      el: ".swiper-pagination", 
+      clickable: true 
+    }}
     scrollbar={{ draggable: true }}
-    onSwiper={(swiper) => console.log(swiper)}
-    onSlideChange={() => console.log('slide change')}
     breakpoints={{
       // when window width is >= 640px
       460: {
@@ -35,20 +36,20 @@ export default function Header_smallSlider() {
       {Header_smallSliderData.map((data) => {
         return (
           <SwiperSlide>
-          <div key={data.id} className="flex w-screen rounded-lg">
-            <div className="flex flex-col md:flex-row items-center p-4">
+          <div key={data.id} className="flex flex-wrap rounded-lg">
+            <div className="flex md:flex-row items-center p-2">
               <img
                 src={data.img_src}
                 alt="small slider"
                 className="w-[20%] sm:w-[25%] md:w-[30%] mx-2 rounded-md"
               />
-              <div className="">
-                <h1 className="text-lg font-bold sm:text-sm sm:font-bold md:text-sm md:font-bold">
+              <div className="flex flex-col justify-self-center align-middle items-baseline">
+                <h3 className="text-xs md:text-base ">
                   {data.title}
-                </h1>
-                <p className="text-sm sm:text-sm md:text-sm">
+                </h3>
+                {/* <p className="text-sm sm:text-sm md:text-sm">
                   {data.sub_title}
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -85,3 +86,4 @@ const Header_smallSliderData = [
     sub_title: "People have been infected in USA...",
   },
 ];
+

@@ -8,7 +8,7 @@ import FeatureArea from "../components/FeatureArea"
 export default function Home() {
   return (
     <div>
-      <h1 className="bg-red-300">Hello world@!</h1>
+      {/* <h1 className="bg-red-300">Hello world@!</h1> */}
       <Header />
       <Header_smallSlider />
       <MainGalleryArea />
