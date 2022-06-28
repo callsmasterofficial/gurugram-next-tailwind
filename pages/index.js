@@ -2,6 +2,7 @@ import Header from "../components/Header"
 import Header_smallSlider from "../components/Header_smallSlider"
 import MainGalleryArea from "../components/MainGalleryArea"
 import FeatureArea from "../components/FeatureArea"
+import Footer from "../components/Footer"
 // import Testing from "../components/Testing"
 // import 'tw-elements';
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Header_smallSlider />
       <MainGalleryArea />
       <FeatureArea />
+      <Footer/>
     </div>
   )
 }
