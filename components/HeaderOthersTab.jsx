@@ -2,9 +2,9 @@ import React from "react";
 
 export default function HeaderOthersTab() {
   return (
-    <div className="p-0 sm:w-[50%] z-10">
+    <div className="p-0 sm:w-[50%] z-50">
       <div className="group inline-block relative">
-        <button className=" text-gray-700 font-semibold py-2 px-2 rounded inline-flex items-center">
+        <button className=" text-white font-semibold px-2 rounded inline-flex items-center">
           <span className="mr-4 uppercase">Others </span>
           <svg
             className="fill-current h-4 w-4"

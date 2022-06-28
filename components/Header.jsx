@@ -1,28 +1,29 @@
 import React, { useState } from "react";
 import HeaderSingleElement from "./HeaderSingleElement";
 import HeaderOthersTab from "./HeaderOthersTab";
-import { Search, User, DegreeCelcius, Sunrise,CloseButton } from "./icons";
-import NextLink from "next/link"
+import { Search, User, DegreeCelcius, Sunrise, CloseButton } from "./icons";
+import NextLink from "next/link";
 
 export default function Header() {
-  const [sidebar, setSidebar]=useState(false);
-  const handleSidebar = ()=>{
+  const [sidebar, setSidebar] = useState(false);
+  const handleSidebar = () => {
     setSidebar(!sidebar);
-  }
+  };
   return (
-    <>
+    <div className="flex md:block">
       {/* Header,Logo & Banner */}
-      <div className="relative md:flex md:items-center">
-        <div className="flex items-center justify-between" id="logo">
+      <div className="hidden relative mb-0 md:flex md:items-center">
+        <div className="flex flex-wrap items-center justify-between" id="logo">
           <img
             src="assets/Images/Gurugram-News-Logo.jpg"
             alt="gurugram-news-network"
-            className="w-40 mx-4"
+            className="w-28 mx-auto md:w-36 md:mx-8"
           />
-
-          <h1 className="text-3xl uppercase mx-4">Gurugram News Network</h1>
         </div>
-        <div className="w-100% md:w-[70%] p-2 cursor-pointer" id="appOrAds">
+        <div
+          className="hidden w-100% md:visible md:w-[50%] md:flex md:ml-auto p-2 cursor-pointer"
+          id="appOrAds"
+        >
           <img
             src="assets/Images/Gurugram-News-Banner.jpg"
             alt="gurugram-news-app-Banner"
@@ -31,13 +32,29 @@ export default function Header() {
       </div>
       {/* Nav Bar */}
       <div className="flex items-center justify-between sm:p-2 md:p-1" id="nav">
-
         {/* Sidebar Toggle */}
-        <div className={sidebar ? "m-4 p-2 z-50 opacity-0 rounded-md cursor-pointer md:hidden hover:bg-slate-200":"m-4 p-2 z-50 rounded-md cursor-pointer md:hidden hover:bg-slate-200"} onClick={handleSidebar}>
+        <div
+          className={
+            sidebar
+              ? "ml-1 my-0 p-1 z-50 opacity-0 rounded-md cursor-pointer md:hidden hover:bg-slate-200"
+              : "ml-1 my-0 p-1 z-50 rounded-md cursor-pointer md:hidden hover:bg-slate-200"
+          }
+          onClick={handleSidebar}
+        >
           <div className="w-4 h-1 bg-black mt-1 mb-1 transition-all duration-100 rounded-md"></div>
           <div className="w-6 h-1 bg-black mt-1 mb-1 transition-all duration-100 rounded-md"></div>
           <div className="w-4 h-1 bg-black mt-1 mb-1 transition-all duration-100 rounded-md"></div>
         </div>
+
+        {/* Header,Logo & Banner for mobile View */}
+        <div className="mr-auto ml-auto">
+          <img
+            src="assets/Images/Gurugram-News-Logo.jpg"
+            alt="gurugram-news-network"
+            className="w-32 sm:w-36 md:hidden "
+          />
+        </div>
+
         {/* sidebar container */}
         <div className="uppercase">
           {/* sidebar overlay */}
@@ -53,13 +70,13 @@ export default function Header() {
           <div
             className={
               sidebar
-                ? "bg-white duration-300 z-50 fixed inset-y-0 py-4 left-0 transition-right w-64 md:hidden"
-                : "bg-white duration-500 z-50 fixed inset-y-0 py-4 -left-full transition-right w-64 md:hidden"
+                ? "bg-white duration-300 z-50 fixed inset-y-0 py-4 left-0 w-40 transition-right sm:w-64 md:hidden"
+                : "bg-white duration-500 z-50 fixed inset-y-0 py-4 -left-full w-40 transition-right sm:w-64 md:hidden"
             }
           >
             {/* sidebar close button */}
             <button
-              className="absolute -right-8 p-1 md:hidden bg-white rounded-full text-gray-700 top-1 transition hover:bg-red-400"
+              className="absolute -right-6 p-1 bg-white rounded-full text-gray-700 top-1 transition hover:bg-red-400"
               onClick={handleSidebar}
             >
               <CloseButton />
@@ -71,42 +88,42 @@ export default function Header() {
                 <NextLink href="/">
                   {/* active item */}
                   <a className="bg-gray-100 font-medium inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    home
+                    Desh
                   </a>
                 </NextLink>
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
                   <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    pages
+                    Haryana
                   </a>
                 </NextLink>
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
                   <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    posts
+                    Shehar
                   </a>
                 </NextLink>
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
                   <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    categories
+                    Crime
                   </a>
                 </NextLink>
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
                   <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    world
+                    Technology
                   </a>
                 </NextLink>
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
                   <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    sports
+                    Delhi
                   </a>
                 </NextLink>
               </li>
@@ -114,13 +131,8 @@ export default function Header() {
                 <NextLink href="/">
                   <>
                     <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                      others
+                      Others
                     </a>
-                    {/* <ul>
-                      <li>one</li>
-                      <li>two</li>
-                      <li>three</li>
-                    </ul> */}
                   </>
                 </NextLink>
               </li>
@@ -131,25 +143,27 @@ export default function Header() {
 
         {/* Hamburger Menu */}
 
-        {/* Normal Menu */}
-        <div className="uppercase hidden sm:hidden md:block">
-          <ul className="flex ml-12 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[60%] md:ml-12">
-            <HeaderSingleElement name="home" />
-            <HeaderSingleElement name="pages" />
-            <HeaderSingleElement name="posts" />
-            <HeaderSingleElement name="categories" />
-            <HeaderSingleElement name="world" />
-            <HeaderSingleElement name="sports" />
+        {/* Normal Menu -- Desktop View Navbar */}
+        <div className="uppercase bg-black hidden mx-5 sm:hidden md:block md:w-[100%] md:rounded-lg">
+          <ul className="flex ml-12 mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[90%] md:ml-12">
+            <HeaderSingleElement name="Desh" />
+            <HeaderSingleElement name="Haryana" />
+            <HeaderSingleElement name="Shehar" />
+            <HeaderSingleElement name="Crime" />
+            <HeaderSingleElement name="Technology" />
+            <HeaderSingleElement name="Delhi" />
             <HeaderOthersTab />
           </ul>
         </div>
         <div
-          className="flex  md:hidden lg:flex mx-4 text-2xl"
+          className="flex ml-1 mr-1 md:hidden lg:flex sm:mr-1 md:mr-2 text-2xl"
           id="search"
         >
-          <Search />
+          <div className="cursor-pointer">
+            <Search />
+          </div>
 
-          <div className="ml-6" id="user_profile">
+          <div className="ml-2 md:ml-6 cursor-pointer" id="user_profile">
             <User />
           </div>
           {/* Language Selector */}
@@ -175,6 +189,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
