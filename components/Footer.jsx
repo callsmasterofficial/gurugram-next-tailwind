@@ -137,7 +137,7 @@ export default function Footer() {
                 <FooterMicophone/><p>On smart speakers</p>
                 </div>
                 <div className="flex items-center mt-2	">
-                <FooterMessage/><p>Contact Newspark news</p>
+                <FooterMessage/><p>Contact Newspark news</p> 
                 </div>
               </div>
             </div>
