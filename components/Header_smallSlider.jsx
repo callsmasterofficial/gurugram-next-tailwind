@@ -35,8 +35,8 @@ export default function Header_smallSlider() {
   >
       {Header_smallSliderData.map((data) => {
         return (
-          <SwiperSlide>
-          <div key={data.id} className="flex flex-wrap rounded-lg">
+          <SwiperSlide key={data.id}>
+          <div className="flex flex-wrap rounded-lg">
             <div className="flex md:flex-row items-center p-2">
               <img
                 src={data.img_src}
