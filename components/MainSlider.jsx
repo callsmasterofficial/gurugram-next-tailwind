@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Videoyt } from "./icons";
 
 export default function MainSlider() {
@@ -7,7 +6,7 @@ export default function MainSlider() {
     <>
       {MainSliderData.map((data) => {
         return (
-          <div className="post_gallery_play md:rounded-md md:mr-5">
+          <div key={data.id} className="post_gallery_play md:rounded-md md:mr-5">
             <div className="bg-image"></div>
             <div className="post__gallery_play_content">
               <div className="post-meta">
