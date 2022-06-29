@@ -18,31 +18,39 @@ export default function Footer() {
     //     <h3>this is background</h3>
     // </div>
     <>
-      <div className="container-fluid bg-[#17222b]">
-        <div className="w-[80%] m-auto pt-12 pb-12">
-          <div className="grid grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
+      <div className="footermain bg-[#17222b]">
+        <div className="w-[100%] md:w-[80%] m-auto pt-12 pb-12">
+          <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
             <div ClassName="col-span-1">
               <img
                 src="assets/Images/Gurugram-News-Logo.jpg"
                 alt="gurugram-news-network"
-                className="w-72"
+                className="mx-10 md:mx-0 w-72 "
               />
 
-              <div className="iconBox flex mt-6">
+              <div className="iconBox ml-10  md:mx-0  flex mt-6">
+                <div className="mr-2 w-11 h-11 bg-gray-600 p-2 rounded-sm">
                 <Twitter color="white" />
+                </div>
+                <div className="mr-2 w-11 h-11 bg-gray-600 p-2 rounded-sm">
                 <Facebook />
+                </div>
+                <div className="mr-2 w-11 h-11 bg-gray-600 p-2 rounded-sm">
                 <Youtube />
+                </div>
+                <div className="mr-2 w-11 h-11 bg-gray-600 p-2 rounded-sm">
                 <Instagram />
+                </div>
               </div>
             </div>
-            <div className="col-span-1 mt-20">
+            <div className="col-span-1 mt-20 mx-10 md:mx-0">
               <div className="flex mb-6">
                 <input
                   type="text"
                   placeholder="Your email address"
                   className="p-4 w-[80%] rounded-sm rounded-r-none border-none outline-none"
                 />
-                <button className="text-white w-[50%] bg-blue-400 rounded-sm rounded-l-none">
+                <button className="text-white w-[50%] bg-blue-400 rounded-sm rounded-l-none hover:bg-blue-800 hover:font-bold">
                   SIGN UP
                 </button>
               </div>
@@ -52,11 +60,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="footerContainer w-[80%] m-auto">
-          <div className="grid grid-cols-3 place-items-center">
-            <div className="col-span-2">
-              <div className="flex  border-b-2 border-gray border-dashed">
-                <div className="text-white  w-[50%] border-r-2 border-gray border-dashed pb-6  h-80">
+        <div className="footerContainer w-[100%] md:w-[80%] m-auto">
+          <div className="grid grid-cols-1  md:grid-cols-3 place-items-center">
+            <div className="col-span-1 bg- md:col-span-2">
+              <div className=" md:flex  border-b-2 border-gray border-dashed">
+                <div className="text-white md:w-[50%] border-r-2 border-gray border-dashed pb-6  h-80 ml-7">
                   <h2 className="m-3.5">News Categories</h2>
                   <div className="flex justify-between mr-20  ">
                     <div className="left">
@@ -79,7 +87,7 @@ export default function Footer() {
                   </div>
                 </div>
 
-                <div className="text-white w-[50%] ml-10">
+                <div className="text-white md:w-[50%] ml-7">
                   <h2 className="m-3.5">Living</h2>
                   <div className="flex justify-between mr-20  text-white">
                     <div className="left">
@@ -102,9 +110,9 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="flex">
-             <div className="text-white  border-r-2 border-gray border-dashed">
-              <h3>Opinion</h3>
+              <div className="md:flex">
+             <div className="text-white  border-r-2 border-gray border-dashed ml-10">
+              <h3 className="m-3.5">Opinion</h3>
               <div className="right mr-20">
                       <li className="list-none m-3.5"> Politics</li>
                       <li className="list-none m-3.5"> Politics</li>
@@ -114,7 +122,7 @@ export default function Footer() {
                       <li className="list-none m-3.5"> Politics</li>
                     </div>
              </div>
-             <div className="col-span-2 text-white" >
+             <div className="col-span-2 text-white " >
               <div >
               <FooterTwitter/>
               </div>
@@ -125,7 +133,7 @@ export default function Footer() {
              </div>
             </div>
 
-            <div className="text-white  border-l-2 border-gray border-dashed">
+            <div className="text-white  md:border-l-2 border-gray border-dashed">
               <h4 className="ml-5">News Categories</h4>
               <FooterSidebar />
               <div className="items-start m-6 border-t-2 border-gray border-dashed 	mt-2">

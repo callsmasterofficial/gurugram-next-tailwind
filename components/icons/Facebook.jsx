@@ -9,7 +9,7 @@ export default function Facebook() {
         color="white"
         strokeWidth={0}
         viewBox="0 0 24 24"
-        className="w-10 h-10 object-contain"
+        className="w-8 h-8 object-contain"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
