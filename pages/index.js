@@ -3,6 +3,8 @@ import Header_smallSlider from "../components/Header_smallSlider"
 import MainGalleryArea from "../components/MainGalleryArea"
 import FeatureArea from "../components/FeatureArea"
 import TrendingNewsArea from "../components/TrendingNewsArea"
+import PlayPostArea from "../components/PlayPostArea"
+import VideoNewsArea from "../components/VideoNewsArea"
 import Footer from "../components/Footer"
 import BusinessArea from "../components/BusinessArea"
 import EntertainmentArea from "../components/EntertainmentArea"
@@ -19,12 +21,13 @@ export default function Home() {
       <Header_smallSlider />
       <MainGalleryArea />
       <FeatureArea />
-      <EntertainmentArea />
+      <TrendingNewsArea />
+      <PlayPostArea />
+      <VideoNewsArea />
+      {/* <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
-      <Footer/>
-      <TrendingNewsArea />
-      {/* <Footer/> */}
+      <Footer/> */}
     </div>
   )
 }
