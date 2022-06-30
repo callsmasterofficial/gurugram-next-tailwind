@@ -1,22 +1,19 @@
 import React from "react";
 
-export default function Facebook() {
+export default function Facebook({ color, height, width }) {
   return (
-    <div>
+    <>
       <svg
-        stroke="currentColor"
-        fill="white"
-        color="white"
+        stroke={color || "currentColor"}
+        fill={color || "currentColor"}
         strokeWidth={0}
-        viewBox="0 0 24 24"
-        className="w-8 h-8 object-contain"
+        viewBox="0 0 320 512"
+        height={height || "1em"}
+        width={width || "1em"}
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path
-          d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z"
-          fill="currentColor"
-        />
+        <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
       </svg>
-    </div>
+    </>
   );
 }
