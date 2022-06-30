@@ -1,11 +1,18 @@
 import React from "react";
-import MainSinglepostItem from "./FooterSidebar";
+import NewsLetter from "./NewsLetter";
+import SportsAreaCarousel from "./SportsAreaCarousel";
+// import MainSinglepostItem from "./FooterSidebar";
+// import TrendingCarouselBottom from "./TrendingCarouselBottom";
 
 function SportsArea() {
   return (
     <>
+
+<div className=" w-[80%] md:w-[80%] m-auto text-xl font-semibold mt-4 mb-4">
+    <h1>Sports News</h1>
+</div>
       <div className="SportsArea md:w-[80%] m-auto w-[100%]">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-3">
           <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1 ">
             {SportsAreaData.map((data) => {
               return (
@@ -36,9 +43,13 @@ function SportsArea() {
             })}{" "}
           </div>
           <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1 ">
-            <MainSinglepostItem/>
+            <SportsAreaCarousel/>
+          </div>
+          <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1 ">
+            <NewsLetter/>
           </div>
         </div>
+        
       </div>
     </>
   );
@@ -49,7 +60,7 @@ export default SportsArea;
 const SportsAreaData = [
   {
     id: "1",
-    image: "https://quomodosoft.com/html/newsprk/assets/images/business-2.jpg",
+    image: "https://quomodosoft.com/html/newsprk/assets/images/sports-news.jpg",
     category: "Technology",
     date: "June 24, 2022",
     title: "Copa America: Luis Suarez from devastated US",
