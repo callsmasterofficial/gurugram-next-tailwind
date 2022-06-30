@@ -19,11 +19,11 @@ export default function Home() {
       <Header_smallSlider />
       <MainGalleryArea />
       <FeatureArea />
+      <TrendingNewsArea />
       <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
       <Footer/>
-      <TrendingNewsArea />
       {/* <Footer/> */}
     </div>
   )
