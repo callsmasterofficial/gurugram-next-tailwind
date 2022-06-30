@@ -9,6 +9,11 @@ export default function Header() {
   const handleSidebar = () => {
     setSidebar(!sidebar);
   };
+
+  const handleSearch = () => {
+    console.log("search is happening...");
+  }
+  
   return (
     <div className="flex md:block">
       {/* Header,Logo & Banner */}
@@ -160,22 +165,11 @@ export default function Header() {
           id="search"
         >
           <div className="cursor-pointer">
-            <Search />
+            <button className="" onClick={handleSearch}>
+              <Search />
+            </button>
           </div>
 
-          <div className="ml-2 md:ml-6 cursor-pointer" id="user_profile">
-            <User />
-          </div>
-          {/* Language Selector */}
-          <div className="hidden mx-2 sm:hidden sm:text-sm md:hidden md:text-lg lg:block">
-            <select className="rounded-sm p-2">
-              <option value="English">English</option>
-              <option value="Bangla">Bangla</option>
-              <option value="Hindi">Hindi</option>
-              <option value="Tamil">Tamil</option>
-              <option value="Pashto">Pashto</option>
-            </select>
-          </div>
           {/* Temperature */}
           <div className="hidden items-center mx-4 justify-between sm:hidden md:hidden lg:flex">
             <span>
