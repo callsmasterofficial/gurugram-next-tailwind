@@ -4,18 +4,15 @@ import FooterSidebar from "../components/FooterSidebar";
 function EntertainmentArea() {
   return (
     <>
-    <div className=" w-[80%] md:w-[80%] m-auto text-xl font-semibold mt-4 mb-4">
-    <h1>Entertainment News</h1>
-</div>
+      <div className=" w-[80%] md:w-[80%] m-auto text-xl font-semibold mt-4 mb-4">
+        <h1>Entertainment News</h1>
+      </div>
       <div className="EntertainmentContainer md:w-[80%] m-auto w-[100%] ">
         <div className="grid  grid-cols-3">
           <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 ">
             {EntertainmentAreaData.map((data) => {
               return (
-                <div
-                  key={data.id}
-                  className="w-[24rem]"
-                >
+                <div key={data.id} className="w-[24rem]">
                   <div>
                     <div className="h-[15rem] w-[24rem] overflow-hidden">
                       <img
@@ -32,7 +29,6 @@ function EntertainmentArea() {
                         {data.title}
                       </h2>
                       <p className="mt-3 mb-5">{data.description}</p>
-
                     </div>
                   </div>
                 </div>
@@ -40,10 +36,9 @@ function EntertainmentArea() {
             })}{" "}
           </div>
 
-          
           <div className="col-span-1 text-black  md:border-l-2 border-gray border-dashed">
-              <h4 className="ml-5">News Categories</h4>
-              <FooterSidebar />
+            <h4 className="ml-5">News Categories</h4>
+            <FooterSidebar />
           </div>
         </div>
       </div>
@@ -56,7 +51,8 @@ export default EntertainmentArea;
 const EntertainmentAreaData = [
   {
     id: "1",
-    image: "https://quomodosoft.com/html/newsprk/assets/images/entertainment-1.jpg",
+    image:
+      "https://quomodosoft.com/html/newsprk/assets/images/entertainment-1.jpg",
     category: "Technology",
     date: "June 24, 2022",
     title: "Copa America: Luis Suarez from devastated US",
@@ -65,7 +61,8 @@ const EntertainmentAreaData = [
   },
   {
     id: "2",
-    image: "https://quomodosoft.com/html/newsprk/assets/images/entertainment-2.jpg",
+    image:
+      "https://quomodosoft.com/html/newsprk/assets/images/entertainment-2.jpg",
     category: "Technology",
     date: "June 24, 2022",
     title: "Copa America: Luis Suarez from devastated US",
@@ -74,7 +71,8 @@ const EntertainmentAreaData = [
   },
   {
     id: "3",
-    image: "https://quomodosoft.com/html/newsprk/assets/images/entertainment-3.jpg",
+    image:
+      "https://quomodosoft.com/html/newsprk/assets/images/entertainment-3.jpg",
     category: "Technology",
     date: "June 24, 2022",
     title: "Copa America: Luis Suarez from devastated US",
@@ -83,7 +81,8 @@ const EntertainmentAreaData = [
   },
   {
     id: "4",
-    image: "https://quomodosoft.com/html/newsprk/assets/images/entertainment-4.jpg",
+    image:
+      "https://quomodosoft.com/html/newsprk/assets/images/entertainment-4.jpg",
     category: "Technology",
     date: "June 24, 2022",
     title: "Copa America: Luis Suarez from devastated US",

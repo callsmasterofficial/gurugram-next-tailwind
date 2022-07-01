@@ -7,9 +7,13 @@ export default function MainSinglepostItem() {
         return (
           <div key={data.id} className="flex justify-start items-start m-6">
             <div>
+              <p className="mx-3 text-3xl bg-gray-700 text-gray-400 rounded-full px-3 py-1 mt-2">{data.id}</p>
+            </div>
+            <div>
               <h4 className=" text-gray-400 text-md">{data.category} / {data.date}</h4>
               <h2>{data.title}</h2>
             </div>
+            
           </div>
         );
       })}

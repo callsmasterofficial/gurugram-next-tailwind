@@ -3,13 +3,13 @@ import BusinessCategoriesArea from "./BusinessCategoriesArea";
 
 function BusinessArea() {
   return (
-    <>
-      <div className=" w-[80%] md:w-[80%] m-auto text-xl font-semibold mt-4">
+    <div className="sm:mt-36">
+      <div className="  mx-4 text-xl font-semibold mt-4">
         <h1>Business News</h1>
       </div>
       {/* <div className="flex "> */}
-      <div className="w-[80%] md:w-[80%] m-auto pt-4 pb-4 ">
-        <div className="grid  grid-cols-3">
+      <div className=" mx-4 pt-4 pb-4 ">
+        <div className="grid  md:grid-cols-3">
           <div className="col-span-2">
           {BusinessData.map((data) => {
             return (
@@ -40,7 +40,7 @@ function BusinessArea() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

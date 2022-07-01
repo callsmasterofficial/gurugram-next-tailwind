@@ -27,8 +27,8 @@ export default function Home() {
       <VideoNewsArea />
 
 
-      <EntertainmentArea />
-      <SportsArea/>
+      {/* <EntertainmentArea /> */}
+      {/* <SportsArea/> */}
       <BusinessArea/>
       <Footer/>
 

@@ -1433,3 +1433,73 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 .opinion-post-item:hover .opinion-post-thumb img {
   transform: scale(1.1);
 }
+
+/* =================================================================================== */
+/* =================================================================================== */
+/* Categories homepage tiles Styling */
+/* =================================================================================== */
+
+.Categories-post .section-title {
+  padding-bottom: 5px;
+}
+.Categories-post .Categories-item .item {
+  position: relative;
+  margin-bottom: 15px;
+}
+.Categories-post .Categories-item .item > img {
+  width: 100%;
+}
+.Categories-post .Categories-item .item::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #17222b;
+  opacity: 0.6;
+}
+.Categories-post .Categories-item .item .Categories-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+}
+.Categories-post .Categories-item .item .Categories-content a {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+.Categories-post .Categories-item .item .Categories-content a span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (min-width: 460px) {
+  .Categories-post .Categories-item .item .Categories-content a span {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+.Categories-post .Categories-item .item .Categories-content a:hover span {
+  color: #1091ff;
+}
+
+.sidebar-add a {
+  display: block;
+}
+.sidebar-add a img {
+  width: 100%;
+}

@@ -44,7 +44,7 @@ export default function Socials() {
       </a>
       {/* Instagram  */}
       <a href={INSTAGRAM} target="_blank">
-        <div className="social instagram bg-[#3f729b] flex flex-start items-center p-2 m-2 rounded-md md:justify-center">
+        <div className="social instagram flex flex-start items-center p-2 m-2 rounded-md md:justify-center">
           <div className="logo ">
             <Instagram />
           </div>
