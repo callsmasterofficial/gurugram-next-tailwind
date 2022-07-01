@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function MainSinglepostItem() {
+export default function FooterSidebar() {
   return (
     <>
-      {MainSinglePostData.map((data) => {
+      {FooterSidebarPostData.map((data) => {
         return (
           <div key={data.id} className="flex justify-start items-start m-6">
             <div>
@@ -21,7 +21,7 @@ export default function MainSinglepostItem() {
   );
 }
 
-const MainSinglePostData = [
+const FooterSidebarPostData = [
   {
     id: "1",
     category: "Technology",

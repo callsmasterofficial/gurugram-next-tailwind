@@ -1434,6 +1434,20 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   transform: scale(1.1);
 }
 
+@media only screen and (min-width: 991px) and (max-width: 1023px) {
+  .entertainmentArea{
+    margin-top: 44rem;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .entertainmentArea{
+    margin-top: 20rem;
+  }
+}
+
+
+ 
 /* =================================================================================== */
 /* =================================================================================== */
 /* Categories homepage tiles Styling */

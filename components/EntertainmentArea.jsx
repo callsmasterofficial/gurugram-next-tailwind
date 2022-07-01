@@ -1,15 +1,15 @@
 import React from "react";
-import FooterSidebar from "../components/FooterSidebar";
+import FooterSidebar from "./FooterSidebar";
 
 function EntertainmentArea() {
   return (
-    <>
-      <div className=" w-[80%] md:w-[80%] m-auto text-xl font-semibold mt-4 mb-4">
+    <div className="entertainmentArea">
+      <div className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">
         <h1>Entertainment News</h1>
       </div>
-      <div className="EntertainmentContainer md:w-[80%] m-auto w-[100%] ">
+      <div className="EntertainmentContainer">
         <div className=" md:grid  md:grid-cols-3">
-          <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 ">
+          <div className="col-span-2 grid grid-cols-1 sm:grid-cols-2 ">
             {EntertainmentAreaData.map((data) => {
               return (
                 <div
@@ -25,13 +25,13 @@ function EntertainmentArea() {
                       />
                     </div>
                     <div className="p-3">
-                      <h4 className="mt-3  text-gray-400 text-md">
+                      <h4 className=" text-gray-400 text-md">
                         {data.category} / {data.date}
                       </h4>
-                      <h2 className=" mt-3 font-extrabold hover:text-blue-500">
+                      <h2 className=" font-extrabold hover:text-blue-500">
                         {data.title}
                       </h2>
-                      <p className="mt-3 mb-5">{data.description}</p>
+                      <p className=" mb-5">{data.description}</p>
                     </div>
                   </div>
                 </div>
@@ -39,12 +39,12 @@ function EntertainmentArea() {
             })}{" "}
           </div>          
           <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed">
-              <h4 className="ml-5">News Categories</h4>
+              <h4 className="ml-5 font-bold text-xl">Most Share</h4>
               <FooterSidebar />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
