@@ -3,7 +3,7 @@ import React from "react";
 function BusinessCategoriesArea() {
   return (
     <>
-      <div className="Categories-post mt-40">
+      <div className="Categories-post">
         <div className="section-title flex justify-between align-items-center">
           <h3 className="title text-xl">Categories</h3>
           <a href="#">ALL SEE</a>
