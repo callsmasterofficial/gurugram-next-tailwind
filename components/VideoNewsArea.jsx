@@ -6,8 +6,8 @@ export default function VideoNewsArea() {
     <section className="video-news-area">
         <div className="container custom-container">
             <div className="video-news-box">
-                <div className="row grid grid-row md:grid-cols-12">
-                    <div className="col-span-8">
+                <div className="grid grid-cols-12">
+                    <div className="col-span-12 lg:col-span-8">
                         <div className="video-news-post">
                             <div className="section-title section-title-2">
                                 <h3 className="title text-white text-xl m-2">Videos News</h3>
@@ -33,7 +33,7 @@ export default function VideoNewsArea() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-4 mx-4">
+                    <div className="col-span-12 lg:col-span-4 mx-4">
                         <div className="populer-post">
                             <div className="section-title">
                                 <h3 className="title">Popular</h3>
