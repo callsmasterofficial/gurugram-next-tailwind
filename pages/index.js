@@ -25,10 +25,12 @@ export default function Home() {
 
       <PlayPostArea />
       <VideoNewsArea />
-      {/* <EntertainmentArea />
+
+
+      <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
-      <Footer/> */}
+      <Footer/>
 
     </div>
   )

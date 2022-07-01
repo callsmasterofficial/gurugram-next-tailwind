@@ -4,9 +4,9 @@ import Instagram from "./icons/Instagram";
 import Twitter from "./icons/Twitter";
 import Youtube from "./icons/Youtube";
 import FooterSidebar from "../components/FooterSidebar";
-import { FooterMobile } from "./icons/FooterMobile";
+import FooterMobile from "./icons/FooterMobile";
 import FooterMessage from "./icons/FooterMessage";
-import { FooterMicophone } from "./icons/FooterMicophone";
+import  FooterMicophone  from "./icons/FooterMicophone";
 import FooterTwitter from "./FooterTwitter";
 
 export default function Footer() {
