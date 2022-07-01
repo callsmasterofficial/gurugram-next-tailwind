@@ -8,13 +8,13 @@ function FooterTwitter() {
         return (
           <div
             key={data.id}
-            className="flex justify-start items-start m-6 ml-10 border-b-2 border-gray border-dashed"
+            className="flex justify-start items-start m-6 ml-10 border-b-2 p-2 border-gray border-dashed"
           >
             <div>
-              <div className="flex ">
-                < Twitter color="#1DA1F2" />
+              <div className="flex">
+                < Twitter color="#1DA1F2" width="4rem" height="4rem" />
 
-                <p className="ml-4">
+                <p className="ml-4 text-[12px] sm:text-base">
                   {data.title}
                   <a className="text-blue-700" href="#">
                     {data.data}
