@@ -3,8 +3,8 @@ import React from "react";
 function NewsLetter() {
   return (
     <>
-    <div className="bg-gray-200 h-80">
-        <div className="m-12">
+    <div className="bg-gray-200 md:h-[18rem]">
+        <div className="m-12 md:m-4">
       <h1 className="font-semibold">News Letter</h1>
       <p className="mt-2 mb-2">
         Your email address will not be this published. Required fields are News
