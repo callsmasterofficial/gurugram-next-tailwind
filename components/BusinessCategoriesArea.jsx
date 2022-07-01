@@ -1,69 +1,77 @@
-import React from 'react'
+import React from "react";
 
 function BusinessCategoriesArea() {
   return (
     <>
-    <div>
-    <div className=" w-[80%] md:w-[80%] m-auto text-xl font-semibold mt-4">
-        <h1>Categories</h1>
-      </div>   
-      {BusinessData.map((data) =>{
-        return(
-
-            <div class="mb-4 relative ">
-             <div className="">
-            <img
-              src={data.image}
-              alt="categories"
-              className='rounded-md ' 
-            />
-            </div>
-            <div className="Categories-content absolute w-[80%] m-auto text-white top-5">
-              <div  className="flex justify-between ">
-               <span className='ml-5 font-semibold hover:text-blue-500'>{data.category}</span>
-               <img src="https://quomodosoft.com/html/newsprk/assets/images/arrow.svg" alt="" />
-              </div>
-              
+      <div className="Categories-post mt-40">
+        <div className="section-title flex justify-between align-items-center">
+          <h3 className="title text-xl">Categories</h3>
+          <a href="#">ALL SEE</a>
+        </div>
+        <div className="Categories-item">
+          <div className="item">
+            <img src="assets/images/categories-1.jpg" alt="categories" />
+            <div className="Categories-content">
+              <a href="#">
+                <span>Restaurant</span>
+                <img src="assets/images/arrow.svg" alt="" />
+              </a>
             </div>
           </div>
-        )
-      } )}
-  </div>
-</>
-  )
+          <div className="item">
+            <img src="assets/images/categories-2.jpg" alt="categories" />
+            <div className="Categories-content">
+              <a href="#">
+                <span>Entertainment</span>
+                <img src="assets/images/arrow.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="item">
+            <img src="assets/images/categories-3.jpg" alt="categories" />
+            <div className="Categories-content">
+              <a href="#">
+                <span>Financial</span>
+                <img src="assets/images/arrow.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="item">
+            <img src="assets/images/categories-4.jpg" alt="categories" />
+            <div className="Categories-content">
+              <a href="#">
+                <span>Business</span>
+                <img src="assets/images/arrow.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="item">
+            <img src="assets/images/categories-5.jpg" alt="categories" />
+            <div className="Categories-content">
+              <a href="#">
+                <span>Scientists</span>
+                <img src="assets/images/arrow.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div className="item">
+            <img src="assets/images/categories-6.jpg" alt="categories" />
+            <div className="Categories-content">
+              <a href="#">
+                <span>International’s</span>
+                <img src="assets/images/arrow.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <div className="sidebar-add pt-35">
+          <a href="#">
+            <img src="assets/images/ad/ad-2.jpg" alt="ad" />
+          </a>
+        </div> */}
+      </div>
+    </>
+  );
 }
 
-export default BusinessCategoriesArea
-
-const BusinessData = [
-    {
-        id: "1",
-        image: "https://quomodosoft.com/html/newsprk/assets/images/categories-1.jpg",
-        category: "Resturant",
-    },
-    {
-        id: "2",
-        image: "https://quomodosoft.com/html/newsprk/assets/images/categories-2.jpg",
-        category: "Entertainment",
-    },
-    {
-        id: "3",
-        image: "https://quomodosoft.com/html/newsprk/assets/images/categories-3.jpg",
-        category: "Financial",
-    },
-    {
-        id: "4",
-        image: "https://quomodosoft.com/html/newsprk/assets/images/categories-4.jpg",
-        category: "Business",
-    },
-    {
-        id: "5",
-        image: "https://quomodosoft.com/html/newsprk/assets/images/categories-5.jpg",
-        category: "Scientists",
-    },
-    {
-        id: "6",
-        image: "https://quomodosoft.com/html/newsprk/assets/images/categories-6.jpg",
-        category: "International's",
-    },
-]
+export default BusinessCategoriesArea;
