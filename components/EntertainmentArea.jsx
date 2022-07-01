@@ -8,24 +8,24 @@ function EntertainmentArea() {
     <h1>Entertainment News</h1>
 </div>
       <div className="EntertainmentContainer md:w-[80%] m-auto w-[100%] ">
-        <div className="grid  grid-cols-3">
+        <div className=" md:grid  md:grid-cols-3">
           <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 ">
             {EntertainmentAreaData.map((data) => {
               return (
                 <div
                   key={data.id}
-                  className="w-[24rem]"
+                  className=""
                 >
                   <div>
-                    <div className="h-[15rem] w-[24rem] overflow-hidden">
+                    <div className="overflow-hidden">
                       <img
-                        className="object-cover w-[24rem] h-[15rem] hover:scale-110  transition-all duration-300 ease-linear"
+                        className="object-cover p-3 mx-auto sm:mx-auto hover:scale-110  transition-all duration-300 ease-linear"
                         src={data.image}
                         alt="imge not found"
                       />
                     </div>
-                    <div>
-                      <h4 className="mt-3 text-gray-400 text-md">
+                    <div className="p-3">
+                      <h4 className="mt-3  text-gray-400 text-md">
                         {data.category} / {data.date}
                       </h4>
                       <h2 className=" mt-3 font-extrabold hover:text-blue-500">
@@ -41,7 +41,7 @@ function EntertainmentArea() {
           </div>
 
           
-          <div className="col-span-1 text-black  md:border-l-2 border-gray border-dashed">
+          <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed">
               <h4 className="ml-5">News Categories</h4>
               <FooterSidebar />
           </div>

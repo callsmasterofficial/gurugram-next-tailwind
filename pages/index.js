@@ -22,11 +22,8 @@ export default function Home() {
       <MainGalleryArea />
       <FeatureArea />
       <TrendingNewsArea />
-
       <PlayPostArea />
       <VideoNewsArea />
-
-
       <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
