@@ -24,7 +24,7 @@ export default function Socials() {
           <div className="logo ">
             <Facebook />
           </div>
-          <div className="mx-2 text-sm md:mx-4">
+          <div className="mx-2 text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -36,7 +36,7 @@ export default function Socials() {
           <div className="logo ">
             <Twitter />
           </div>
-          <div className="mx-2 text-sm md:mx-4">
+          <div className="mx-2 text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -48,7 +48,7 @@ export default function Socials() {
           <div className="logo ">
             <Instagram />
           </div>
-          <div className="mx-2 text-sm md:mx-4">
+          <div className="mx-2 text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -60,7 +60,7 @@ export default function Socials() {
           <div className="logo ">
             <Youtube />
           </div>
-          <div className="mx-2 text-sm md:mx-4">
+          <div className="mx-2 text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -72,7 +72,7 @@ export default function Socials() {
           <div className="logo">
             <Telegram />
           </div>
-          <div className="mx-2 text-sm md:mx-4">
+          <div className="mx-2 text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -84,7 +84,7 @@ export default function Socials() {
           <div className="logo">
             <Whatsapp />
           </div>
-          <div className="mx-2 text-sm md:mx-4">
+          <div className="mx-2 text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -94,56 +94,3 @@ export default function Socials() {
   );
 }
 
-{
-  /* <div className="trending-social">
-        <div className="section-title">
-          <h3 className="title">Follow us</h3>
-        </div>
-        <ul>
-          <li>
-            <a href="#">
-              <Facebook color="white" />
-              <span>34,456</span>
-              <p>Fans</p>
-            </a>
-          </li>
-          <li>
-            <a className="item-2" href="#">
-              <Twitter />
-              <span>34,456</span>
-              <p>Followers</p>
-            </a>
-          </li>
-          <li>
-            <a className="item-3" href="#">
-              <Youtube />
-              <span>34,456</span>
-              <p>Subscribers</p>
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a className="item-4" href="#">
-              <Instagram />
-              <span>34,456</span>
-              <p>Followers</p>
-            </a>
-          </li>
-          <li>
-            <a className="item-5" href="#">
-              <Telegram />
-              <span>34,456</span>
-              <p>Followers</p>
-            </a>
-          </li>
-          <li>
-            <a className="item-6" href="#">
-              <Whatsapp />
-              <span>34,456</span>
-              <p>Fans</p>
-            </a>
-          </li>
-        </ul>
-      </div> */
-}
