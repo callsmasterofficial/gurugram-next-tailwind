@@ -67,7 +67,7 @@ export default function PlayPostSingleItem() {
               <div className="">
                 <img src={data.img_src} alt="" className=""  />
               </div>
-              <div className="description absolute text-white">
+              <div className="description absolute text-white bottom-1 left-1">
                 <div className="dateCategory">
                     <p className="">{data.category}</p>
                     <p>{" / "}</p>
