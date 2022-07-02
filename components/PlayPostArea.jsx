@@ -4,7 +4,7 @@ import PlayPostSingleItem from "./PlayPostSingleItem";
 
 export default function PlayPostArea() {
   return (
-    <section className="single-play-post-area mt-10 bg-gray-200 sm:w-[80%] mx-auto sm:p-5">
+    <section className=" mt-10 bg-gray-200 mx-auto sm:p-5">
       <div className="custom-container">
             <PlayPostSingleItem />            
       </div>

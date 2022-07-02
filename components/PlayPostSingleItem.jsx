@@ -15,46 +15,60 @@ import "swiper/css/autoplay";
 export default function PlayPostSingleItem() {
   return (
     <Swiper
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, Thumbs]}
-      // spaceBetween={20}
-      slidesPerView={1}
-      breakpoints={{
-        // when window width is >= 460px
-        460: {
-          width: 460,
-          slidesPerView: 1,
-          spaceBetween: 50,
-        },
-        // when window width is >= 640px
-        640: {
-          width: 640,
-          slidesPerView: 2,
-          spaceBetween: 50,
-        },
-        768: {
-          width: 768,
-          slidesPerView: 2,
-          spaceBetween: 400,
-        },
-      }}
-      navigation
-      autoplay
-      pagination={{
-        el: ".swiper-pagination",
-        clickable: true,
-      }}
-      scrollbar={{ draggable: true }}
-    >
+        slidesPerView={1}
+        spaceBetween={30}
+        slidesPerGroup={3}
+        // loop={true}
+        // loopFillGroupWithBlank={true}
+        pagination={{
+          clickable: true,
+        }}
+        // breakpoints={{
+        //   "@0.00": {
+        //     slidesPerView: 1,
+        //     spaceBetween: 10,
+        //   },
+        //   "@0.75": {
+        //     slidesPerView: 2,
+        //     spaceBetween: 20,
+        //   },
+        //   "@1.00": {
+        //     slidesPerView: 3,
+        //     spaceBetween: 40,
+        //   },
+        //   "@1.50": {
+        //     slidesPerView: 4,
+        //     spaceBetween: 50,
+        //   },
+        // }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }}
+        autoplay
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
       {PlayPostData.map((data) => {
         return (
           <SwiperSlide key={data.id}>
             <div className="relative">
-              <div className="sm:w-[20rem] md:w-[540px] md:h-[420px]">
+              <div className="">
                 <img src={data.img_src} alt="" className=""  />
               </div>
-              <div className="description absolute text-white sm:w-96 font-bold bottom-1 left-1 md:bottom-3 md:left-3 md:text-xl">
-                <div className="dateCategory text-sm md:text-base flex">
+              <div className="description absolute text-white">
+                <div className="dateCategory">
                     <p className="">{data.category}</p>
                     <p>{" / "}</p>
                     <p className="">{data.date}</p>
@@ -88,6 +102,48 @@ const PlayPostData = [
   },
   {
     id: "3",
+    img_src: "./assets/images/play-post-2.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Success is not a good food failure makes you humble",
+  },
+  {
+    id: "4",
+    img_src: "./assets/images/play-post-1.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Success is not a good food failure makes you humble",
+  },
+  {
+    id: "5",
+    img_src: "./assets/images/play-post-2.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Success is not a good food failure makes you humble",
+  },
+  {
+    id: "6",
+    img_src: "./assets/images/play-post-2.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Success is not a good food failure makes you humble",
+  },
+  {
+    id: "7",
+    img_src: "./assets/images/play-post-1.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Success is not a good food failure makes you humble",
+  },
+  {
+    id: "8",
+    img_src: "./assets/images/play-post-2.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Success is not a good food failure makes you humble",
+  },
+  {
+    id: "9",
     img_src: "./assets/images/play-post-2.jpg",
     category: "Technology",
     date: "June 24, 2022",
