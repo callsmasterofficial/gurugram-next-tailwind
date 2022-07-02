@@ -16,15 +16,15 @@ function EntertainmentArea() {
                   key={data.id}
                   className=""
                 >
-                  <div>
-                    <div className="overflow-hidden">
+                  <div className="">
+                    <div className="overflow-hidden w-[95%] h-[80%] m-auto">
                       <img
-                        className="object-cover p-3 mx-auto sm:mx-auto hover:scale-110  transition-all duration-300 ease-linear"
+                        className="object-cover  w-[100%] h-[100%]  mx-auto sm:mx-auto hover:scale-110  transition-all duration-300 ease-linear"
                         src={data.image}
                         alt="imge not found"
                       />
                     </div>
-                    <div className="p-3">
+                    <div className="p-3 ">
                       <h4 className=" text-gray-400 text-md">
                         {data.category} / {data.date}
                       </h4>
