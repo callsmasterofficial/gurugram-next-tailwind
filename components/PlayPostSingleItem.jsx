@@ -48,7 +48,7 @@ export default function PlayPostSingleItem() {
     >
       {PlayPostData.map((data) => {
         return (
-          <SwiperSlide>
+          <SwiperSlide key={data.id}>
             <div className="relative">
               <div className="sm:w-[20rem] md:w-[540px] md:h-[420px]">
                 <img src={data.img_src} alt="" className=""  />

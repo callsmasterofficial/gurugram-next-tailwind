@@ -38,7 +38,7 @@ export default function TrendingNewsCarousel() {
           return (
             <SwiperSlide key={data.id}>
               <div key={data.id} className="lg:mx-auto">
-                <div className="w-[350px] mx-auto sm:w-[400px] sm:items-center">
+                <div className="trendingNewsCarousel w-[350px] mx-auto sm:w-[400px] sm:items-center">
                   <img src={data.img_src} alt="trending" className="" />
                 </div>
                 <div className="p-5 flex flex-col justify-center">
