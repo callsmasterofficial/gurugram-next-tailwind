@@ -8,10 +8,10 @@ function SportsArea() {
   return (
     <>
 
-<div className=" w-[80%] md:w-[80%] m-auto text-xl font-semibold mt-4 mb-4">
+<div className="  m-auto text-xl font-semibold mt-4 mb-4">
     <h1>Sports News</h1>
 </div>
-      <div className="SportsArea md:w-[80%] m-auto w-[100%]">
+      <div className="SportsArea m-auto ">
         <div className="md:grid md:grid-cols-3">
           <div className="col-span-1 grid grid-cols-1 md:grid-cols-1 ">
             {SportsAreaData.map((data) => {
@@ -60,7 +60,7 @@ export default SportsArea;
 const SportsAreaData = [
   {
     id: "1",
-    image: "https://quomodosoft.com/html/newsprk/assets/images/sports-news.jpg",
+    image: "https://quomodosoft.com/html/newsprk/assets/images/entertainment-4.jpg",
     category: "Technology",
     date: "June 24, 2022",
     title: "Copa America: Luis Suarez from devastated US",

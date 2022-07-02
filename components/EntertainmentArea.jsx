@@ -3,7 +3,7 @@ import FooterSidebar from "./FooterSidebar";
 
 function EntertainmentArea() {
   return (
-    <div className="entertainmentArea">
+    <div className="entertainmentArea ">
       <div className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">
         <h1>Entertainment News</h1>
       </div>
