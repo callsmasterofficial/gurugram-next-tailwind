@@ -33,7 +33,7 @@ export default function VideoNewsArea() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-12 lg:col-span-4 mx-4">
+                    <div className="col-span-12 lg:col-span-4 mx-4 xl:ml-10">
                         <div className="populer-post">
                             <div className="section-title">
                                 <h3 className="title">Popular</h3>
