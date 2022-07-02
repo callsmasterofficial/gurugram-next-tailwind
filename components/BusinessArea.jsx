@@ -13,7 +13,7 @@ function BusinessArea() {
           <div className="col-span-2">
           {BusinessData.map((data) => {
             return (
-              <div className="">
+              <div key={data.id} className="">
                 <img
                   className="object-contain w-[21rem] h-[17rem] hover:scale-105 transition-all duration-300 "
                   src={data.image}

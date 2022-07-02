@@ -80,7 +80,7 @@ export default function Socials() {
       </a>
       {/* Whatsapp  */}
       <a href={WHATSAPP} target="_blank">
-        <div className="social bg-green-400 flex flex-start items-center p-2 m-2 rounded-md md:justify-center">
+        <div className="social bg-green-400 flex flex-start items-center p-2 m-2 rounded-md ">
           <div className="logo">
             <Whatsapp />
           </div>
