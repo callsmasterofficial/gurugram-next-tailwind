@@ -13,7 +13,7 @@ function BusinessArea() {
           <div className="col-span-2">
           {BusinessData.map((data) => {
             return (
-              <div className="">
+              <div className="md:flex">
                 <img
                   className="object-contain w-[21rem] h-[17rem] hover:scale-105 transition-all duration-300 "
                   src={data.image}
@@ -35,7 +35,7 @@ function BusinessArea() {
             );
           })}
           </div>
-          <div className="md:col-span-1 ">
+          <div className="lg:col-span-1 ">
             <BusinessCategoriesArea />
           </div>
         </div>
