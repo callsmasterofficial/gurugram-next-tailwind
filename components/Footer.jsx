@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="footermain bg-[#17222b]">
         <div className="w-[100%] md:w-[80%] m-auto pt-12 pb-12">
           <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
-            <div ClassName="col-span-1 ">
+            <div className="col-span-1 ">
               <img
                 src="assets/Images/Gurugram-News-Logo.jpg"
                 alt="gurugram-news-network"
