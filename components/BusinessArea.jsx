@@ -11,33 +11,31 @@ function BusinessArea() {
       <div className=" mx-4 pt-4 pb-4 ">
         <div className="grid  md:grid-cols-3">
           <div className="col-span-2">
-          {BusinessData.map((data) => {
-            return (
-
-              <div className="md:flex">
-
-              <div key={data.id} className="">
-
-                <img
-                  className="object-contain w-[21rem] h-[17rem] hover:scale-105 transition-all duration-300 "
-                  src={data.image}
-                  alt="imge not found"
-                />
-                <div className="">
-                  <h4 className=" text-gray-400 text-md m-3">
-                    {data.category} / {data.date}
-                  </h4>
-                  <h2 className="m-3 font-extrabold hover:text-blue-500">
-                    {data.title}
-                  </h2>
-                  <p className="m-3">{data.description}</p>
-                  <button className="m-3 bg-transparent hover:bg-blue-500 text-black-700 font-semibold hover:text-white py-2 px-4 border border-black-900 hover:border-transparent rounded">
-                    Read More
-                  </button>
+            {BusinessData.map((data) => {
+              return (
+                <div className="md:flex">
+                  <div key={data.id} className="">
+                    <img
+                      className="object-contain w-[21rem] h-[17rem] hover:scale-105 transition-all duration-300 "
+                      src={data.image}
+                      alt="imge not found"
+                    />
+                    <div className="">
+                      <h4 className=" text-gray-400 text-md m-3">
+                        {data.category} / {data.date}
+                      </h4>
+                      <h2 className="m-3 font-extrabold hover:text-blue-500">
+                        {data.title}
+                      </h2>
+                      <p className="m-3">{data.description}</p>
+                      <button className="m-3 bg-transparent hover:bg-blue-500 text-black-700 font-semibold hover:text-white py-2 px-4 border border-black-900 hover:border-transparent rounded">
+                        Read More
+                      </button>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
           </div>
           <div className="lg:col-span-1 ">
             <BusinessCategoriesArea />
