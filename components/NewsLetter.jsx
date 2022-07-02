@@ -3,7 +3,7 @@ import React from "react";
 function NewsLetter() {
   return (
     <>
-    <div className="bg-gray-200 md:h-[18rem]">
+    <div className="bg-gray-200 md:h-[18rem] mx-auto md:m-5 ">
         <div className="m-12 md:m-4">
       <h1 className="font-semibold">News Letter</h1>
       <p className="mt-2 mb-2">
