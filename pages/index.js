@@ -16,7 +16,7 @@ import HeaderTopBar from "../components/HeaderTopBar"
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
       
       <HeaderTopBar/>
