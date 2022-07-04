@@ -36,12 +36,12 @@ export default function Header_smallSlider() {
       {Header_smallSliderData.map((data) => {
         return (
           <SwiperSlide key={data.id}>
-          <div className="flex flex-wrap rounded-lg">
+          <div className="flex flex-wrap rounded-md">
             <div className="flex md:flex-row items-center p-2">
               <img
                 src={data.img_src}
                 alt="small slider"
-                className="w-[20%] sm:w-[25%] md:w-[30%] mx-2 rounded-md"
+                className="w-[20%] sm:w-[25%] mr-1 md:w-[30%] md:mx-2 rounded-md"
               />
               <div className="flex flex-col justify-self-center align-middle items-baseline">
                 <h3 className="text-xs md:text-base ">
