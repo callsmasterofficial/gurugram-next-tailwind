@@ -17,30 +17,12 @@ export default function PlayPostSingleItem() {
     <Swiper
         slidesPerView={1}
         spaceBetween={30}
-        slidesPerGroup={3}
+        // slidesPerGroup={3}
         // loop={true}
         // loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
         }}
-        // breakpoints={{
-        //   "@0.00": {
-        //     slidesPerView: 1,
-        //     spaceBetween: 10,
-        //   },
-        //   "@0.75": {
-        //     slidesPerView: 2,
-        //     spaceBetween: 20,
-        //   },
-        //   "@1.00": {
-        //     slidesPerView: 3,
-        //     spaceBetween: 40,
-        //   },
-        //   "@1.50": {
-        //     slidesPerView: 4,
-        //     spaceBetween: 50,
-        //   },
-        // }}
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -68,8 +50,8 @@ export default function PlayPostSingleItem() {
                 <img src={data.img_src} alt="" className=""  />
               </div>
               <div className="description absolute text-white bottom-1 left-1">
-                <div className="dateCategory">
-                    <p className="">{data.category}</p>
+                <div className="dateCategory flex">
+                    <p className="text-blue-400">{data.category}</p>
                     <p>{" / "}</p>
                     <p className="">{data.date}</p>
                 </div>

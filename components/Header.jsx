@@ -20,7 +20,7 @@ export default function Header() {
       <div className="hidden relative mb-0 md:flex md:items-center">
         <div className="flex flex-wrap items-center justify-between" id="logo">
           <img
-            src="assets/Images/Gurugram-News-Logo.jpg"
+            src="./assets/images/GurugramNewsLogo.png"
             alt="gurugram-news-network"
             className="w-28 mx-auto md:w-36 md:mx-8"
           />
@@ -32,11 +32,12 @@ export default function Header() {
           <img
             src="assets/Images/Gurugram-News-Banner.jpg"
             alt="gurugram-news-app-Banner"
+            className="w-28 xl:ml-60 md:w-[28rem] "
           />
         </div>
       </div>
       {/* Nav Bar */}
-      <div className="flex items-center justify-between sm:p-2 md:p-1" id="nav">
+      <div className="flex items-center justify-between sm:p-2 md:p-1 bg-black" id="nav">
         {/* Sidebar Toggle */}
         <div
           className={
@@ -46,15 +47,15 @@ export default function Header() {
           }
           onClick={handleSidebar}
         >
-          <div className="w-4 h-1 bg-black mt-1 mb-1 transition-all duration-100 rounded-md"></div>
-          <div className="w-6 h-1 bg-black mt-1 mb-1 transition-all duration-100 rounded-md"></div>
-          <div className="w-4 h-1 bg-black mt-1 mb-1 transition-all duration-100 rounded-md"></div>
+          <div className="w-4 h-1 bg-white mt-1 mb-1 transition-all duration-100 rounded-md"></div>
+          <div className="w-6 h-1 bg-white mt-1 mb-1 transition-all duration-100 rounded-md"></div>
+          <div className="w-4 h-1 bg-white mt-1 mb-1 transition-all duration-100 rounded-md"></div>
         </div>
 
         {/* Header,Logo & Banner for mobile View */}
         <div className="mr-auto ml-auto">
           <img
-            src="assets/Images/Gurugram-News-Logo.jpg"
+            src="./assets/images/GurugramNewsLogo.png"
             alt="gurugram-news-network"
             className="w-32 sm:w-36 md:hidden "
           />
@@ -75,8 +76,8 @@ export default function Header() {
           <div
             className={
               sidebar
-                ? "bg-white duration-300 z-50 fixed inset-y-0 py-4 left-0 w-40 transition-right sm:w-64 md:hidden"
-                : "bg-white duration-500 z-50 fixed inset-y-0 py-4 -left-full w-40 transition-right sm:w-64 md:hidden"
+                ? "bg-black duration-300 z-50 fixed inset-y-0 py-4 left-0 w-40 transition-right sm:w-64 md:hidden"
+                : "bg-black duration-500 z-50 fixed inset-y-0 py-4 -left-full w-40 transition-right sm:w-64 md:hidden"
             }
           >
             {/* sidebar close button */}
@@ -149,8 +150,8 @@ export default function Header() {
         {/* Hamburger Menu */}
 
         {/* Normal Menu -- Desktop View Navbar */}
-        <div className="uppercase bg-black hidden mx-5 sm:hidden md:block md:w-[100%] md:rounded-lg">
-          <ul className="flex ml-12 mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[90%] md:ml-12">
+        <div className="uppercase bg-black hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
+          <ul className="flex mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[90%] md:ml-2">
             <HeaderSingleElement name="Desh" />
             <HeaderSingleElement name="Haryana" />
             <HeaderSingleElement name="Shehar" />
@@ -165,13 +166,13 @@ export default function Header() {
           id="search"
         >
           <div className="cursor-pointer">
-            <button className="" onClick={handleSearch}>
-              <Search />
+            <button className="text-white mt-2" onClick={handleSearch}>
+              <Search width="1.5rem" height="1.5rem" />
             </button>
           </div>
 
           {/* Temperature */}
-          <div className="hidden items-center mx-4 justify-between sm:hidden md:hidden lg:flex">
+          <div className="hidden items-center text-white mx-4 justify-between sm:hidden md:hidden lg:flex">
             <span>
               <Sunrise />
             </span>
