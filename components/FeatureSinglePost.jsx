@@ -53,7 +53,7 @@ export default function FeatureSinglePost() {
         return (
           <SwiperSlide key={data.id}>
             <div className="feature-post ml-2 sm:ml-3 md:ml-3">
-              <div className="">
+              <div className="featureSingleImage">
                 <img src={data.img_src} alt="feature post image" className="mx-auto md:rounded-md md:w-max lg:w-[255px] lg:h-[320px] lg:rounded-lg" />
               </div>
               <div className="feature-post-content bg-gray-700 p-2 sm:bg-inherit sm:p-0">
