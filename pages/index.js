@@ -10,6 +10,7 @@ import BusinessArea from "../components/BusinessArea"
 import EntertainmentArea from "../components/EntertainmentArea"
 import SportsArea from "../components/SportsArea"
 import TrendingSidebar from "../components/TrendingSidebar"
+import HeaderTopBar from "../components/HeaderTopBar"
 // import Testing from "../components/Testing"
 // import 'tw-elements';
 
@@ -17,6 +18,8 @@ export default function Home() {
   return (
     <div>
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
+      
+      <HeaderTopBar/>
       <Header />
       <Header_smallSlider />
       <MainGalleryArea />
