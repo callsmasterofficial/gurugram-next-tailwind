@@ -150,14 +150,18 @@ export default function Header() {
         {/* Hamburger Menu */}
 
         {/* Normal Menu -- Desktop View Navbar */}
-        <div className="uppercase bg-black hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
-          <ul className="flex mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[90%] md:ml-2">
-            <HeaderSingleElement name="Desh" />
-            <HeaderSingleElement name="Haryana" />
-            <HeaderSingleElement name="Shehar" />
-            <HeaderSingleElement name="Crime" />
-            <HeaderSingleElement name="Technology" />
-            <HeaderSingleElement name="Delhi" />
+        <div className="uppercase bg-black hidden sm:hidden md:block md:w-[100%] md:rounded-lg xl:w-screen  ">
+          <ul className="flex mr-4 p-1 sm:w-[25%] sm:ml-0 sm:text-sm md:text-base md:ml-2">
+            <HeaderSingleElement name="देश" />
+            <HeaderSingleElement name="हरियाणा" />
+            <HeaderSingleElement name="शहर" />
+            <HeaderSingleElement name="अपराध" />
+            <HeaderSingleElement name="दिल्ली एनसीआर" />
+            <HeaderSingleElement name="टेक्नोलॉजी" />
+            <HeaderSingleElement name="कोरोना वायरस" />
+            <HeaderSingleElement name="राजनीति" />
+            <HeaderSingleElement name="गांव" />
+            <HeaderSingleElement name="लेखक" />
             <HeaderOthersTab />
           </ul>
         </div>
@@ -166,13 +170,13 @@ export default function Header() {
           id="search"
         >
           <div className="cursor-pointer">
-            <button className="text-white mt-2" onClick={handleSearch}>
-              <Search width="1.5rem" height="1.5rem" />
+            <button className="text-white mt-2 " onClick={handleSearch}>
+              <Search width="2rem" height="2rem" />
             </button>
           </div>
 
           {/* Temperature */}
-          <div className="hidden items-center text-white mx-4 justify-between sm:hidden md:hidden lg:flex">
+          {/* <div className="hidden items-center text-white mx-4 justify-between sm:hidden md:hidden lg:flex">
             <span>
               <Sunrise />
             </span>
@@ -181,7 +185,7 @@ export default function Header() {
                 33 <DegreeCelcius />
               </h1>
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

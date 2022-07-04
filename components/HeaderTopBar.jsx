@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "../styles/HeaderTopBar.module.css";
-import Ticker from "react-ticker";
+// import Ticker from "react-ticker";
 import { ThunderButton } from "./icons";
 
 function HeaderTopBar() {
   return (
     <>
-      <section>
+      <section className="section">
         <div className={styles.tickerTape}>
           <div className={styles.tickerTapeTitle}> <ThunderButton/><span className="hidden mx-2 sm:flex"> Latest Stories: </span> 
           
