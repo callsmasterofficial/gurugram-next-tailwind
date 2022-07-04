@@ -18,9 +18,10 @@ function SportsArea() {
               return (
                 <div key={data.id} className="">
                   <div>
-                    <div className="overflow-hidden">
+                    <div className="overflow-hidden
+                    w-[95%] h-[80%]  m-auto">
                       <img
-                        className="object-cover p-3 mx-auto sm:mx-auto hover:scale-110  transition-all duration-300 ease-linear"
+                        className="object-cover w-[100%] h-[100%]  mx-auto sm:mx-auto hover:scale-110  transition-all duration-300 ease-linear"
                         src={data.image}
                         alt="imge not found"
                       />

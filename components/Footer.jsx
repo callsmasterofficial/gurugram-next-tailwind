@@ -17,24 +17,19 @@ export default function Footer() {
           <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
             <div className="col-span-1 ">
               <img
-                src="assets/Images/Gurugram-News-Logo.jpg"
+                src="./assets/images/GurugramNewsLogo.png"
                 alt="gurugram-news-network"
                 className="mx-auto w-48 md:mx-0 md:w-72 sm:w-48 sm:mx-auto "
               />
 
-              <div className=" mx-auto w-48 iconBox md:mx-0  flex mt-6 sm:w-48 sm:mx-auto">
-                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#1DA1F2]">
-                  <Twitter color="white" />
+              <div className=" mx-auto p-4  iconBox md:mx-0 mt-6  sm:mx-auto text-white">
+                <div>
+                <h3 className="bg-black  w-fit">About US</h3>
                 </div>
-                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#4267B2]">
-                  <Facebook color="white" />
-                </div>
-                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#FF0000]">
-                  <Youtube color="white" />
-                </div>
-                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#E1306C]">
-                  <Instagram color="white" />
-                </div>
+                <div>
+<span>'Gurugram News' channel is the only web news channel in the city of Gurugram, which has made a different identity in the hearts of people in a very short time. It is our endeavor to show you every important news of Gurugram which is important for you.
+'Gurugram News' channel is such a platform through which the voice of the people of Gurugram is brought prominently to the rulers. All types of news related to Gurugram are broadcast to the viewers by 'Gurugram News' like politics, sports, crime,</span>
+ </div>
               </div>
             </div>
             <div className="col-span-1 mt-20 mx-10 md:mx-0">
@@ -50,6 +45,20 @@ export default function Footer() {
               </div>
               <div className="text-white">
                 <p>We hate spam as much as you do</p>
+              </div>
+              <div className=" mx-auto w-48 iconBox md:mx-0  flex mt-6 sm:w-48 sm:mx-auto">
+                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#1DA1F2]">
+                  <Twitter color="white" />
+                </div>
+                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#4267B2]">
+                  <Facebook color="white" />
+                </div>
+                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#FF0000]">
+                  <Youtube color="white" />
+                </div>
+                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#E1306C]">
+                  <Instagram color="white" />
+                </div>
               </div>
             </div>
           </div>
