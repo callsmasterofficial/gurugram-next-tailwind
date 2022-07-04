@@ -16,7 +16,7 @@ import HeaderTopBar from "../components/HeaderTopBar"
 
 export default function Home() {
   return (
-    <div>
+    <div className=" mx-2 xl:mx-auto xl:w-[80%]">
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
       
       <HeaderTopBar/>

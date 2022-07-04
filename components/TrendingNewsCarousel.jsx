@@ -37,7 +37,7 @@ export default function TrendingNewsCarousel() {
         {TrendingNewsCarouselData.map((data) => {
           return (
             <SwiperSlide key={data.id}>
-              <div key={data.id} className="lg:mx-auto">
+              <div key={data.id} className="trending-post lg:mx-auto">
                 <div className="trendingNewsCarousel  w-[350px] mx-auto sm:w-[400px] sm:items-center">
                   <img src={data.img_src} alt="trending" className="" />
                 </div>

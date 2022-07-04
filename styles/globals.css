@@ -1569,3 +1569,17 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   background: linear-gradient(rgba(23, 34, 43, 0) 0%, #17222b 100%);
   opacity: 0.85;
 }
+
+/* Trending News Carousel Image Overlay */
+.postPlay .postPlayCarousel::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(rgba(23, 34, 43, 0) 0%, #17222b 100%);
+  opacity: 0.85;
+}
+
+
