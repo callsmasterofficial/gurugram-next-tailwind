@@ -11,6 +11,7 @@ import Instagram from './Instagram'
 import Youtube from './Youtube'
 import Telegram from './Telegram'
 import Whatsapp from './Whatsapp'
+import ThunderButton from './ThunderButton'
 
 export {
     Search,
@@ -26,4 +27,5 @@ export {
     Youtube,
     Telegram,
     Whatsapp,
+    ThunderButton,
 }
