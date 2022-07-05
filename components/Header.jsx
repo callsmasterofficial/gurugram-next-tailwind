@@ -17,12 +17,13 @@ export default function Header() {
   return (
     <div className="flex md:block">
       {/* Header,Logo & Banner */}
-      <div className="hidden relative mb-0 md:flex md:items-center">
-        <div className="flex flex-wrap items-center justify-between" id="logo">
+      <div className="w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto">
+      <div className="hidden relative mb-0 md:flex md:items-center ">
+        <div className="flex flex-wrap items-center justify-evenly" id="logo">
           <img
             src="./assets/images/GurugramNewsLogo.png"
             alt="gurugram-news-network"
-            className="w-28 mx-auto md:w-36 md:mx-8"
+            className="w-28 mx-auto md:w-36"
           />
         </div>
         <div
@@ -32,12 +33,13 @@ export default function Header() {
           <img
             src="assets/Images/Gurugram-News-Banner.jpg"
             alt="gurugram-news-app-Banner"
-            className="w-28 xl:ml-60 md:w-[28rem] "
+            className=""
           />
         </div>
       </div>
+      </div>
       {/* Nav Bar */}
-      <div className="flex items-center justify-between sm:p-2 md:p-1 bg-black" id="nav">
+      <div className="flex sm:p-2 md:p-1 bg-black" id="nav">
         {/* Sidebar Toggle */}
         <div
           className={
@@ -150,40 +152,59 @@ export default function Header() {
         {/* Hamburger Menu */}
 
         {/* Normal Menu -- Desktop View Navbar */}
-        <div className="uppercase bg-black hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
-          <ul className="flex mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[90%] md:ml-2">
+        <div className="uppercase  hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
+          <div className="w-[80%]  m-auto flex items-center  3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto">
+          <ul className="flex items-center justify-between mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[100%] md:ml-2">
             <HeaderSingleElement name="Desh" />
             <HeaderSingleElement name="Haryana" />
             <HeaderSingleElement name="Shehar" />
-            <HeaderSingleElement name="Crime" />
+            <HeaderSingleElement name="Crime" /> 
             <HeaderSingleElement name="Technology" />
             <HeaderSingleElement name="Delhi" />
-            <HeaderOthersTab />
-          </ul>
-        </div>
-        <div
-          className="flex ml-1 mr-1 md:hidden lg:flex sm:mr-1 md:mr-2 text-2xl"
-          id="search"
-        >
-          <div className="cursor-pointer">
-            <button className="text-white mt-2" onClick={handleSearch}>
-              <Search width="1.5rem" height="1.5rem" />
-            </button>
-          </div>
+            <HeaderSingleElement name="Delhi" />
+            <HeaderSingleElement name="Delhi" />
+            <HeaderSingleElement name="Delhi" />
+            <HeaderSingleElement name="Delhi" />
+            {/* <HeaderOthersTab /> */}
 
-          {/* Temperature */}
-          <div className="hidden items-center text-white mx-4 justify-between sm:hidden md:hidden lg:flex">
-            <span>
-              <Sunrise />
-            </span>
-            <span className="flex">
-              <h1 className="flex">
-                33 <DegreeCelcius />
-              </h1>
-            </span>
+            <div className="searchBox hidden   md:block ">
+              <Search  color="white" />
+              
+           </div>
+          </ul>
+
           </div>
         </div>
+        
       </div>
+      
     </div>
   );
 }
+
+
+
+// <div className="w-auto   lg:bg-red-200 xl:bg-blue-200 font-bold ">
+//         <div
+//           className="flex ml-1 mr-1 md:hidden lg:flex sm:mr-1 md:mr-2 text-2xl "
+//           id="search"
+//         >
+//           <div className="cursor-pointer">
+//             <button className="text-white mt-2" onClick={handleSearch}>
+//               <Search width="1.5rem" height="1.5rem"  />
+//             </button>
+//           </div>
+
+//           {/* Temperature */}
+//           <div className="hidden items-center text-white mx-4 justify-between sm:hidden md:hidden lg:flex">
+//             <span>
+//               <Sunrise />
+//             </span>
+//             <span className="flex">
+//               <h1 className="flex">
+//                 33 <DegreeCelcius />
+//               </h1>
+//             </span>
+//           </div>
+//         </div>
+//         </div>

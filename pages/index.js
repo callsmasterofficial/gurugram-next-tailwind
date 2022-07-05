@@ -18,7 +18,6 @@ export default function Home() {
   return (
     <div className="">
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
-      
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />

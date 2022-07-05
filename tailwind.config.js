@@ -9,7 +9,15 @@ module.exports = {
     extend: {
       transitionProperty:{
         'left': 'left'
-      }
+      },
+      screens: {
+        '3xl': '1600px',
+        '4xl': '2200px',
+        "5xl": "3000px",
+        "6xl": "4000px"
+      },
+
+      
     },
   },
   plugins: [
