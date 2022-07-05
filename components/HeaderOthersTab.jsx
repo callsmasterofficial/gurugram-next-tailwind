@@ -5,7 +5,7 @@ export default function HeaderOthersTab() {
     <div className="sm:w-[50%] z-50">
       <div className="group inline-block relative">
         <button className=" text-white font-semibold inline-flex items-center">
-          <span className="mr-4 uppercase">Others </span>
+          <span className="mr-4 uppercase">अन्य </span>
           <svg
             className="fill-current h-4 w-4"
             xmlns="http://www.w3.org/2000/svg"
