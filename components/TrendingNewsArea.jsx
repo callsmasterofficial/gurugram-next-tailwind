@@ -6,7 +6,7 @@ import TrendingSinglePost from "./TrendingSinglePost";
 
 export default function TrendingNewsArea() {
   return (
-    <>
+    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto ">
       <div className="m-5 text-xl font-semibold">
         <h1>Trending News</h1>
       </div>
@@ -24,6 +24,7 @@ export default function TrendingNewsArea() {
           <TrendingSidebar className="" />
         </div>
       </div>
-    </>
+      </div>
+    
   );
 }

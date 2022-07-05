@@ -11,9 +11,10 @@ import FooterTwitter from "./FooterTwitter";
 
 export default function Footer() {
   return (
-    <>
-      <div className="footermain bg-[#17222b]">
-        <div className="w-[100%] md:w-[80%] m-auto pt-12 pb-12">
+    <div className="bg-[#17222b] w-[100%]">
+    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto ">
+      <div className="footermain ">
+        <div className="pt-12 pb-12">
           <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
             <div className="col-span-1 ">
               <img
@@ -24,12 +25,21 @@ export default function Footer() {
 
               <div className=" mx-auto p-4  iconBox md:mx-0 mt-6  sm:mx-auto text-white">
                 <div>
-                <h3 className="bg-black  w-fit">About US</h3>
+                  <h3 className="bg-black  w-fit">About US</h3>
                 </div>
                 <div>
-<span>'Gurugram News' channel is the only web news channel in the city of Gurugram, which has made a different identity in the hearts of people in a very short time. It is our endeavor to show you every important news of Gurugram which is important for you.
-'Gurugram News' channel is such a platform through which the voice of the people of Gurugram is brought prominently to the rulers. All types of news related to Gurugram are broadcast to the viewers by 'Gurugram News' like politics, sports, crime,</span>
- </div>
+                  <span>
+                    'Gurugram News' channel is the only web news channel in the
+                    city of Gurugram, which has made a different identity in the
+                    hearts of people in a very short time. It is our endeavor to
+                    show you every important news of Gurugram which is important
+                    for you. 'Gurugram News' channel is such a platform through
+                    which the voice of the people of Gurugram is brought
+                    prominently to the rulers. All types of news related to
+                    Gurugram are broadcast to the viewers by 'Gurugram News'
+                    like politics, sports, crime,
+                  </span>
+                </div>
               </div>
             </div>
             <div className="col-span-1 mt-20 mx-10 md:mx-0">
@@ -117,7 +127,6 @@ export default function Footer() {
                 </div>
               </div>
               <div className="md:flex">
-               
                 <div className="col-span-2 text-white w-screen">
                   <div className="items-start m-6 ml-[50px] mr-[50px] bg-red-500 p-4 rounded-md border-gray border-dashed	mt-2">
                     <h2 className="mt-2">Newpark News Services</h2>
@@ -137,10 +146,29 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex">
+            <div className="col-span-1 text-white bg-red-700">
+            <a href="#">© Copyright 2022, All Rights Reserved |</a>
+            <a href="#">❤️Gurugram News Network | Developed by</a>
+            <a className="ml-1" href="#">
+              Callsmaster Services LLP
+            </a>
+            </div>
 
+            <div className="col-span-1 flex align-right bg-blue-500">
+              <ul className="List-none flex">
+              <li className="">About</li>
+              <li className="ml-2">Privacy & Policy</li>
+              <li className="ml-2">Advertise</li>
+              <li className="ml-2">Terms of Use</li>
+              <li className="ml-2">Contact Us</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </>
+      </div>
+      </div>
   );
 }

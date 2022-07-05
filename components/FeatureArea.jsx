@@ -3,7 +3,8 @@ import FeatureSinglePost from "./FeatureSinglePost";
 
 export default function FeatureArea() {
   return (
-    <div className="featureArea mx-12">
+    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto ">
+    <div className="featureArea ">
         <div className="featureHeading mx-6 font-bold text-xl">
             <h1>Feature News</h1>
         </div>
@@ -11,5 +12,7 @@ export default function FeatureArea() {
             <FeatureSinglePost />
         </div>
     </div>
+    </div>
+
   )
 }

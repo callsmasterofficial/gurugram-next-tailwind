@@ -6,7 +6,7 @@ import SportsAreaCarousel from "./SportsAreaCarousel";
 
 function SportsArea() {
   return (
-    <>
+    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto ">
 
 <div className="  m-auto text-xl font-semibold mt-4 mb-4">
     <h1>Sports News</h1>
@@ -52,7 +52,8 @@ function SportsArea() {
         </div>
         
       </div>
-    </>
+      </div>
+    
   );
 }
 

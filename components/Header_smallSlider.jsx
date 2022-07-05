@@ -7,7 +7,9 @@ import "swiper/css/autoplay";
 export default function Header_smallSlider() {
   
   return (
+        <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto ">
     <Swiper
+
     // install Swiper modules
     modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
     spaceBetween={50}
@@ -32,10 +34,11 @@ export default function Header_smallSlider() {
         spaceBetween:100,
       },
     }}
-  >
+  >  
       {Header_smallSliderData.map((data) => {
         return (
-          <SwiperSlide key={data.id}>
+          <SwiperSlide key={data.id} >
+         
           <div className="flex flex-wrap rounded-md">
             <div className="flex md:flex-row items-center p-2">
               <img
@@ -53,10 +56,12 @@ export default function Header_smallSlider() {
               </div>
             </div>
           </div>
+          
           </SwiperSlide>
         );
       })}
     </Swiper>
+    </div>
   );
 }
 

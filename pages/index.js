@@ -19,7 +19,6 @@ export default function Home() {
     <div className=" mx-2 xl:mx-auto xl:w-[80%]">
 
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
-      
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />
