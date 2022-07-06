@@ -12,7 +12,7 @@ import FooterTwitter from "./FooterTwitter";
 export default function Footer() {
   return (
     <div className="bg-[#17222b] w-[100%]">
-    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto ">
+    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
       <div className="footermain ">
         <div className="pt-12 pb-12">
           <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
