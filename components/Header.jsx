@@ -15,10 +15,10 @@ export default function Header() {
   }
   
   return (
-    <div className="flex md:block">
+    <div className="flex md:block ">
       {/* Header,Logo & Banner */}
-      <div className="bg-red-200 w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
-      <div className="hidden relative mb-0 md:flex md:items-center ">
+      <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
+      <div className="hidden relative mb-0 md:flex md:items-center">
         <div className="flex flex-wrap items-center justify-evenly" id="logo">
           <img
             src="./assets/images/GurugramNewsLogo.png"
@@ -154,8 +154,8 @@ export default function Header() {
         {/* Normal Menu -- Desktop View Navbar */}
 
         <div className="uppercase  hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
-          <div className="w-[80%]  m-auto flex items-center  3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
-          <ul className="flex items-center justify-between mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[100%] md:ml-2">
+          <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
+          <ul className="flex items-center justify-between sm:mr-0 sm:p-2 mr-4 p-4   md:w-[100%] ">
             <HeaderSingleElement name="Desh" />
             <HeaderSingleElement name="Haryana" />
             <HeaderSingleElement name="Shehar" />

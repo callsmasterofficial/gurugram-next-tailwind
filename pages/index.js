@@ -17,14 +17,13 @@ import Weather from "../components/Weather"
 
 export default function Home() {
   return (
-    <div className="">
-
+    <div >
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
       {/* <Weather/> */}
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />
-      <MainGalleryArea />
+      {/* <MainGalleryArea />
       <FeatureArea />
       <TrendingNewsArea />
       <PlayPostArea />
@@ -32,7 +31,7 @@ export default function Home() {
       <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
-      <Footer/>
+      <Footer/> */}
 
     </div>
   )
