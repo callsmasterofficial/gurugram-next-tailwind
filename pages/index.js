@@ -17,14 +17,14 @@ import Weather from "../components/Weather"
 
 export default function Home() {
   return (
-    <div className=" mx-2 xl:mx-auto xl:w-[80%]">
+    <div >
 
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
-      <Weather/>
+      {/* <Weather/> */}
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />
-      <MainGalleryArea />
+      {/* <MainGalleryArea />
       <FeatureArea />
       <TrendingNewsArea />
       <PlayPostArea />
@@ -32,7 +32,7 @@ export default function Home() {
       <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
-      <Footer/>
+      <Footer/> */}
 
     </div>
   )
