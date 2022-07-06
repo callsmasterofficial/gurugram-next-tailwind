@@ -152,6 +152,7 @@ export default function Header() {
         {/* Hamburger Menu */}
 
         {/* Normal Menu -- Desktop View Navbar */}
+
         <div className="uppercase  hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
           <div className="w-[80%]  m-auto flex items-center  3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
           <ul className="flex items-center justify-between mr-4 p-4 sm:w-[25%] sm:ml-0 sm:text-md md:w-[100%] md:ml-2">
@@ -174,6 +175,7 @@ export default function Header() {
           </ul>
 
           </div>
+
         </div>
         
       </div>

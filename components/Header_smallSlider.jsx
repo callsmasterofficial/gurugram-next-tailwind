@@ -90,5 +90,29 @@ const Header_smallSliderData = [
     title: "U.S. Response Subash Says He Will Label Regiions By Risk Of...",
     sub_title: "People have been infected in USA...",
   },
+  {
+    id: "5",
+    img_src: "./assets/images/post-1.jpg",
+    title: "The Home Decoration Document: Photo...",
+    sub_title: "People have been infected in USA...",
+  },
+  {
+    id: "6",
+    img_src: "./assets/images/post-2.jpg",
+    title: "U.S. Response Subash Says He Will Label Regiions By Risk Of...",
+    sub_title: "People have been infected in USA...",
+  },
+  {
+    id: "7",
+    img_src: "./assets/images/post-3.jpg",
+    title: "Stimuli Package Fundamentally Transform The Government",
+    sub_title: "People have been infected in USA...",
+  },
+  {
+    id: "8",
+    img_src: "./assets/images/post-2.jpg",
+    title: "U.S. Response Subash Says He Will Label Regiions By Risk Of...",
+    sub_title: "People have been infected in USA...",
+  },
 ];
 

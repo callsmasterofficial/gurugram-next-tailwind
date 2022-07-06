@@ -59,12 +59,12 @@ export default function FeatureSinglePost() {
               <div className="feature-post-content bg-gray-700 p-2 sm:bg-inherit sm:p-0">
                 <div className="title flex">
                   <div className="">
-                    <a href="#" className="blueCategory">{data.category}</a>
+                    <a href="#" className="text-[#1091ff]">{data.category}</a>
                     <span>{" / "}</span>
-                    <span>{data.date}</span>
+                    <span className="text-gray-400">{data.date}</span>
                   </div>
                 </div>
-                <h4 className="title">
+                <h4 className="title text-ellipsis">
                   <a href="#">{data.title}</a>
                 </h4>
               </div>
@@ -112,25 +112,39 @@ const FeatureSinglePostData = [
     date: "June 24, 2022",
     title: "Cheap smartphone sensor could help you old food safe",
   },
+  {
+    id: "6",
+    img_src: "./assets/images/feature-1.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Copa America: Luis Suarez from devastated US",
+  },
+  {
+    id: "7",
+    img_src: "./assets/images/feature-2.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Nancy Zhang a Chinese busy woman and Dhaka",
+  },
+  {
+    id: "8",
+    img_src: "./assets/images/feature-3.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "U.S. Response subash says he will label regiions by rish of...",
+  },
+  {
+    id: "9",
+    img_src: "./assets/images/feature-4.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Venezuela elan govt and opposit the property collect",
+  },
+  {
+    id: "10",
+    img_src: "./assets/images/feature-1.jpg",
+    category: "Technology",
+    date: "June 24, 2022",
+    title: "Cheap smartphone sensor could help you old food safe",
+  },
 ];
-
-{/* <div className="mx-2 w-[100%]">
-                <img
-                  src={data.img_src}
-                  alt="feature post"
-                  className="mx-auto w-auto md:w-[12em]"
-                />
-              </div>
-              <div className="">
-                <div className="">
-                  <div className="">
-                    <a href="#">{data.category}</a>
-                  </div>
-                  <div className="">
-                    <span>{data.date}</span>
-                  </div>
-                </div>
-                <h4 className="">
-                  <a href="#">{data.title}</a>
-                </h4>
-              </div> */}

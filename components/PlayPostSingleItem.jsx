@@ -45,11 +45,11 @@ export default function PlayPostSingleItem() {
       {PlayPostData.map((data) => {
         return (
           <SwiperSlide key={data.id}>
-            <div className="relative">
-              <div className="">
+            <div className="relative postPlay">
+              <div className="postPlayCarousel">
                 <img src={data.img_src} alt="" className=""  />
               </div>
-              <div className="description absolute text-white bottom-1 left-1">
+              <div className="description absolute text-white bottom-1 p-1 left-1">
                 <div className="dateCategory flex">
                     <p className="text-blue-400">{data.category}</p>
                     <p>{" / "}</p>
