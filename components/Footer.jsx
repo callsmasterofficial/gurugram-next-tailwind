@@ -66,7 +66,7 @@ export default function Footer() {
                 <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#FF0000]">
                   <Youtube color="white" />
                 </div>
-                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#E1306C]">
+                <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer footerInsta">
                   <Instagram color="white" />
                 </div>
               </div>

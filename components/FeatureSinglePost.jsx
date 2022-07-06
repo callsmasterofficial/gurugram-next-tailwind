@@ -11,6 +11,7 @@ import {
 } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
+import "swiper/css/navigation";
 
 export default function FeatureSinglePost() {
   return (
@@ -38,7 +39,7 @@ export default function FeatureSinglePost() {
           spaceBetween: 20,
         },
       }}
-      navigation
+      navigation={true}
       autoplay
       pagination={{
         el: ".swiper-pagination",
@@ -71,7 +72,7 @@ export default function FeatureSinglePost() {
             </div>
           </SwiperSlide>
         );
-      })}
+      })};
     </Swiper>
   );
 }
