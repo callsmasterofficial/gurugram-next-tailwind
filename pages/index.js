@@ -11,6 +11,7 @@ import EntertainmentArea from "../components/EntertainmentArea"
 import SportsArea from "../components/SportsArea"
 import TrendingSidebar from "../components/TrendingSidebar"
 import HeaderTopBar from "../components/HeaderTopBar"
+import Weather from "../components/Weather"
 // import Testing from "../components/Testing"
 // import 'tw-elements';
 
@@ -19,6 +20,7 @@ export default function Home() {
     <div className=" mx-2 xl:mx-auto xl:w-[80%]">
 
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
+      <Weather/>
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />

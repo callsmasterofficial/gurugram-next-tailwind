@@ -7,7 +7,7 @@ import "swiper/css/autoplay";
 export default function Header_smallSlider() {
   
   return (
-        <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[40%] 6xl:w-[30%]  3xl:m-auto ">
+        <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
     <Swiper
 
     // install Swiper modules
