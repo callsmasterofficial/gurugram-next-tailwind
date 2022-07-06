@@ -18,7 +18,6 @@ import Weather from "../components/Weather"
 export default function Home() {
   return (
     <div >
-
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
       {/* <Weather/> */}
       <HeaderTopBar/>

@@ -405,7 +405,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   overflow: hidden;
 }
 .feature-post .feature-post-thumb img {
-  /* width: 100%; */
+  width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -453,7 +453,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 .feature-post-slider .slick-arrow.next {
   right: 0;
-}
+} 
 
 /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 /*   */
@@ -704,6 +704,34 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 .instagram {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+}
+.footerInsta:hover {
   background: radial-gradient(
       circle farthest-corner at 35% 90%,
       #fec564,
@@ -1583,3 +1611,8 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   opacity: 0.85;
 }
 
+/* Slider Navigation CSS */
+.swiper-button-next{
+  /* background: red; */
+  
+}

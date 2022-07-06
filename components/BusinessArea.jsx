@@ -82,7 +82,6 @@ function BusinessArea() {
         })}{" "}
       </div>          
       <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed">
-          <h4 className="ml-5 font-bold text-xl">Most Share</h4>
           <BusinessCategoriesArea />
       </div>
     </div>

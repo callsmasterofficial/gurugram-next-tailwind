@@ -40,7 +40,7 @@ export default function VideoNewsArea() {
                                 <h3 className="title">Popular</h3>
                             </div>
                             <div className="trending-sidebar-slider">
-                                <div className="populer-post-slider">
+                                <div className="populer-post-slider border-2">
                                     <TrendingSinglePost />
                                 </div>
                             </div>
