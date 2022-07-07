@@ -1,66 +1,58 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
+import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
+import "swiper/css/navigation";
 
 export default function Header_smallSlider() {
-  
   return (
-        <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-    <Swiper
-
-    // install Swiper modules
-    modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
-    spaceBetween={50}
-    slidesPerView={1}
-    navigation
-    autoplay    
-    pagination={{
-      el: ".swiper-pagination", 
-      clickable: true 
-    }}
-    scrollbar={{ draggable: true }}
-    breakpoints={{
-      // when window width is >= 640px
-      460: {
-        width: 640,
-        slidesPerView: 1,
-      },
-      // when window width is >= 768px
-      768: {
-        width: 768,
-        slidesPerView: 2,
-        spaceBetween:100,
-      },
-    }}
-  >  
-      {Header_smallSliderData.map((data) => {
-        return (
-          <SwiperSlide key={data.id} >
-         
-          <div className="flex flex-wrap rounded-md">
-            <div className="flex md:flex-row items-center p-2">
-              <img
-                src={data.img_src}
-                alt="small slider"
-                className="w-[20%] sm:w-[25%] mr-1 md:w-[30%] md:mx-2 rounded-md"
-              />
-              <div className="flex flex-col justify-self-center align-middle items-baseline">
-                <h3 className="text-xs md:text-base ">
-                  {data.title}
-                </h3>
-                {/* <p className="text-sm sm:text-sm md:text-sm">
-                  {data.sub_title}
-                </p> */}
+    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+      <Swiper
+        // install Swiper modules
+        modules={[Navigation, Autoplay]}
+        slidesPerView={1}
+        navigation={{
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }}
+        // navigation
+        autoplay={true}
+        // loop={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // 768: {
+          //   slidesPerView: 3,
+          //   spaceBetween: 2,
+          // },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
+        // loop={true}
+      >
+        {" "}
+        <div className="swiper-button-next"></div>
+        <div className="swiper-button-prev"></div>
+        {Header_smallSliderData.map((data) => {
+          return (
+            <SwiperSlide key={data.id} className="smallSizeSlide mt-2">
+              <div className="smallSlider p-4 lg:p-0 lg:grid lg:grid-cols-2">
+                <div className="smallSizeImgbox sm:float-left sm:mx-2 lg:mx-0 lg:col-span-1">
+                  <img src={data.img_src} alt="slider items" className="w-[180px] h-[87px] sm:w-[110px] sm:h-[67px]" />
+                </div>
+                <div className="mx-auto lg:col-span-1 ">
+                  <p className="text-center sm:text-start text-[14px] lg:text-[14px]">{data.title}</p>
+                </div>
               </div>
-            </div>
-          </div>
-          
-          </SwiperSlide>
-        );
-      })}
-    </Swiper>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </div>
   );
 }
@@ -116,3 +108,90 @@ const Header_smallSliderData = [
   },
 ];
 
+/*
+
+
+
+Updated till 7th July 2022, 04:22 pm
+<Swiper
+        // install Swiper modules
+        modules={[Navigation, Autoplay]}
+        // spaceBetween={50}
+        slidesPerView={1}
+        navigation={{
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }}
+        // navigation
+        autoplay={true}
+        // loop={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }}
+        // loop={true}
+      >
+        {" "}
+        <div className="swiper-button-next"></div>
+        <div className="swiper-button-prev"></div>
+        {Header_smallSliderData.map((data) => {
+          return (
+            <SwiperSlide key={data.id} className="mt-2">
+              <div className="smallSlider p-4">
+                <div className=" sm:float-left md:mx-2">
+                  <img src={data.img_src} alt="slider items" className="w-[110px] h-[67px]" />
+                </div>
+                <div className="mx-auto">
+                  <p className="text-[9px] lg:text-[14px]">{data.title}</p>
+                </div>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+
+
+Updated till 7th July 2022, 12:22 pm
+
+<div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+      <Swiper
+        // install Swiper modules
+        modules={[Navigation, Autoplay]}
+        // spaceBetween={50}
+        slidesPerView={4}
+        navigation={{
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }}
+        // navigation
+        autoplay={true}
+        loop={true}
+      >
+        {" "}
+        <div className="swiper-button-next"></div>
+        <div className="swiper-button-prev"></div>
+        {Header_smallSliderData.map((data) => {
+          return (
+            <SwiperSlide key={data.id} className="border-4">
+              <div className="smallSlider bg-red-200">
+                <div>
+                  <img src={data.img_src} alt="slider items" />
+                </div>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </div>
+
+*/

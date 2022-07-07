@@ -156,16 +156,15 @@ export default function Header() {
         <div className="uppercase  hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
           <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
           <ul className="flex items-center justify-between sm:mr-0 sm:p-2 mr-4 p-4   md:w-[100%] ">
-            <HeaderSingleElement name="Desh" />
-            <HeaderSingleElement name="Haryana" />
-            <HeaderSingleElement name="Shehar" />
-            <HeaderSingleElement name="Crime" /> 
-            <HeaderSingleElement name="Technology" />
-            <HeaderSingleElement name="Delhi" />
-            <HeaderSingleElement name="Delhi" />
-            <HeaderSingleElement name="Delhi" />
-            <HeaderSingleElement name="Delhi" />
-            <HeaderSingleElement name="Delhi" />
+            <HeaderSingleElement name="देश" />
+            <HeaderSingleElement name="हरियाणा" />
+            <HeaderSingleElement name="शहर" />
+            <HeaderSingleElement name="अपराध" /> 
+            <HeaderSingleElement name="दिल्ली एनसीआर" />
+            <HeaderSingleElement name="टेक्नोलॉजी" />
+            <HeaderSingleElement name="राजनीति" />
+            <HeaderSingleElement name="गांव" />
+            <HeaderSingleElement name="लेखक" />
             {/* <HeaderOthersTab /> */}
 
             <div className="searchBox hidden   md:block ">
@@ -183,30 +182,3 @@ export default function Header() {
     </div>
   );
 }
-
-
-
-// <div className="w-auto   lg:bg-red-200 xl:bg-blue-200 font-bold ">
-//         <div
-//           className="flex ml-1 mr-1 md:hidden lg:flex sm:mr-1 md:mr-2 text-2xl "
-//           id="search"
-//         >
-//           <div className="cursor-pointer">
-//             <button className="text-white mt-2" onClick={handleSearch}>
-//               <Search width="1.5rem" height="1.5rem"  />
-//             </button>
-//           </div>
-
-//           {/* Temperature */}
-//           <div className="hidden items-center text-white mx-4 justify-between sm:hidden md:hidden lg:flex">
-//             <span>
-//               <Sunrise />
-//             </span>
-//             <span className="flex">
-//               <h1 className="flex">
-//                 33 <DegreeCelcius />
-//               </h1>
-//             </span>
-//           </div>
-//         </div>
-//         </div>
