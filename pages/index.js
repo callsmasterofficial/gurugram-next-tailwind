@@ -23,15 +23,15 @@ export default function Home() {
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />
-      {/* <MainGalleryArea />
-      <FeatureArea />
-      <TrendingNewsArea />
-      <PlayPostArea />
-      <VideoNewsArea />
-      <EntertainmentArea />
-      <SportsArea/>
-      <BusinessArea/>
-      <Footer/> */}
+      <MainGalleryArea />
+      {/* <FeatureArea /> */}
+      {/* <TrendingNewsArea /> */}
+      {/* <PlayPostArea /> */}
+      {/* <VideoNewsArea /> */}
+      {/* <EntertainmentArea /> */}
+      {/* <SportsArea/> */}
+      {/* <BusinessArea/> */}
+      {/* <Footer/> */}
 
     </div>
   )
