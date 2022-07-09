@@ -1,6 +1,6 @@
 import React, { useState }from "react";
 import MainSinglepostItem from "./MainSinglepostItem";
-const btnClass='cursor-pointer p-1 text-sm md:text-base rounded-md mx-0 border-red-500 md:mx-1 lg:mx-2 capitalize'
+const btnClass='cursor-pointer p-1 text-[15px] sm:text-[18px] rounded-md mx-0 border-red-500 md:mx-1 lg:mx-2 capitalize'
 export default function MainRelatedPopularSidebar() {
   const [active, setActive]=useState(0);
   return (

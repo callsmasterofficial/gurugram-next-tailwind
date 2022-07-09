@@ -5,16 +5,16 @@ export default function MainSinglepostItem({active}) {
     <div className="border-2">
       {MainSinglePostData[active].map((data) => {
         return (
-          <div key={data.id} className="border-dashed border-b-[1px] border-gray-400">
+          <div key={data.id} className="border-dashed border-b-[1px] border-gray-400 lg:mx-7">
             <div  className="flex justify-start items-start m-2">
-              <div className="w-[90px] h-[55px]  sm:w-[110px] sm:h-[70px] md:w-[140px] md:h-[87px]">
+              <div className="w-[140px] h-[77px]  sm:w-[120px] sm:h-[77px] md:w-[140px] md:h-[77px]">
                 <img src={data.img_src} alt="" className="w-[100%] h-[100%] object-cover md:rounded-md" />
               </div>
               <div className="mx-2 w-[100%]">
-                <div className="flex flex-wrap justify-start">
+                {/* <div className="flex flex-wrap justify-start">
                   <h4 className=" text-blue-400 text-[12px] sm:text-sm md:text-xs">{data.category} / {data.date}</h4>
-                </div>
-                <h2 className="text-[13px] sm:text-sm md:text-base">{data.title.length>35? data.title.slice(0,35)+"...": data.title}</h2>
+                </div> */}
+                <h2 className="text-[15px] sm:text-sm md:text-base">{data.title.length>35? data.title.slice(0,35)+"...": data.title}</h2>
               </div>
             </div>            
           </div>
