@@ -1501,18 +1501,35 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   transform: scale(1.1);
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1023px) {
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
   .entertainmentArea{
-    margin-top: 44rem;
+    margin-top: 50rem;
   }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) and (max-width:1080px){
   .entertainmentArea{
-    margin-top: 20rem;
+    margin-top: 30rem;
   }
 }
 
+@media only screen and (min-width: 1081px) and (max-width:1330px){
+  .entertainmentArea{
+    margin-top: 30rem;
+  }
+}
+
+@media only screen and (min-width: 1331px){
+  .entertainmentArea{
+    margin-top: 27rem;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width:1024px){
+  .Categories-post{
+    margin-top: 27rem;
+  }
+}
 
  
 /* =================================================================================== */
@@ -1687,3 +1704,10 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 }
+
+@media only screen  and (min-width: 320px) and (max-width: 970px) {
+.fuck{
+  display: flex;
+}
+}
+
