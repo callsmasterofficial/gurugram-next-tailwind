@@ -12,7 +12,8 @@ import FooterTwitter from "./FooterTwitter";
 export default function Footer() {
   return (
     <div className="bg-[#17222b] w-[100%]">
-    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+    <div className="w-[100%] md:w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+      
       <div className="footermain ">
         <div className="pt-12 pb-12">
           <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
@@ -128,7 +129,7 @@ export default function Footer() {
               </div>
               <div className="md:flex">
                 <div className="col-span-2 text-white w-screen">
-                  <div className="items-start m-6 ml-[50px] mr-[50px] bg-red-500 p-4 rounded-md border-gray border-dashed	mt-2">
+                  <div className="items-start m-6 ml-[50px] mr-[50px]  p-4 rounded-md border-gray border-dashed	mt-2">
                     <h2 className="mt-2">Newpark News Services</h2>
                     <div className="flex items-center	mt-2">
                       <FooterMobile />
@@ -156,8 +157,8 @@ export default function Footer() {
             </a>
             </div>
 
-            <div className="col-span-1 flex align-right bg-blue-500">
-              <ul className="List-none flex">
+            <div className="col-span-1  bg-blue-500">
+              <ul className="List-none">
               <li className="">About</li>
               <li className="ml-2">Privacy & Policy</li>
               <li className="ml-2">Advertise</li>
