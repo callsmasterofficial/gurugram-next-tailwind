@@ -9,13 +9,10 @@ export default function FooterSidebar() {
           <div key={data.id} className="flex justify-start items-start mx-6 my-2 border-dashed border-b-[1px] border-gray-400">
             
             <div className="">
-              <p className="mx-3 text-3xl bg-gray-700 text-gray-400 rounded-full px-3 py-1 mt-2">{data.id}</p>
+              <p className="mx-3 text-3xl bg-gray-700 text-gray-400 rounded-full px-3 py-1 ">{data.id}</p>
             </div>
             <div>
-              <div className="flex">
-                <h4 className=" text-blue-400 text-sm">{data.category}</h4>
-                <h4 className="text-gray-400 text-sm"> / {data.date}</h4>
-              </div>
+
               <h2 className="inline-block">{data.title}</h2>
             </div>
           </div>

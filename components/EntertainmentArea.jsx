@@ -5,6 +5,7 @@ function EntertainmentArea() {
   return (
     <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
     <div className="entertainmentArea ">
+      
       <div className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">
         <h1>Entertainment News</h1>
       </div>
@@ -39,8 +40,8 @@ function EntertainmentArea() {
               );
             })}{" "}
           </div>          
-          <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed">
-              <h4 className="ml-5 font-bold text-xl">Most Share</h4>
+          <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed lg:mt-[-58px] md:mt-[-58px]">
+              <h4 className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">Most Share</h4>
               <FooterSidebar />
           </div>
         </div>
