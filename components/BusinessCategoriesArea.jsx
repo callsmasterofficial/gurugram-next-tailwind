@@ -3,12 +3,12 @@ import React from "react";
 function BusinessCategoriesArea() {
   return (
     <>
-      <div className="Categories-post md:mt-[-57px]">
+      <div className="Categories-post md:border-l-2 border-gray border-dashed md:mt-[-74px]">
         <div className="section-title flex justify-between align-items-center">
           <h3 className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4 md:text-lg">Categories</h3>
           <a className="ml-5 text-xl relative mt-10 sm:mt-3 mb-4 md:text-lg" href="#">ALL SEE</a>
         </div>
-        <div className="Categories-item">
+        <div className="Categories-item mt-3">
           <div className="item">
             <img src="assets/images/categories-1.jpg" alt="categories" />
             <div className="Categories-content">

@@ -1,5 +1,7 @@
 import React from "react";
 import FooterSidebar from "./FooterSidebar";
+import WeatherCard from "./WeatherCard";
+
 
 function EntertainmentArea() {
   return (
@@ -40,9 +42,11 @@ function EntertainmentArea() {
               );
             })}{" "}
           </div>          
-          <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed lg:mt-[-58px] md:mt-[-58px]">
+          <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed lg:mt-[-74px] md:mt-[-74px]">
               <h4 className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">Most Share</h4>
               <FooterSidebar />
+              <WeatherCard/>
+
           </div>
         </div>
       </div>

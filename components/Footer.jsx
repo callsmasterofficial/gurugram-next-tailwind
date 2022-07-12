@@ -73,7 +73,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footerContainer w-[100%] md:w-[80%] m-auto">
+          <div className="footerContainer w-[100%] md:w-[90%] m-auto">
             <div className="">
               <div className="w-[100%]">
                 <div className=" md:flex  sm:border-b-2 border-gray border-dashed">
@@ -128,7 +128,7 @@ export default function Footer() {
                 </div>
                 <div className="md:flex">
                   <div className="col-span-2 text-white w-screen">
-                    <div className="items-start m-6 ml-[50px] mr-[50px]  p-4 rounded-md border-gray border-dashed	mt-2">
+                    <div className="items-start m-6  mr-[50px]  p-4 rounded-md border-gray border-dashed	mt-2">
                       <h2 className="mt-2">Newpark News Services</h2>
                       <div className="flex items-center	mt-2">
                         <FooterMobile />
@@ -145,7 +145,7 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="col-span-2 text-white w-screen">
-                    <div className="items-start m-6 ml-[50px] mr-[50px]  p-4 rounded-md border-gray border-dashed	mt-2">
+                    <div className="items-start m-6  mr-[50px]  p-4 rounded-md border-gray border-dashed	mt-2">
                       {/* <h2 className="mt-2">Newpark News Services</h2> */}
                       <div className="flex items-center	mt-2">
                         {/* <FooterMobile /> */}
@@ -172,7 +172,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="p-4 border-t-2 border-dashed">
+            <div className="p-4 border-t-2 border-dashed text-align-center">
               <div className=" text-white text-[14px]">
                   <a href="#">© Copyright 2022, All Rights Reserved |</a>
                   <a href="#">❤️Gurugram News Network | Developed by</a>
