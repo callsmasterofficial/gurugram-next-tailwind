@@ -31,7 +31,7 @@ export default function Header() {
           id="appOrAds"
         >
           <img
-            src="assets/Images/Gurugram-News-Banner.jpg"
+            src="assets/images/Gurugram-News-Banner.jpg"
             alt="gurugram-news-app-Banner"
             className=""
           />
