@@ -84,11 +84,11 @@ export default class PreviousNextMethods extends Component {
         <Slider ref={(c) => (this.slider = c)} {...settings}>
         {FeatureSinglePostData.map((data) => {
           return (
-              <div key={data.id} className="relative">
-                <div className="p-1 featureImageFix">
+              <div key={data.id} className="relative postPlay">
+                <div className="p-1 featureImageFix postPlayCarousel">
                   <img className="" src={data.img_src} alt="newFormat" />
                 </div>
-                <div className="absolute bottom-2 left-2 text-white ml-6 mr-6 titleFix">
+                <div className="absolute bottom-2 left-2 text-white ml-6 mr-6 titleFix lg:w-[60%]">
                   <p>{data.title}</p>
                 </div>
               </div>

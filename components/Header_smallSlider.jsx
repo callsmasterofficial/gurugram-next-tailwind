@@ -70,8 +70,8 @@ export default class PreviousNextMethods extends Component {
         <Slider ref={(c) => (this.slider = c)} {...settings}>
         {Header_smallSliderData.map((data) => {
            return (
-          <div key={data.id} className="relative">
-            <div className="p-1">
+          <div key={data.id} className="relative postPlay">
+            <div className="p-1 postPlayCarousel">
               <img className="object-contain imageFix" src="https://images.unsplash.com/photo-1557992260-ec58e38d363c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="newFormat" />
             </div>
             <div className="absolute bottom-2 left-2 text-white ml-6 mr-6 titleFix">
@@ -141,90 +141,3 @@ const Header_smallSliderData = [
   },
 ];
 
-// /*
-
-
-
-// Updated till 7th July 2022, 04:22 pm
-// <Swiper
-//         // install Swiper modules
-//         modules={[Navigation, Autoplay]}
-//         // spaceBetween={50}
-//         slidesPerView={1}
-//         navigation={{
-//           nextEl: ".swiper-button-next",
-//           prevEl: ".swiper-button-prev",
-//         }}
-//         // navigation
-//         autoplay={true}
-//         // loop={true}
-//         breakpoints={{
-//           640: {
-//             slidesPerView: 2,
-//             spaceBetween: 20,
-//           },
-//           768: {
-//             slidesPerView: 3,
-//             spaceBetween: 40,
-//           },
-//           1024: {
-//             slidesPerView: 4,
-//             spaceBetween: 50,
-//           },
-//         }}
-//         // loop={true}
-//       >
-//         {" "}
-//         <div className="swiper-button-next"></div>
-//         <div className="swiper-button-prev"></div>
-//         {Header_smallSliderData.map((data) => {
-//           return (
-//             <SwiperSlide key={data.id} className="mt-2">
-//               <div className="smallSlider p-4">
-//                 <div className=" sm:float-left md:mx-2">
-//                   <img src={data.img_src} alt="slider items" className="w-[110px] h-[67px]" />
-//                 </div>
-//                 <div className="mx-auto">
-//                   <p className="text-[9px] lg:text-[14px]">{data.title}</p>
-//                 </div>
-//               </div>
-//             </SwiperSlide>
-//           );
-//         })}
-//       </Swiper>
-
-
-// Updated till 7th July 2022, 12:22 pm
-
-// <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-//       <Swiper
-//         // install Swiper modules
-//         modules={[Navigation, Autoplay]}
-//         // spaceBetween={50}
-//         slidesPerView={4}
-//         navigation={{
-//           nextEl: ".swiper-button-next",
-//           prevEl: ".swiper-button-prev",
-//         }}
-//         // navigation
-//         autoplay={true}
-//         loop={true}
-//       >
-//         {" "}
-//         <div className="swiper-button-next"></div>
-//         <div className="swiper-button-prev"></div>
-//         {Header_smallSliderData.map((data) => {
-//           return (
-//             <SwiperSlide key={data.id} className="border-4">
-//               <div className="smallSlider bg-red-200">
-//                 <div>
-//                   <img src={data.img_src} alt="slider items" />
-//                 </div>
-//               </div>
-//             </SwiperSlide>
-//           );
-//         })}
-//       </Swiper>
-//     </div>
-
-// */
