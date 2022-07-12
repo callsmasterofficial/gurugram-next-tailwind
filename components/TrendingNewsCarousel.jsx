@@ -59,7 +59,7 @@ export default class PreviousNextMethods extends Component {
     };
     return (
       // <div className="overflow-hidden">
-    <div className="w-[80%] relative  m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto overflow-hidden">
+    <div className="w-auto relative  m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto overflow-hidden">
         <h2 className="w-5 h-5"></h2>
         <div className="">
           <button className="mx-1 p-[3px] transition-all absolute z-10 left-0 top-[50%] bg-black rounded-full text-white" onClick={this.previous}>
