@@ -5,8 +5,8 @@ export default function MainRelatedPopularSidebar() {
   const [active, setActive]=useState(0);
   return (
     <>
-      <div className=" rounded-md md:my-0">
-        <div className="sidebarHeading flex flex-wrap justify-evenly mx-4">
+      <div className="w-[35%] rounded-md md:my-0 bg-blue-50">
+        <div className="sidebarHeading flex flex-wrap justify-evenly mx-4 lg:mx-1">
           <div>
             <button className={active===0?`${btnClass} border-b-4`: `${btnClass}`} onClick={()=>setActive(0)}>
               Related

@@ -3,10 +3,10 @@ import React from "react";
 function BusinessCategoriesArea() {
   return (
     <>
-      <div className="Categories-post md:border-l-2 border-gray border-dashed md:mt-[-74px]">
+      <div className="Categories-post border-gray border-dashed">
         <div className="section-title flex justify-between align-items-center">
-          <h3 className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4 md:text-lg">Categories</h3>
-          <a className="ml-5 text-xl relative mt-10 sm:mt-3 mb-4 md:text-lg" href="#">ALL SEE</a>
+          <h3 className="ml-1 text-xl relative font-semibold mt-10 sm:mt-3 mb-4 md:text-lg">Categories</h3>
+          <a className="ml-1 text-xl relative mt-10 sm:mt-3 mb-4 md:text-lg" href="#">ALL SEE</a>
         </div>
         <div className="Categories-item mt-3">
           <div className="item">
@@ -64,11 +64,7 @@ function BusinessCategoriesArea() {
             </div>
           </div>
         </div>
-        {/* <div className="sidebar-add pt-35">
-          <a href="#">
-            <img src="assets/images/ad/ad-2.jpg" alt="ad" />
-          </a>
-        </div> */}
+        
       </div>
     </>
   );

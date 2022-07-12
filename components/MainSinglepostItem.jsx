@@ -2,11 +2,11 @@ import React from "react";
 
 export default function MainSinglepostItem({active}) {
   return (
-    <div className="border-2">
+    <div className="">
       {MainSinglePostData[active].map((data) => {
         return (
-          <div key={data.id} className="border-dashed border-b-[1px] border-gray-400 lg:mx-7">
-            <div  className="flex justify-start items-start m-2">
+          <div key={data.id} className="mx-[4px] my-2">
+            <div  className="flex justify-start items-start">
               <div className="w-[140px] h-[77px]  sm:w-[120px] sm:h-[77px] md:w-[140px] md:h-[77px]">
                 <img src={data.img_src} alt="" className="w-[100%] h-[100%] object-cover md:rounded-md" />
               </div>
