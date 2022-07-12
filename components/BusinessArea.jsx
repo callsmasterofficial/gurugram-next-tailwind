@@ -47,7 +47,7 @@ function BusinessArea() {
   // );
   <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
   <div className="bussinessArea lg:mt-3 ">
-  <div className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">
+  <div className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4 border-t-2 border-b-2 p-4">
     <h1>Bussiness News</h1>
   </div>
   <div className="EntertainmentContainer">
