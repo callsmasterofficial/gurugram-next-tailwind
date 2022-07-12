@@ -1730,9 +1730,57 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 
-@media only screen and (min-width: 280px) and (max-width: 503px) {
+/* @media only screen and (min-width: 280px) and (max-width: 503px) {
   .TrendingImageFix{
     width: 320px;
     height: 280px;
+  }
+} */
+
+
+@media only screen and (min-width: 1200px) {
+  .trendingNewsCarouselContainer img{
+    max-width: 100%;
+  }
+  
+}
+
+/* @media only screen and (min-width: 280px) and (max-width: 503px){
+  .TrendingtitleFix{
+    font-size: 5px;
+  }
+} */
+
+/* ================================ */
+  /* Socials media query */
+/* ================================ */
+@media only screen and (min-width: 200px) and (max-width:400px) {
+  .socialLogo{
+    margin: 0 auto;
+  }
+  .socialFans{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width:768px) {
+  .socialLogo{
+    margin: 0 9px 0 auto;
+    font-size: 22px;
+  }
+  .socialFans{
+    margin: 0 auto 0 8px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width:910px) {
+  .socialLogo{
+    /* margin: 0 0 0 auto;
+    padding: 4px; */
+    /* font-size: 22px; */
+  }
+  .socialFans{
+    /* margin: 0 auto 0 0;
+    padding: 4px; */
+
   }
 }

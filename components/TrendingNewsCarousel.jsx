@@ -59,7 +59,8 @@ export default class PreviousNextMethods extends Component {
     };
     return (
       // <div className="overflow-hidden">
-    <div className="w-[80%] lg:w-[100%] relative  m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto overflow-hidden">
+
+    <div className="w-auto trendingNewsCarouselContainer relative  m-auto overflow-hidden">
         <h2 className="w-5 h-5"></h2>
         <div className="">
           <button className="mx-1 p-[3px] transition-all absolute z-10 left-0 top-[50%] bg-black rounded-full text-white" onClick={this.previous}>
@@ -74,9 +75,9 @@ export default class PreviousNextMethods extends Component {
            return (
           <div key={data.id} className="relative">
             <div className="p-1">
-              <img className="object-cover TrendingImageFix" src={data.img_src} alt="newFormat" />
+              <img className="object-contain TrendingImageFix" src={data.img_src} alt="newFormat" />
             </div>
-            <div className="absolute bottom-2 left-2 text-white ml-6 mr-6 titleFix">
+            <div className="absolute bottom-2 left-2 text-white ml-6 mr-6 text-sm md:text-xs lg:text-base xl:text-xl TrendingtitleFix">
               <p>{data.title}</p>
             </div>
           </div>
