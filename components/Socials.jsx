@@ -17,7 +17,7 @@ import {
 } from "./icons";
 export default function Socials() {
   return (
-    <div className="grid grid-cols-3 text-white">
+    <div className="grid grid-cols-3 text-white mx-auto">
       {/* Facebook */}
       <a href={FACEBOOK} target="_blank">
         <div className="social bg-[#4267B2] flex flex-start items-center p-2 m-2 rounded-md md:justify-center  md:flex-wrap lg:flex-nowrap">
@@ -26,7 +26,7 @@ export default function Socials() {
           </div>
           <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
-            <p>Fans</p>
+            <p>Followers</p>
           </div>
         </div>
       </a>
@@ -38,19 +38,19 @@ export default function Socials() {
           </div>
           <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
-            <p>Fans</p>
+            <p>Followers</p>
           </div>
         </div>
       </a>
       {/* Instagram  */}
       <a href={INSTAGRAM} target="_blank">
-        <div className="social instagram flex flex-start items-center p-2 m-2 rounded-md md:justify-center  md:flex-wrap lg:flex-nowrap ">
+        <div className="social instagram flex flex-start items-center p-2 m-2 mr-0 rounded-md md:justify-center  md:flex-wrap lg:flex-nowrap ">
           <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Instagram />
           </div>
           <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
-            <p>Fans</p>
+            <p>Followers</p>
           </div>
         </div>
       </a>
@@ -62,7 +62,7 @@ export default function Socials() {
           </div>
           <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
-            <p>Fans</p>
+            <p>Subscribers</p>
           </div>
         </div>
       </a>
@@ -80,13 +80,13 @@ export default function Socials() {
       </a>
       {/* Whatsapp  */}
       <a href={WHATSAPP} target="_blank">
-        <div className="social bg-green-400 flex flex-start items-center p-2 m-2 rounded-md md:justify-center   md:flex-wrap lg:flex-nowrap ">
+        <div className="social bg-green-400 flex flex-start items-center p-2 m-2 mr-0 rounded-md md:justify-center   md:flex-wrap lg:flex-nowrap ">
           <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Whatsapp />
           </div>
           <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
-            <p>Fans</p>
+            <p>Community</p>
           </div>
         </div>
       </a>

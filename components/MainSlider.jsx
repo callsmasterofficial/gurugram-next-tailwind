@@ -6,7 +6,7 @@ export default function MainSlider() {
     <>
       {MainSliderData.map((data) => {
         return (
-          <div key={data.id} className="post_gallery_play  md:mr-5">
+          <div key={data.id} className="post_gallery_play md:mr-5">
             <div className="bg-image"></div>
             <div className="post__gallery_play_content">
               <div className="post-meta">

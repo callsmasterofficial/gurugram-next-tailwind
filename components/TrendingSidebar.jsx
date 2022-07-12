@@ -7,7 +7,7 @@ export default function TrendingSidebar() {
   return (
     <div className="trending-right-sidebar">
       <Socials />
-      <div className="trending-most-view mt-25">
+      <div className="trending-most-view mt-25 mx-auto">
         <div className="section-title">
           <h3 className="title mx-2 md:text-xl font-bold">Most View</h3>
         </div>

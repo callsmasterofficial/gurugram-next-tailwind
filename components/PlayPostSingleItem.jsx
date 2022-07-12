@@ -19,7 +19,7 @@ export default class PreviousNextMethods extends Component {
   }
   render() {
     const settings = {
-      dots: true,
+      // dots: true,
       infinite: true,
       speed: 500,
       autoplay: true,
@@ -34,7 +34,7 @@ export default class PreviousNextMethods extends Component {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true,
+            // dots: true,
           },
         },
         {

@@ -5,10 +5,10 @@ import WeatherCard from "./WeatherCard";
 
 function EntertainmentArea() {
   return (
-    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-    <div className="entertainmentArea ">
+    <div className="w-[80%]  m-auto  3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+    <div className="entertainmentArea">
       
-      <div className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4 border-t-2 border-b-2 p-4">
+      <div className="ml-0 text-xl relative font-semibold mt-10 sm:mt-3 mb-4 border-t-2 border-b-2 p-4">
         <h1>Entertainment News</h1>
       </div>
       <div className="EntertainmentContainer">
@@ -42,7 +42,7 @@ function EntertainmentArea() {
               );
             })}{" "}
           </div>          
-          <div className=" md:col-span-1 text-black  md:border-l-2 border-gray border-dashed lg:mt-[-74px] md:mt-[-74px]">
+          <div className=" md:col-span-1 text-black border-gray border-dashed ">
               <h4 className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">Most Share</h4>
               <FooterSidebar />
               <WeatherCard/>
