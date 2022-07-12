@@ -12,7 +12,8 @@ export default function TrendingNewsArea() {
       </div>
       <div className="md:grid  md:grid-cols-5 ">
         <div className="trendingCarousel md:col-span-3">
-          <div className="mx-2 sm:mt-5 bg-green">
+          <div className="mx-2 mt-5 ">
+
             <TrendingNewsCarousel />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2">

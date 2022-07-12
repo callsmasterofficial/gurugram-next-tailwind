@@ -20,6 +20,7 @@ export default function FooterSidebar() {
       })}
     </div>
   );
+
 }
 
 const FooterSidebarPostData = [

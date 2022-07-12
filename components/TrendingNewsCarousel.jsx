@@ -59,6 +59,7 @@ export default class PreviousNextMethods extends Component {
     };
     return (
       // <div className="overflow-hidden">
+
     <div className="w-auto trendingNewsCarouselContainer relative  m-auto overflow-hidden">
         <h2 className="w-5 h-5"></h2>
         <div className="">
