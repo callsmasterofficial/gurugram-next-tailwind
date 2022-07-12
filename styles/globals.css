@@ -1732,7 +1732,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 @media only screen and (min-width: 280px) and (max-width: 503px) {
   .TrendingImageFix{
-    width: 25rem;
-    /* height: 40px; */
+    width: 320px;
+    height: 280px;
   }
 }
