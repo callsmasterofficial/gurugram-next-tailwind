@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-
 @tailwind utilities;
 
 /* Hamburger CSS */
@@ -1061,11 +1060,12 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   margin-bottom: 0;
   border-bottom: 0;
 }
-
+/*
 .trendingNewsCarousel{
-  /* width: 400px;
-  margin-right: 10px; */
-}
+   width: 400px;
+  margin-right: 10px; 
+}  
+*/
 
 
 /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
@@ -1705,9 +1705,34 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 }
 
-@media only screen  and (min-width: 320px) and (max-width: 970px) {
-.fuck{
-  display: flex;
-}
+/* ================================================================================== */
+  /* Feature news area slider settings */
+/* ================================================================================== */
+
+/* .featureImageFix{
+  backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);
+} */
+
+
+@media only screen and (min-width: 280px) and (max-width: 470px) {
+  .featureImageFix{
+    margin: 0 auto;
+  }
 }
 
+@media only screen and (min-width: 350px) and (max-width: 503px) {
+  .featureImageFix{
+    margin: 0 35px;
+  }
+  .titleFix{
+    margin: 0 45px
+  }
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 503px) {
+  .TrendingImageFix{
+    width: 25rem;
+    /* height: 40px; */
+  }
+}

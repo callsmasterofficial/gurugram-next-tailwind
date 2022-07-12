@@ -1,82 +1,104 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-  FreeMode,
-  Thumbs,
-} from "swiper";
-import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/navigation";
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import LeftArrow from "../components/icons/LeftArrow";
+import RightArrow from "../components/icons/RightArrow";
 
-export default function FeatureSinglePost() {
-  return (
-    <Swiper
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, Thumbs]}
-      // spaceBetween={20}
-      slidesPerView={1}
-      breakpoints={{
-        // when window width is >= 460px
-        460: {
-          width: 460,
-          slidesPerView: 2,
-          spaceBetween: 30,
+export default class PreviousNextMethods extends Component {
+  constructor(props) {
+    super(props);
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
+  }
+  next() {
+    this.slider.slickNext();
+  }
+  previous() {
+    this.slider.slickPrev();
+  }
+  render() {
+    const settings = {
+      // dots: true,
+      infinite: true,
+      speed: 500,
+      autoplay: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      draggable: true,
+      responsive: [
+        {
+          breakpoint: 1380,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            // dots: true,
+          },
         },
-        // when window width is >= 640px
-        640: {
-          width: 640,
-          slidesPerView: 3,
-          spaceBetween: 10,
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            // dots: true,
+          },
         },
-        768: {
-          width: 768,
-          slidesPerView: 3,
-          spaceBetween: 20,
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
         },
-      }}
-      navigation={true}
-      autoplay
-      pagination={{
-        el: ".swiper-pagination",
-        clickable: true,
-      }}
-      scrollbar={{ draggable: true }}
-      // onSwiper={(swiper) => console.log(swiper)}
-      // onSlideChange={() => console.log("slide change")}
-    >
-      {/* <SwiperSlide> */}
-      {FeatureSinglePostData.map((data) => {
-        return (
-          <SwiperSlide key={data.id}>
-            <div className="feature-post ml-2 sm:ml-3 md:ml-3">
-              <div className="featureSingleImage">
-                <img src={data.img_src} alt="feature post image" className="mx-auto md:rounded-md md:w-max lg:w-[255px] lg:h-[320px] lg:rounded-lg" />
-              </div>
-              <div className="feature-post-content bg-gray-700 p-2 sm:bg-inherit sm:p-0">
-                <div className="title flex">
-                  <div className="">
-                    <a href="#" className="text-[#1091ff]">{data.category}</a>
-                    <span>{" / "}</span>
-                    <span className="text-gray-400">{data.date}</span>
-                  </div>
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    };
+    return (
+      // <div className="overflow-hidden">
+      <div className="relative">
+        <h2 className="w-5 h-5"></h2>
+        <div className="">
+          <button
+            className="mx-1 p-[3px] transition-all absolute z-10 left-0 top-[50%]  bg-black rounded-full text-white"
+            onClick={this.previous}
+          >
+            <LeftArrow color="white" width="1.5rem" height="1.5rem" />
+          </button>
+          <button
+            className="mx-1 p-[3px] transition-all absolute z-10 right-0 top-[50%] bg-black rounded-full text-white"
+            onClick={this.next}
+          >
+            <RightArrow color="white" width="1.5rem" height="1.5rem" />
+          </button>
+        </div>
+        <Slider ref={(c) => (this.slider = c)} {...settings}>
+        {FeatureSinglePostData.map((data) => {
+          return (
+              <div key={data.id} className="relative">
+                <div className="p-1 featureImageFix">
+                  <img className="" src={data.img_src} alt="newFormat" />
                 </div>
-                <h4 className="title text-ellipsis">
-                  <a href="#">{data.title}</a>
-                </h4>
+                <div className="absolute bottom-2 left-2 text-white ml-6 mr-6 titleFix">
+                  <p>{data.title}</p>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-        );
-      })};
-    </Swiper>
-  );
+          );
+        })}
+        </Slider>
+      </div>
+    );
+  }
 }
-
 const FeatureSinglePostData = [
   {
     id: "1",
