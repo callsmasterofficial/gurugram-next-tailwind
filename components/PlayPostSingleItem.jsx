@@ -1,72 +1,99 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-  FreeMode,
-  Thumbs,
-} from "swiper";
-import "swiper/css";
-import "swiper/css/autoplay";
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import LeftArrow from "../components/icons/LeftArrow";
+import RightArrow from "../components/icons/RightArrow";
 
-export default function PlayPostSingleItem() {
-  return (
-    <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
-        // slidesPerGroup={3}
-        // loop={true}
-        // loopFillGroupWithBlank={true}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+export default class PreviousNextMethods extends Component {
+  constructor(props) {
+    super(props);
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
+  }
+  next() {
+    this.slider.slickNext();
+  }
+  previous() {
+    this.slider.slickPrev();
+  }
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      autoplay: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      draggable: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
           },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 40,
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
           },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 50,
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
           },
-        }}
-        autoplay
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-      >
-      {PlayPostData.map((data) => {
-        return (
-          <SwiperSlide key={data.id}>
-            <div className="relative postPlay">
-              <div className="postPlayCarousel">
-                <img src={data.img_src} alt="" className=""  />
-              </div>
-              <div className="description absolute text-white bottom-1 p-1 left-1">
-                <div className="dateCategory flex">
-                    <p className="text-blue-400">{data.category}</p>
-                    <p>{" / "}</p>
-                    <p className="">{data.date}</p>
+        },
+      ],
+    };
+    return (
+      // <div className="overflow-hidden">
+      <div className="w-auto relative  m-auto overflow-hidden">
+        <h2 className="w-5 h-5"></h2>
+        <div className="">
+          <button
+            className="mx-1 p-[3px] transition-all absolute z-10 left-0 top-[50%] bg-black rounded-full text-white"
+            onClick={this.previous}
+          >
+            <LeftArrow color="white" width="1.5rem" height="1.5rem" />
+          </button>
+          <button
+            className="mx-1 p-[3px] transition-all absolute z-10 right-0 top-[50%] bg-black rounded-full text-white"
+            onClick={this.next}
+          >
+            <RightArrow color="white" width="1.5rem" height="1.5rem" />
+          </button>
+        </div>
+        <Slider ref={(c) => (this.slider = c)} {...settings}>
+          {PlayPostData.map((data) => {
+            return (
+              <div key={data.id} className="relative postPlay">
+                <div className="p-1 postPlayCarousel">
+                  <img
+                    className="object-contain imageFix"
+                    src={data.img_src}
+                    alt="newFormat"
+                  />
                 </div>
-                <div className="title">
-                    <h2>{data.title}</h2>
+                <div className="absolute bottom-2 left-2 text-white ml-6 mr-6 titleFix">
+                  <p>{data.title}</p>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
-        );
-      })}
-    </Swiper>
-  );
+            );
+          })}
+        </Slider>.
+      </div>
+    );
+  }
 }
-
 const PlayPostData = [
   {
     id: "1",

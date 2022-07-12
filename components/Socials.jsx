@@ -20,11 +20,11 @@ export default function Socials() {
     <div className="grid grid-cols-3 text-white">
       {/* Facebook */}
       <a href={FACEBOOK} target="_blank">
-        <div className="social bg-[#4267B2] flex flex-start items-center p-2 m-2 rounded-md md:justify-center">
-          <div className="logo ">
+        <div className="social bg-[#4267B2] flex flex-start items-center p-2 m-2 rounded-md md:justify-center  md:flex-wrap lg:flex-nowrap">
+          <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Facebook />
           </div>
-          <div className="mx-2 text-sm lg:mx-4">
+          <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -32,11 +32,11 @@ export default function Socials() {
       </a>
       {/* Twitter  */}
       <a href={TWITTER} target="_blank">
-        <div className="social bg-[#1DA1F2] flex flex-start items-center p-2 m-2 rounded-md md:justify-center">
-          <div className="logo ">
+        <div className="social bg-[#1DA1F2] flex flex-start items-center p-2 m-2 rounded-md md:justify-center  md:flex-wrap lg:flex-nowrap ">
+          <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Twitter />
           </div>
-          <div className="mx-2 text-sm lg:mx-4">
+          <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -44,11 +44,11 @@ export default function Socials() {
       </a>
       {/* Instagram  */}
       <a href={INSTAGRAM} target="_blank">
-        <div className="social instagram flex flex-start items-center p-2 m-2 rounded-md md:justify-center">
-          <div className="logo ">
+        <div className="social instagram flex flex-start items-center p-2 m-2 rounded-md md:justify-center  md:flex-wrap lg:flex-nowrap ">
+          <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Instagram />
           </div>
-          <div className="mx-2 text-sm lg:mx-4">
+          <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -56,11 +56,11 @@ export default function Socials() {
       </a>
       {/* Youtube  */}
       <a href={YOUTUBE} target="_blank">
-        <div className="social bg-[#FF0000] flex flex-start items-center p-2 m-2 rounded-md  md:justify-center">
-          <div className="logo ">
+        <div className="social bg-[#FF0000] flex flex-start items-center p-2 m-2 rounded-md  md:justify-center  md:flex-wrap lg:flex-nowrap ">
+          <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Youtube />
           </div>
-          <div className="mx-2 text-sm lg:mx-4">
+          <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -68,11 +68,11 @@ export default function Socials() {
       </a>
       {/* Telegram  */}
       <a href={TELEGRAM} target="_blank">
-        <div className="social bg-[#31a8e0] flex flex-start items-center p-2 m-2 rounded-md md:justify-center">
-          <div className="logo">
+        <div className="social bg-[#31a8e0] flex flex-start items-center p-2 m-2 rounded-md md:justify-center  md:flex-wrap lg:flex-nowrap ">
+          <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Telegram />
           </div>
-          <div className="mx-2 text-sm lg:mx-4">
+          <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>
@@ -80,11 +80,11 @@ export default function Socials() {
       </a>
       {/* Whatsapp  */}
       <a href={WHATSAPP} target="_blank">
-        <div className="social bg-green-400 flex flex-start items-center p-2 m-2 rounded-md ">
-          <div className="logo">
+        <div className="social bg-green-400 flex flex-start items-center p-2 m-2 rounded-md md:justify-center   md:flex-wrap lg:flex-nowrap ">
+          <div className="socialLogo md:mb-2 lg:mb-0 lg:ml-2">
             <Whatsapp />
           </div>
-          <div className="mx-2 text-sm lg:mx-4">
+          <div className="socialFans mx-2 text-xs sm:text-sm lg:mx-4">
             <h4 className="font-bold">34,456</h4>
             <p>Fans</p>
           </div>

@@ -60,11 +60,5 @@ const TrendingSinglePostData = [
     date: "June 24, 2022",
     title: "Cheap smartphone sensor could help you old food safe",
   },
-  {
-    id: "6",
-    img_src: "./assets/images/gallery-3.jpg",
-    category: "Technology",
-    date: "June 24, 2022",
-    title: "U.S. Response subash says he will label regiions this is new format",
-  },
+  
 ];
