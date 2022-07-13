@@ -1784,3 +1784,9 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
   }
 }
+
+
+sup{
+  font-size: 18px;
+  top: -15px;
+}

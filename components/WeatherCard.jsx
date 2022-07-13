@@ -76,8 +76,8 @@ function WeatherCard() {
                 alt="Image not found"
               />
               {/* <div className="text-white">{city.name}</div> */}
-              <div className="text-white text-3xl">Delhi</div>
-              <div className="text-white">Mist</div>
+              <div className="text-white text-3xl text-center	">Delhi</div>
+              <div className="text-white text-center	">Mist</div>
             </div>
             <div className="col-span-1">
               <ul>
