@@ -2,11 +2,11 @@ import React from "react";
 
 export default function FooterSidebar() {
   return (
-    <div className="border-2">
+    <div className="">
       
       {FooterSidebarPostData.map((data) => {
         return (
-          <div key={data.id} className="flex justify-start items-start mx-6 my-2 border-dashed border-b-[1px] border-gray-400">
+          <div key={data.id} className="flex justify-start items-start  border-gray-400 m-1 mt-7 mb-7">
             
             <div className="">
               <p className="mx-3 text-3xl bg-gray-700 text-gray-400 rounded-full px-3 py-1 ">{data.id}</p>

@@ -14,7 +14,7 @@ export default function Footer() {
     <div className="bg-[#17222b] w-[100%]">
       <div className="w-[100%] md:w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
         <div className="footermain ">
-          <div className="pt-12 pb-12">
+          <div className="pt-12 pb-4">
             <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
               <div className="col-span-1 ">
                 <img
@@ -43,7 +43,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="col-span-1 mt-20 mx-10 md:mx-0">
-                <div className="flex mb-6">
+                <div className="flex mb-6 h-14">
                   <input
                     type="text"
                     placeholder="Your email address"
@@ -73,7 +73,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footerContainer w-[100%] md:w-[90%] m-auto">
+          <div className="footerContainer w-[100%]  m-auto">
             <div className="">
               <div className="w-[100%]">
                 <div className=" md:flex  sm:border-b-2 border-gray border-dashed">
@@ -128,7 +128,7 @@ export default function Footer() {
                 </div>
                 <div className="md:flex">
                   <div className="col-span-2 text-white w-screen">
-                    <div className="items-start m-6  mr-[50px]  p-4 rounded-md border-gray border-dashed	mt-2">
+                    <div className="items-start m-6  mr-[50px]  rounded-md border-gray border-dashed	mt-2 p-2">
                       <h2 className="mt-2">Newpark News Services</h2>
                       <div className="flex items-center	mt-2">
                         <FooterMobile />
@@ -145,7 +145,7 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="col-span-2 text-white w-screen">
-                    <div className="items-start m-6  mr-[50px]  p-4 rounded-md border-gray border-dashed	mt-2">
+                    <div className="items-start m-6  mr-[50px]  p-2 rounded-md border-gray border-dashed	mt-2">
                       {/* <h2 className="mt-2">Newpark News Services</h2> */}
                       <div className="flex items-center	mt-2">
                         {/* <FooterMobile /> */}
@@ -172,8 +172,8 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="p-4 border-t-2 border-dashed text-align-center">
-              <div className=" text-white text-[14px]">
+            <div className="p-4 border-t-2 border-dashed ">
+              <div className=" text-white text-[14px] text-center">
                   <a href="#">© Copyright 2022, All Rights Reserved |</a>
                   <a href="#">❤️Gurugram News Network | Developed by</a>
                   <a className="ml-1" href="#">Callsmaster Services LLP</a>
