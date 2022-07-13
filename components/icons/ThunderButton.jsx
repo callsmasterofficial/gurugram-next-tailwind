@@ -5,7 +5,7 @@ function ThunderButton({color, height,width}) {
     <>
       <svg
         stroke={color || "currentColor"}
-        fill={color || "currentColor"}
+        fill={color || "red"}
         strokeWidth={0}
         viewBox="0 0 16 16"
         height={height || "1em"}

@@ -8,7 +8,7 @@ function SportsArea() {
   return (
     <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
 
-<div className="  m-auto text-xl font-semibold mt-4 mb-4 border-t-2 border-b-2 p-4">
+<div className="  m-auto text-xl font-semibold  mb-4 border-t-2 border-b-2 p-2 mt-24">
     <h1>Sports News</h1>
 </div>
       <div className="SportsArea m-auto ">
