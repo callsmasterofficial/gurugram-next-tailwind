@@ -21,7 +21,7 @@ function WeatherCard() {
   console.log(city);
   return (
     <>
-      <div className=" text-white mx-auto my-2" >
+      <div className=" text-white mx-6 my-2 md:mx-6" >
         <div className="bg-[#16b9f4] rounded-lg p-3 w-auto	">
           {/* <div className=" col-span-2 text-3xl">
           <div className=" col-span-1 text-3xl">Weather</div>
@@ -86,7 +86,8 @@ function WeatherCard() {
                 {/* <li className="text-white">{Math.floor(city.main?.temp - 273.15)}</li> */}
 
                 {/* <li className="text-white">{city.main?.temp}</li> */}
-                <li className="text-white text-8xl	">37</li>
+                <li className="text-white text-6xl	">37<sup>o</sup><span className="text-2xl">C</span></li>
+                
                 <li className="text-white">37-42</li>
                 <li className="text-white">41%</li>
                 <li className="text-white">3.09 Km/h</li>
