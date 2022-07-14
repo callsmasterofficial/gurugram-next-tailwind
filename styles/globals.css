@@ -1137,7 +1137,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 .video-news-box {
-  padding: 30px;
+  /* padding: 30px; */
   background: #fcfcfc;
   margin: 0 30px;
 }
@@ -1177,6 +1177,9 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 .video-news-post-item {
   background: #e9eaeb;
+}
+.video-news-post-thumb{
+  padding :15px;
 }
 .video-news-post-item .video-news-post-thumb {
   position: relative;
@@ -1506,19 +1509,24 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
   .entertainmentArea {
-    margin-top: 20rem;
+    margin-top: 12rem;
   }
 }
 
 @media only screen and (min-width: 1081px) and (max-width: 1330px) {
   .entertainmentArea {
-    margin-top: 16rem;
+    margin-top: 10rem;
   }
 }
 
 @media only screen and (min-width: 1331px) {
   .entertainmentArea {
-    margin-top: 24rem;
+    margin-top: 15rem;
+  }
+}
+@media only screen and (min-width: 4000px) and (max-width: 5000px) {
+  .entertainmentArea {
+    margin-top: 35rem;
   }
 }
 

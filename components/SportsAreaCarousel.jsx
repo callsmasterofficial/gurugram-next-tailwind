@@ -1,7 +1,7 @@
 import React from 'react'
 export default function SportsAreaCarousel() {
   return (
-    <div className="border-2">
+    <div className="">
       {SportsAreaCarouselData.map((data) => {
         return (
           <div key={data.id} className="border-dashed border-b-[1px] border-gray-400">

@@ -81,23 +81,23 @@ export default function Footer() {
                     <h2 className="m-3.5 mx-5">News Categories</h2>
                     <div className="flex justify-between mr-20 mx-3 ">
                       <div className="left">
-                        <li className="list-none m-3.5"> <a href="#">Politics</a></li>
-                        <li className="list-none m-3.5"><a href="#">Business</a></li>
-                        <li className="list-none m-3.5"><a href="#">Technology</a></li>
-                        <li className="list-none m-3.5"><a href="#">Science</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Health</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Sports</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Entertainment</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"> <a href="#">Politics</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Business</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Technology</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Science</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Health</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Sports</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Entertainment</a></li>
                       </div>
 
                       <div className="right">
-                        <li className="list-none m-3.5"><a href="#"> Education</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Obituaries</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Obituaries</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Corrections</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Newspaper</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Corrections</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Foods</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Education</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Obituaries</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Obituaries</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Corrections</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Newspaper</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Corrections</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Foods</a></li>
                       </div>
                     </div>
                   </div>
@@ -106,22 +106,22 @@ export default function Footer() {
                     <h2 className="m-3.5 mx-6">Living</h2>
                     <div className="flex justify-between mr-20 mx-3 text-white">
                       <div className="left">
-                        <li className="list-none m-3.5"><a href="#">Crossword</a></li>
-                        <li className="list-none m-3.5"><a href="#">Food</a></li>
-                        <li className="list-none m-3.5"><a href="#">Automobiles</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Education</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Health</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Magazine</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Weddings</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Crossword</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Food</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Automobiles</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Education</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Health</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Magazine</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Weddings</a></li>
                       </div>
                       <div className="right ">
-                        <li className="list-none m-3.5"><a href="#"> Classifieds</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Photographies</a></li>
-                        <li className="list-none m-3.5"><a href="#"> NYT Store</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Journalisms</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Public Editor</a></li>
-                        <li className="list-none m-3.5"><a href="#"> Tools Services</a></li>
-                        <li className="list-none m-3.5"><a href="#"> My Account</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Classifieds</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Photographies</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> NYT Store</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Journalisms</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Public Editor</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Tools Services</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> My Account</a></li>
                       </div>
                     </div>
                   </div>
@@ -145,27 +145,37 @@ export default function Footer() {
                     </div>
                   </div>
                   <div className="col-span-2 text-white w-screen">
-                    <div className="items-start m-6  mr-[50px]  p-2 rounded-md border-gray border-dashed	mt-2">
+                    <div className="items-start m-6  mr-[50px]  p-2 rounded-md border-gray border-dashed	mt-2 ">
                       {/* <h2 className="mt-2">Newpark News Services</h2> */}
                       <div className="flex items-center	mt-2">
                         {/* <FooterMobile /> */}
-                        <p className="mx-2">About</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500" >About</p>
+                        </a>
                       </div>
                       <div className="flex items-center mt-2	">
                         {/* <FooterMicophone /> */}
-                        <p className="mx-2">Privacy & Policy</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500">Privacy & Policy</p>
+                        </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
-                        <p className="mx-2">Advertise</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500">Advertise</p>
+                        </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
-                        <p className="mx-2">Terms Of Use</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500">Terms Of Use</p>
+                        </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
-                        <p className="mx-2">Contact Us</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500">Contact Us</p>
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -43,9 +43,12 @@ function EntertainmentArea() {
             })}{" "}
           </div>          
           <div className=" md:col-span-1 text-black border-gray border-dashed ">
-              <h4 className="ml-5 text-xl relative font-semibold mt-10 sm:mt-3 mb-4">Most Share</h4>
+              <h4 className="ml-5 text-xl relative font-semibold  mb-4 ">Most Share</h4>
+              <div className="border-b-2 border-solid">
+              </div>
               <FooterSidebar />
               <WeatherCard/>
+              
 
           </div>
         </div>
