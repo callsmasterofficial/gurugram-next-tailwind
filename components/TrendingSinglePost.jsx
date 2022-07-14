@@ -7,7 +7,7 @@ export default function TrendingSinglePost() {
         return (
           <div key={data.id} className="bg-red-50">
             <div  className="flex justify-start items-start m-2">
-              <div className="w-[90px] h-[55px]  sm:w-[110px] sm:h-[70px] md:w-[140px] md:h-[87px]">
+              <div className="w-[90px] h-[55px]  sm:w-[110px] sm:h-[70px] md:w-[120px] md:h-[70px] 3xl:w-[140px] 3xl:h-[87px]">
                 <img src={data.img_src} alt="" className="w-[100%] h-[100%] object-cover md:rounded-md" />
               </div>
               <div className="mx-2 w-[100%] ">

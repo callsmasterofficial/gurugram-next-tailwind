@@ -2,7 +2,7 @@ import React from 'react'
 import MainSinglepostItem from "./MainSinglepostItem"
 export default function TrendingCarouselBottom() {
   return (
-    <div className="border-2 mb-5">
+    <div className=" mb-5">
       {TrendingSinglePostData.map((data) => {
         return (
           <div key={data.id} className="">
@@ -46,5 +46,12 @@ const TrendingSinglePostData = [
       category: "Technology",
       date: "June 24, 2022",
       title: "U.S. Response subash says he will label regiions this is new format",
+    },
+    {
+      id: "4",
+      img_src: "./assets/images/gallery-2.jpg",
+      category: "Technology",
+      date: "June 24, 2022",
+      title: "Nancy Zhang a Chinese busy woman and Dhaka",
     },
   ]

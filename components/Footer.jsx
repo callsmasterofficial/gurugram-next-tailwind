@@ -25,7 +25,7 @@ export default function Footer() {
 
                 <div className=" mx-auto p-4  iconBox md:mx-0 mt-6  sm:mx-auto text-white">
                   <div>
-                    <h3 className="bg-black  w-fit">About US</h3>
+                    <h3 className="bg-black  w-fit p-2">About US</h3>
                   </div>
                   <div>
                     <span>
@@ -173,6 +173,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="p-4 border-t-2 border-dashed ">
+
               <div className=" text-white text-[14px] text-center">
                   <a href="#">© Copyright 2022, All Rights Reserved |</a>
                   <a href="#">❤️Gurugram News Network | Developed by</a>
