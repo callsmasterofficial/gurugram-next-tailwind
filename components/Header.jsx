@@ -20,7 +20,7 @@ export default function Header() {
       <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
       <div className="hidden relative mb-0 md:flex md:items-center">
         <div className="flex flex-wrap items-center justify-evenly" id="logo">
-          <a href="#">
+          <a href="/">
             <img
               src="./assets/images/GurugramNewsLogo.png"
               alt="gurugram-news-network"

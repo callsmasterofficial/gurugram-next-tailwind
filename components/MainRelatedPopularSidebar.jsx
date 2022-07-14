@@ -1,32 +1,71 @@
-import React, { useState }from "react";
+import React, { useState } from "react";
 import MainSinglepostItem from "./MainSinglepostItem";
 
 export default function MainRelatedPopularSidebar() {
-  const [active, setActive]=useState(0);
+  const [active, setActive] = useState(0);
   return (
     <>
-      <div className="col-span-1">
-                    <div className="post_gallery_sidebar px-3 mx-2">
-                        <ul className="nav nav-pills grid grid-cols-3" id="pills-tab" role="tablist">
-                            <li className="nav-item">
-                                <a className="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">TRENDY</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">LATEST</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">POPULAR</a>
-                            </li>
-                        </ul>
-                        <div className="tab-content" id="pills-tabContent">
-                            <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <div className="post_gallery_items">
-                                    <div className="gallery_item">
-                                        <div className="gallery_item_thumb">
-                                            <img src="assets/images/gallery-1.jpg" alt="gallery" />
-                                        </div>
-                                        <div className="gallery_item_content">
-                                            {/* <div className="post-meta">
+      <div className="col-span-1 ml-2 mr-1 ">
+        <div className="post_gallery_sidebar ">
+          <ul
+            className="grid grid-cols-3 my-2 text-[12px]"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li className="nav-item mx-auto bg-red-400 p-2 md:px-8 text-white">
+              <a
+                className="nav-link"
+                id="pills-home-tab"
+                data-toggle="pill"
+                href="#pills-home"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                TRENDY
+              </a>
+            </li>
+            <li className="nav-item mx-auto bg-red-400 p-2 md:px-8 text-white">
+              <a
+                className="nav-link"
+                id="pills-profile-tab"
+                data-toggle="pill"
+                href="#pills-profile"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                LATEST
+              </a>
+            </li>
+            <li className="nav-item mx-auto bg-red-400 p-2 md:px-8 text-white">
+              <a
+                className="nav-link"
+                id="pills-contact-tab"
+                data-toggle="pill"
+                href="#pills-contact"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                POPULAR
+              </a>
+            </li>
+          </ul>
+          <div className="tab-content" id="pills-tabContent">
+            <div
+              className="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <div className="post_gallery_items">
+                <div className="gallery_item">
+                  <div className="gallery_item_thumb">
+                    <img src="assets/images/gallery-1.jpg" alt="gallery" />
+                  </div>
+                  <div className="gallery_item_content">
+                    {/* <div className="post-meta">
                                                 <div className="meta-categories">
                                                     <a href="#">TECHNOLOGY</a>
                                                 </div>
@@ -34,79 +73,97 @@ export default function MainRelatedPopularSidebar() {
                                                     <span>March 26, 2020</span>
                                                 </div>
                                             </div> */}
-                                            <h4 className="title"><a href="#">Copa America: Luis Suarez from devastated US</a></h4>
-                                        </div>
-                                    </div>
-                                    <div className="gallery_item">
-                                        <div className="gallery_item_thumb">
-                                            <img src="assets/images/gallery-2.jpg" alt="gallery" />
-                                        </div>
-                                        <div className="gallery_item_content">
-                                            {/* <div className="post-meta">
-                                                <div className="meta-categories">
-                                                    <a href="#">TECHNOLOGY</a>
-                                                </div>
-                                                <div className="meta-date">
-                                                    <span>March 26, 2020</span>
-                                                </div>
-                                            </div> */}
-                                            <h4 className="title"><a href="#">Nancy Zhang a Chinese busy woman and Dhaka</a></h4>
-                                        </div>
-                                    </div>
-                                    <div className="gallery_item">
-                                        <div className="gallery_item_thumb">
-                                            <img src="assets/images/gallery-3.jpg" alt="gallery" />
-                                        </div>
-                                        <div className="gallery_item_content">
-                                            {/* <div className="post-meta">
-                                                <div className="meta-categories">
-                                                    <a href="#">TECHNOLOGY</a>
-                                                </div>
-                                                <div className="meta-date">
-                                                    <span>March 26, 2020</span>
-                                                </div>
-                                            </div> */}
-                                            <h4 className="title"><a href="#">U.S. Response subash says he will label regions by risk of…</a></h4>
-                                        </div>
-                                    </div>
-                                    <div className="gallery_item">
-                                        <div className="gallery_item_thumb">
-                                            <img src="assets/images/gallery-4.jpg" alt="gallery" />
-                                        </div>
-                                        <div className="gallery_item_content">
-                                            {/* <div className="post-meta">
-                                                <div className="meta-categories">
-                                                    <a href="#">TECHNOLOGY</a>
-                                                </div>
-                                                <div className="meta-date">
-                                                    <span>March 26, 2020</span>
-                                                </div>
-                                            </div> */}
-                                            <h4 className="title"><a href="#">Venezuela elan govt and opposit the property collect</a></h4>
-                                        </div>
-                                    </div>
-                                    <div className="gallery_item">
-                                        <div className="gallery_item_thumb">
-                                            <img src="assets/images/gallery-5.jpg" alt="gallery" />
-                                        </div>
-                                        <div className="gallery_item_content">
-                                            {/* <div className="post-meta">
-                                                <div className="meta-categories">
-                                                    <a href="#">TECHNOLOGY</a>
-                                                </div>
-                                                <div className="meta-date">
-                                                    <span>March 26, 2020</span>
-                                                </div>
-                                            </div> */}
-                                            <h4 className="title"><a href="#">Cheap smartphone sensor could help you old food safe</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
+                    <h4 className="title">
+                      <a href="#">
+                        Copa America: Luis Suarez from devastated US
+                      </a>
+                    </h4>
+                  </div>
                 </div>
+                <div className="gallery_item">
+                  <div className="gallery_item_thumb">
+                    <img src="assets/images/gallery-2.jpg" alt="gallery" />
+                  </div>
+                  <div className="gallery_item_content">
+                    {/* <div className="post-meta">
+                                                <div className="meta-categories">
+                                                    <a href="#">TECHNOLOGY</a>
+                                                </div>
+                                                <div className="meta-date">
+                                                    <span>March 26, 2020</span>
+                                                </div>
+                                            </div> */}
+                    <h4 className="title">
+                      <a href="#">Nancy Zhang a Chinese busy woman and Dhaka</a>
+                    </h4>
+                  </div>
+                </div>
+                <div className="gallery_item">
+                  <div className="gallery_item_thumb">
+                    <img src="assets/images/gallery-3.jpg" alt="gallery" />
+                  </div>
+                  <div className="gallery_item_content">
+                    {/* <div className="post-meta">
+                                                <div className="meta-categories">
+                                                    <a href="#">TECHNOLOGY</a>
+                                                </div>
+                                                <div className="meta-date">
+                                                    <span>March 26, 2020</span>
+                                                </div>
+                                            </div> */}
+                    <h4 className="title">
+                      <a href="#">
+                        U.S. Response subash says he will label regions by risk
+                        of…
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                <div className="gallery_item">
+                  <div className="gallery_item_thumb">
+                    <img src="assets/images/gallery-4.jpg" alt="gallery" />
+                  </div>
+                  <div className="gallery_item_content">
+                    {/* <div className="post-meta">
+                                                <div className="meta-categories">
+                                                    <a href="#">TECHNOLOGY</a>
+                                                </div>
+                                                <div className="meta-date">
+                                                    <span>March 26, 2020</span>
+                                                </div>
+                                            </div> */}
+                    <h4 className="title">
+                      <a href="#">
+                        Venezuela elan govt and opposit the property collect
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                <div className="gallery_item">
+                  <div className="gallery_item_thumb">
+                    <img src="assets/images/gallery-5.jpg" alt="gallery" />
+                  </div>
+                  <div className="gallery_item_content">
+                    {/* <div className="post-meta">
+                                                <div className="meta-categories">
+                                                    <a href="#">TECHNOLOGY</a>
+                                                </div>
+                                                <div className="meta-date">
+                                                    <span>March 26, 2020</span>
+                                                </div>
+                                            </div> */}
+                    <h4 className="title">
+                      <a href="#">
+                        Cheap smartphone sensor could help you old food safe
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

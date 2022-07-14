@@ -10,9 +10,9 @@ export default function MainGalleryArea() {
         <MainSlider/>
         <MainRelatedPopularSidebar />
     </div> */}
-    <div className="post__gallery__area mt-5">
+    <div className="post__gallery__area mt-5 mx-auto">
         <div className="container">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 xl:grid-cols-3 mx-auto">
                 <MainSlider/>
                 <MainRelatedPopularSidebar />
             </div>
