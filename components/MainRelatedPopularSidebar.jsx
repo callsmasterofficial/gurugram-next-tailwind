@@ -5,14 +5,14 @@ export default function MainRelatedPopularSidebar() {
   const [active, setActive] = useState(0);
   return (
     <>
-      <div className="col-span-1 ml-2 mr-1 ">
+      <div className="col-span-1 mx-0 md:ml-2 md:mr-1 ">
         <div className="post_gallery_sidebar ">
           <ul
             className="grid grid-cols-3 my-2 text-[12px]"
             id="pills-tab"
             role="tablist"
           >
-            <li className="nav-item mx-auto bg-red-400 p-2 md:px-8 text-white">
+            <li className="nav-item mr-1 bg-red-400 p-2 md:px-8 text-white">
               <a
                 className="nav-link"
                 id="pills-home-tab"
@@ -22,10 +22,10 @@ export default function MainRelatedPopularSidebar() {
                 aria-controls="pills-home"
                 aria-selected="true"
               >
-                TRENDY
+                TRENDING
               </a>
             </li>
-            <li className="nav-item mx-auto bg-red-400 p-2 md:px-8 text-white">
+            <li className="nav-item mx-1 bg-red-400 p-2 md:px-8 text-white">
               <a
                 className="nav-link"
                 id="pills-profile-tab"
@@ -38,7 +38,7 @@ export default function MainRelatedPopularSidebar() {
                 LATEST
               </a>
             </li>
-            <li className="nav-item mx-auto bg-red-400 p-2 md:px-8 text-white">
+            <li className="nav-item ml-1 bg-red-400 p-2 md:px-8 text-white">
               <a
                 className="nav-link"
                 id="pills-contact-tab"

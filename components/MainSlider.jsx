@@ -13,14 +13,14 @@ export default function MainSlider() {
                         <div className="post_gallery_play">
                             <div className="bg-image"></div>
                             <div className="post__gallery_play_content">
-                                <div className="post-meta">
+                                {/* <div className="post-meta">
                                     <div className="meta-categories">
                                         <a href="#">TECHNOLOGY</a>
                                     </div>
                                     <div className="meta-date">
                                         <span>March 26, 2020</span>
                                     </div>
-                                </div>
+                                </div> */}
                                 <h2 className="title"><a href="#">Japan’s virus success has puzzled the world. Is its luck running out?</a></h2>
                                 <p>The property, complete with a 30-seat screening room, a 100-seat amphitheater and a swimming pond with sandy beach and outdoor shower…</p>
                             </div>
@@ -29,7 +29,7 @@ export default function MainSlider() {
                             </div>
                         </div>
                     </div>
-                    <div className="post_gallery_inner_slider grid grid-cols-8 w-[80%] 3xl:w-[60%] mx-auto">
+                    <div className="post_gallery_inner_slider hidden sm:grid grid-cols-8 w-[90%] 3xl:w-[60%] mx-auto">
                         <div className="item">
                             <img src="assets/images/gallery-post/item-1.jpg" alt="" />
                         </div>
