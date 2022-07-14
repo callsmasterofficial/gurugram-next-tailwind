@@ -20,14 +20,16 @@ export default function Header() {
       <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
       <div className="hidden relative mb-0 md:flex md:items-center">
         <div className="flex flex-wrap items-center justify-evenly" id="logo">
-          <img
-            src="./assets/images/GurugramNewsLogo.png"
-            alt="gurugram-news-network"
-            className="w-28 mx-auto md:w-36 pt-2 pb-2"
-          />
+          <a href="#">
+            <img
+              src="./assets/images/GurugramNewsLogo.png"
+              alt="gurugram-news-network"
+              className="w-28 mx-auto md:w-36 pt-4 pb-4"
+            />
+          </a>
         </div>
         <div
-          className="hidden w-100% md:visible md:w-[50%] md:flex md:ml-auto p-2 cursor-pointer"
+          className="hidden w-100% md:visible md:w-[60%] 3xl:w-[50%] md:flex md:ml-auto p-2 cursor-pointer"
           id="appOrAds"
         >
           <img
@@ -159,7 +161,7 @@ export default function Header() {
 
         <div className="uppercase  hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
           <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
-          <ul className="flex items-center justify-between sm:mr-0 mr-4 p-0 md:w-[100%] ">
+          <ul className="flex items-center justify-between sm:mr-0 mr-4 p-2 md:w-[100%] ">
             <HeaderSingleElement name="देश" />
             <HeaderSingleElement name="हरियाणा" />
             <HeaderSingleElement name="शहर" />
@@ -171,7 +173,7 @@ export default function Header() {
             <HeaderSingleElement name="लेखक" />
             {/* <HeaderOthersTab /> */}
 
-            <div className="searchBox hidden   md:block ">
+            <div className="searchBox hidden   md:block cursor-pointer">
               <Search  color="white" />
               
            </div>
