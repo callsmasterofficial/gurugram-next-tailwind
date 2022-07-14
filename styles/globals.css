@@ -203,7 +203,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   width: 55px;
   text-align: center;
   line-height: 55px;
-  /* background: #ff5555; */
+  background: #ff5555;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -2743,9 +2743,27 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   display: inline-block;
 }
 
+/* .nav-item{
+  background-color: lightcoral;
+}
+
+.nav-item a{
+  padding:5px;
+  background-color: red;
+} */
+
+
 
 sup{
   font-size: 18px;
   top: -15px;
 }
 
+/* Main Gallery ResponsiveNess */
+
+/* h1{
+  font-size: 3vw;
+}
+p{
+  font-size:2vw;
+} */

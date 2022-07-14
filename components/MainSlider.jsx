@@ -1,12 +1,14 @@
 import React from "react";
 import { Videoyt } from "./icons";
+import { Youtube } from "./icons";
 
 export default function MainSlider() {
   return (
     <>
+    
       {MainSliderData.map((data) => {
         return (
-          <div className="col-span-2">
+          <div key={data.id} className="col-span-2">
                     <div className="post_gallery_slider">
                         <div className="post_gallery_play">
                             <div className="bg-image"></div>
@@ -23,11 +25,11 @@ export default function MainSlider() {
                                 <p>The property, complete with a 30-seat screening room, a 100-seat amphitheater and a swimming pond with sandy beach and outdoor shower…</p>
                             </div>
                             <div className="post_play_btn">
-                                <a className="video-popup" href="https://www.youtube.com/watch?v=4mGyYNuG6us" a><i className="fas fa-play"></i></a>
+                                <a className="video-popup" href="https://www.youtube.com/watch?v=4mGyYNuG6us"><i className="absolute top-[10px] left-[10px]"><Youtube height="2rem" width="2rem"/></i></a>
                             </div>
                         </div>
                     </div>
-                    <div className="post_gallery_inner_slider grid grid-cols-8 max-w-[100%]">
+                    <div className="post_gallery_inner_slider grid grid-cols-8 w-[80%] 3xl:w-[60%] mx-auto">
                         <div className="item">
                             <img src="assets/images/gallery-post/item-1.jpg" alt="" />
                         </div>
