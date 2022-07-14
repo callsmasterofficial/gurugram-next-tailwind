@@ -47,11 +47,11 @@ function BusinessArea() {
   // );
   <div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
   <div className="bussinessArea lg:mt-24 ">
-  <div className="ml-5 text-xl relative font-semibold sm:mt-3 mb-4 border-t-2 border-b-2 p-2 mt-24">
+  <div className=" text-xl relative font-semibold sm:mt-3 mb-4 border-t-2  p-2 mt-24">
     <h1>Bussiness News</h1>
   </div>
   <div className="EntertainmentContainer">
-    <div className=" md:grid  md:grid-cols-3">
+    <div className=" md:grid  md:grid-cols-3 border-t-2 border-l-2 border-r-2 border-b-2 p-2">
       <div className="col-span-2 grid grid-cols-1 sm:grid-cols-2 ">
         {BusinessData.map((data) => {
           return (

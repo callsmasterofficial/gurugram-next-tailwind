@@ -8,18 +8,18 @@ function SportsArea() {
   return (
     <div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
 
-<div className="  m-auto text-xl font-semibold  mb-4 border-t-2 border-b-2 p-2 mt-24">
+<div className="  m-auto text-xl font-semibold  mb-4 border-t-2 p-2 mt-24">
     <h1>Sports News</h1>
 </div>
       <div className="SportsArea m-auto ">
-        <div className="md:grid md:grid-cols-3">
+        <div className="md:grid md:grid-cols-3 border-t-2 border-l-2 border-r-2 border-b-2 p-2">
           <div className="col-span-1 grid grid-cols-1 md:grid-cols-1 ">
             {SportsAreaData.map((data) => {
               return (
                 <div key={data.id} className="">
                   <div>
                     <div className="overflow-hidden
-                    w-[95%] h-[80%]  m-auto">
+                    w-[100%] h-[80%]  m-auto">
                       <img
                         className="object-cover w-[100%] h-[100%]  mx-auto sm:mx-auto hover:scale-110  transition-all duration-300 ease-linear"
                         src={data.image}

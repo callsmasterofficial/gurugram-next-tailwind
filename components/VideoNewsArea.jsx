@@ -11,7 +11,7 @@ export default function VideoNewsArea() {
                     <div className="col-span-12 lg:col-span-8">
                         <div className="video-news-post">
                             <div className="section-title section-title-2">
-                                <h3 className="title text-white text-xl m-2">Videos News</h3>
+                                <h3 className="title text-white text-xl m-2 ml-8">Videos News</h3>
                             </div>
                             <div className="video-news-post-item">
                                 <div className="video-news-post-thumb">
@@ -36,11 +36,11 @@ export default function VideoNewsArea() {
                     </div>
                     <div className="col-span-12 lg:col-span-4 ml-4 ">
                         <div className="populer-post">
-                            <div className="section-title">
-                                <h3 className=" m-5title font-semibold m-5">Popular</h3>
+                            <div className="section-title border-b-2 border-solid p-3">
+                                <h3 className="  title font-semibold">Popular</h3>
                             </div>
                             <div className="trending-sidebar-slider post_gallery_items">
-                                <div className="populer-post-slider border-2 ">
+                                <div className="populer-post-slider border-2 mt-6">
                                     <TrendingSinglePost />
                                 </div>
                             </div>

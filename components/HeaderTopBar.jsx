@@ -48,10 +48,10 @@ function Time() {
 
   return (
     <div className="flex bg-black lg:h-10 items-center	">
-      <span className="pr-[4px] pl-[4px] text-white ">{dt[0]}</span>
-      <span className="pr-[4px] text-white">{dt[1]}</span>
-      <span className="pr-[4px] text-white">{dt[2]}</span>
-      <span className="pr-[4px] text-white">{dt[3]}</span>
+      <span className="pr-[4px] pl-[4px] text-white text-[12px]">{dt[0]}</span>
+      <span className="pr-[4px] text-white text-[12px]">{dt[1]}</span>
+      <span className="pr-[4px] text-white text-[12px]">{dt[2]}</span>
+      <span className="pr-[4px] text-white text-[12px]">{dt[3]}</span>
     </div>
   );
 }
@@ -74,7 +74,7 @@ function HeaderTopBar() {
               <div className={styles.tickerTapeTitle}>
                 {" "}
                 <ThunderButton />
-                <span className="hidden mx-2 sm:flex"> Latest Stories: </span>
+                <span className="hidden mx-2 sm:flex text-[12px]"> Latest Stories: </span>
               </div>
               <div className={styles.tickerTapeScroll}>
                 <div className={styles.tickerTapeCollection}>
