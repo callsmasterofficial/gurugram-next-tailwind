@@ -1542,6 +1542,11 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     margin-top: 42rem;
   }
 }
+@media only screen and (min-width: 5001px) {
+  .entertainmentArea {
+    margin-top: 51rem;
+  }
+}
 
 @media only screen and (min-width: 991px) and (max-width: 1024px) {
   .Categories-post {
