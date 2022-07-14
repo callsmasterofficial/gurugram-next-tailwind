@@ -1529,12 +1529,17 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 @media only screen and (min-width: 1331px) {
   .entertainmentArea {
-    margin-top: 15rem;
+    margin-top: 17rem;
   }
 }
 @media only screen and (min-width: 4000px) and (max-width: 5000px) {
   .entertainmentArea {
-    margin-top: 35rem;
+    margin-top: 30rem;
+  }
+}
+@media only screen and (min-width: 5001px){
+  .entertainmentArea {
+    margin-top: 42rem;
   }
 }
 
