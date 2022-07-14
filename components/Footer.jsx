@@ -81,23 +81,23 @@ export default function Footer() {
                     <h2 className="m-3.5 mx-5">News Categories</h2>
                     <div className="flex justify-between mr-20 mx-3 ">
                       <div className="left">
-                        <li className="list-none m-3.5">Politics</li>
-                        <li className="list-none m-3.5">Business</li>
-                        <li className="list-none m-3.5">Technology</li>
-                        <li className="list-none m-3.5">Science</li>
-                        <li className="list-none m-3.5"> Health</li>
-                        <li className="list-none m-3.5"> Sports</li>
-                        <li className="list-none m-3.5"> Entertainment</li>
+                        <li className="list-none m-3.5"> <a href="#">Politics</a></li>
+                        <li className="list-none m-3.5"><a href="#">Business</a></li>
+                        <li className="list-none m-3.5"><a href="#">Technology</a></li>
+                        <li className="list-none m-3.5"><a href="#">Science</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Health</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Sports</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Entertainment</a></li>
                       </div>
 
                       <div className="right">
-                        <li className="list-none m-3.5"> Education</li>
-                        <li className="list-none m-3.5"> Obituaries</li>
-                        <li className="list-none m-3.5"> Obituaries</li>
-                        <li className="list-none m-3.5"> Corrections</li>
-                        <li className="list-none m-3.5"> Newspaper</li>
-                        <li className="list-none m-3.5"> Corrections</li>
-                        <li className="list-none m-3.5"> Foods</li>
+                        <li className="list-none m-3.5"><a href="#"> Education</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Obituaries</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Obituaries</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Corrections</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Newspaper</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Corrections</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Foods</a></li>
                       </div>
                     </div>
                   </div>
@@ -106,22 +106,22 @@ export default function Footer() {
                     <h2 className="m-3.5 mx-6">Living</h2>
                     <div className="flex justify-between mr-20 mx-3 text-white">
                       <div className="left">
-                        <li className="list-none m-3.5">Crossword</li>
-                        <li className="list-none m-3.5">Food</li>
-                        <li className="list-none m-3.5">Automobiles</li>
-                        <li className="list-none m-3.5"> Education</li>
-                        <li className="list-none m-3.5"> Health</li>
-                        <li className="list-none m-3.5"> Magazine</li>
-                        <li className="list-none m-3.5"> Weddings</li>
+                        <li className="list-none m-3.5"><a href="#">Crossword</a></li>
+                        <li className="list-none m-3.5"><a href="#">Food</a></li>
+                        <li className="list-none m-3.5"><a href="#">Automobiles</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Education</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Health</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Magazine</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Weddings</a></li>
                       </div>
                       <div className="right ">
-                        <li className="list-none m-3.5"> Classifieds</li>
-                        <li className="list-none m-3.5"> Photographies</li>
-                        <li className="list-none m-3.5"> NYT Store</li>
-                        <li className="list-none m-3.5"> Journalisms</li>
-                        <li className="list-none m-3.5"> Public Editor</li>
-                        <li className="list-none m-3.5"> Tools Services</li>
-                        <li className="list-none m-3.5"> My Account</li>
+                        <li className="list-none m-3.5"><a href="#"> Classifieds</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Photographies</a></li>
+                        <li className="list-none m-3.5"><a href="#"> NYT Store</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Journalisms</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Public Editor</a></li>
+                        <li className="list-none m-3.5"><a href="#"> Tools Services</a></li>
+                        <li className="list-none m-3.5"><a href="#"> My Account</a></li>
                       </div>
                     </div>
                   </div>
