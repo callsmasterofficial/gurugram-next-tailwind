@@ -21,8 +21,8 @@ function WeatherCard() {
   console.log(city);
   return (
     <>
-      <div className=" text-white mx-6 my-2 md:mx-6" >
-        <div className="bg-[#16b9f4] rounded-lg p-3 w-auto	">
+      <div className=" text-white  my-2 md:mx-6" >
+        <div className="bg-[#16b9f4]  p-3 w-auto	">
           {/* <div className=" col-span-2 text-3xl">
           <div className=" col-span-1 text-3xl">Weather</div>
           <div className=" col-span-1 text-3xl">Weather</div>

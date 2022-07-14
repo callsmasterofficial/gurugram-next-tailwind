@@ -17,17 +17,19 @@ export default function Footer() {
           <div className="pt-12 pb-4">
             <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
               <div className="col-span-1 ">
+                <div className="ml-[14px]">
                 <img
                   src="./assets/images/GurugramNewsLogo.png"
                   alt="gurugram-news-network"
-                  className="mx-auto w-48 md:mx-0 md:w-72 sm:w-48 sm:mx-auto "
+                  className="mx-auto w-48 md:mx-0 md:w-60  sm:w-48 sm:mx-auto  "
                 />
+                </div>
 
                 <div className=" mx-auto p-4  iconBox md:mx-0 mt-6  sm:mx-auto text-white">
-                  <div>
+                  <div className="">
                     <h3 className="bg-black  w-fit p-2">About US</h3>
                   </div>
-                  <div>
+                  <div className="text-justify	">
                     <span>
                       'Gurugram News' channel is the only web news channel in
                       the city of Gurugram, which has made a different identity
@@ -132,15 +134,21 @@ export default function Footer() {
                       <h2 className="mt-2">Newpark News Services</h2>
                       <div className="flex items-center	mt-2">
                         <FooterMobile />
-                        <p className="mx-2">On your mobile</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500">On your mobile</p>
+                        </a>
                       </div>
                       <div className="flex items-center mt-2	">
                         <FooterMicophone />
-                        <p className="mx-2">On smart speakers</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500">On smart speakers</p>
+                        </a>
                       </div>
                       <div className="flex items-center mt-2">
                         <FooterMessage />
-                        <p className="mx-2">Contact Newspark news</p>
+                        <a href="#">
+                        <p className="mx-2  hover:text-red-500">Contact Newspark news</p>
+                        </a>
                       </div>
                     </div>
                   </div>

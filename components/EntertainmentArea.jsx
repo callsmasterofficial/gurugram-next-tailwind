@@ -8,11 +8,11 @@ function EntertainmentArea() {
     <div className="w-[80%]  m-auto  3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
     <div className="entertainmentArea">
       
-      <div className="ml-0 text-xl relative font-semibold mt-10 sm:mt-3 mb-4 border-t-2 border-b-2 p-4">
+      <div className="ml-0 text-xl relative font-semibold mt-10 sm:mt-3 border-t-2 p-4">
         <h1>Entertainment News</h1>
       </div>
       <div className="EntertainmentContainer">
-        <div className=" md:grid  md:grid-cols-3">
+        <div className=" md:grid  md:grid-cols-3  border-t-2 border-l-2 border-r-2 border-b-2 p-2">
           <div className="col-span-2 grid grid-cols-1 sm:grid-cols-2 ">
             {EntertainmentAreaData.map((data) => {
               return (
@@ -20,7 +20,7 @@ function EntertainmentArea() {
                   key={data.id}
                   className=""
                 >
-                  <div className="">
+                  <div className="w-[100%]">
                     <div className="overflow-hidden w-[95%] h-[80%] m-auto">
                       <img
                         className="object-cover  w-[100%] h-[100%]  mx-auto sm:mx-auto hover:scale-110  transition-all duration-300 ease-linear"
