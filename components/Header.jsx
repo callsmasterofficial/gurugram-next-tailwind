@@ -46,8 +46,8 @@ export default function Header() {
         <div
           className={
             sidebar
-              ? "ml-1 my-0 p-1 z-50 opacity-0 rounded-md cursor-pointer md:hidden hover:bg-slate-200"
-              : "ml-1 my-0 p-1 z-50 rounded-md cursor-pointer md:hidden hover:bg-slate-200"
+              ? "ml-1 my-0 p-1 z-50 opacity-0 rounded-md pt-[23px] pb-[23px] cursor-pointer md:hidden hover:bg-slate-200"
+              : "ml-1 my-0 p-1 z-50 rounded-md pt-[23px] pb-[23px] cursor-pointer md:hidden hover:bg-slate-200"
           }
           onClick={handleSidebar}
         >
@@ -65,7 +65,7 @@ export default function Header() {
           />
         </div>
 
-        <div className="ml-1 my-0 p-1 z-50 rounded-md cursor-pointer md:hidden">
+        <div className="ml-1 my-0 p-1 z-50 rounded-md cursor-pointer pt-[23px] pb-[23px] md:hidden">
           <Search color="white"/>
         </div>
 
