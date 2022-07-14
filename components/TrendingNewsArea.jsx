@@ -6,7 +6,7 @@ import TrendingSinglePost from "./TrendingSinglePost";
 
 export default function TrendingNewsArea() {
   return (
-    <div className="w-[80%]  m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+    <div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
       <div className=" text-xl font-semibold border-t-2 border-b-2 p-2 mt-24">
         <h1>Trending News</h1>
       </div>

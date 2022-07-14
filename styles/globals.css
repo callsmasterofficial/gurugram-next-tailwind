@@ -99,6 +99,14 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   background-size: cover;
   background-position: center;
 }
+/* @media only screen and (min-width: 280px) and (max-width: 500px){
+  .post_gallery_play{
+    height: -20px;
+  }
+
+} */
+
+
 .post_gallery_play .bg-image {
   /* background-image: url("../public/assets/images/gallery-post.jpg"); */
   left: 0;
@@ -1786,7 +1794,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     Header Post Area css 
 ===========================*/
 .post_gallery_play {
-  height: 500px;
+  /* height: 500px; */
   position: relative;
   z-index: 10;
   display: -webkit-flex;
@@ -1796,6 +1804,24 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   display: flex;
   align-items: flex-end;
 }
+
+@media only screen and (min-width:280px) and (max-width: 520px){
+  .post_gallery_play{
+    height: 280px;
+  }
+  .post_gallery_play .title a{
+    font-size: 13px;
+    line-height: 0;
+  }
+  .post_gallery_play p{
+    font-size: 9px;
+  }
+  .post_gallery_play .post-meta{
+    font-size: 2px;
+  }
+  
+}
+
 .post_gallery_play .bg-image {
   background-image: url(../public/assets/images/gallery-post.jpg);
   left: 0;
@@ -2759,11 +2785,11 @@ sup{
   top: -15px;
 }
 
-/* Main Gallery ResponsiveNess */
+/* 90% width in Mobile View */
 
-/* h1{
-  font-size: 3vw;
+@media only screen and (min-width:270px) and (max-width:640px) {
+  .ninetyPercentWidth{
+    width: 90%;
+  }
+  
 }
-p{
-  font-size:2vw;
-} */
