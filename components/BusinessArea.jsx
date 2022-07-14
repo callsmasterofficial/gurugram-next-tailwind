@@ -81,7 +81,7 @@ function BusinessArea() {
           );
         })}{" "}
       </div>          
-      <div className=" md:col-span-1 text-black mx-auto border-gray border-dashed">
+      <div className=" md:col-span-1 text-black mx-auto border-gray">
           <BusinessCategoriesArea />
       </div>
     </div>

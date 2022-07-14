@@ -34,13 +34,13 @@ export default function VideoNewsArea() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-12 lg:col-span-4 mx-4 xl:ml-10">
+                    <div className="col-span-12 lg:col-span-4 ml-4 ">
                         <div className="populer-post">
                             <div className="section-title">
-                                <h3 className="title">Popular</h3>
+                                <h3 className=" m-5title font-semibold m-5">Popular</h3>
                             </div>
-                            <div className="trending-sidebar-slider">
-                                <div className="populer-post-slider border-2">
+                            <div className="trending-sidebar-slider post_gallery_items">
+                                <div className="populer-post-slider border-2 ">
                                     <TrendingSinglePost />
                                 </div>
                             </div>
