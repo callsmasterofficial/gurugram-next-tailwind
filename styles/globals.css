@@ -1531,7 +1531,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 @media only screen and (min-width: 5001px) {
   .entertainmentArea {
-    margin-top: 50rem;
+    margin-top: 51rem;
   }
 }
 
