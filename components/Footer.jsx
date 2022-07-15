@@ -11,7 +11,7 @@ import FooterTwitter from "./FooterTwitter";
 
 export default function Footer() {
   return (
-    <div className="bg-[#17222b] w-[100%]">
+    <div className="bg-[#17222b] w-[100%] mt-5">
       <div className="w-[100%] md:w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
         <div className="footermain ">
           <div className="pt-12 pb-4">

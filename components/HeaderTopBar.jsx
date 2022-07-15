@@ -166,7 +166,7 @@ function HeaderTopBar() {
         <span className="p-2 ml-1 rounded-md transition-all cursor-pointer hover:bg-[#4267B2]"><Facebook color="white"/></span>
          <span className=" p-2 rounded-md transition-all cursor-pointer hover:bg-[#1DA1F2]"><Twitter color="white" margin="8px" /></span>
          <span className="p-2 rounded-md transition-all cursor-pointer hover:bg-[#FF0000]"><Youtube color="white" margin="8px" /></span>
-         <span className=" p-2 transition-all cursor-pointer footerInsta"><Instagram color="white" margin="8px" /></span>
+         <span className=" p-2  rounded-md transition-all cursor-pointer footerInsta"><Instagram color="white" margin="8px" /></span>
       </div> 
       </div>
     </div>

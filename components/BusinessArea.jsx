@@ -51,7 +51,7 @@ function BusinessArea() {
     <h1>Bussiness News</h1>
   </div>
   <div className="EntertainmentContainer">
-    <div className=" md:grid  md:grid-cols-3 border-t-2 border-l-2 border-r-2 border-b-2 p-2">
+    <div className=" md:grid  md:grid-cols-3  border-2  py-4 pl-2 ">
       <div className="col-span-2 grid grid-cols-1 sm:grid-cols-2 ">
         {BusinessData.map((data) => {
           return (

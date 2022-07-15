@@ -12,7 +12,7 @@ function SportsArea() {
     <h1>Sports News</h1>
 </div>
       <div className="SportsArea m-auto ">
-        <div className="md:grid md:grid-cols-3 border-t-2 border-l-2 border-r-2 border-b-2 p-2">
+        <div className="md:grid md:grid-cols-3 border-2  p-4">
           <div className="col-span-1 grid grid-cols-1 md:grid-cols-1 ">
             {SportsAreaData.map((data) => {
               return (
