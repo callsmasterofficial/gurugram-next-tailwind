@@ -30,7 +30,7 @@ function WeatherCard() {
                 src="https://img.icons8.com/color/2x/partly-cloudy-rain--v2.png"
                 alt="Image not found"
               />
-              <div className="text-white text-3xl text-center	">Delhi</div>
+              <div className="text-white text-2xl text-center	">Delhi</div>
               <div className="text-white text-center	">Mist</div>
             </div>
             <div className="col-span-1 mt-4 text-center">

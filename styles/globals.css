@@ -2592,6 +2592,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   display: flex;
 }
 
+
 .post_gallery_inner_slider .slick-arrow {
   position: absolute;
   top: 0;
@@ -2803,3 +2804,7 @@ sup{
   }
   
 }
+
+/* .slick-slider{
+  width: 95%;
+} */

@@ -60,7 +60,7 @@ function HeaderTopBar() {
   return (
     <div className="w-[100%] bg-black">
 
-    <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto flex items-center  ">
+    <div className="md:w-[90%]  lg:w-[80%] m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto flex items-center  ">
       <div className="w-[100%] m-auto overflow-hidden flex items-center ">
         <div className=" hidden sm:hidden md:hidden lg:block">
           <div className="flex items-center">

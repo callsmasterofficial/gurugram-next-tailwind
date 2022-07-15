@@ -12,7 +12,7 @@ export default function TrendingSidebar() {
           <h3 className="title mx-2 md:text-xl font-bold">Most View</h3>
         </div>
       </div>
-      <div className="trending-sidebar-slider lg:mb-12  ">
+      <div className="trending-sidebar-slider lg:mb-12 mr-10px  ">
         <div className="post_gallery_items mt-6">
           <TrendingSinglePost />
         </div>

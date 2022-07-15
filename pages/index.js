@@ -25,7 +25,7 @@ export default function Home() {
       <Header />
       <Header_smallSlider />
       <MainGalleryArea />
-      <FeatureArea />
+      {/* <FeatureArea /> */}
       <TrendingNewsArea />
       <PlayPostArea />
       <VideoNewsArea />
