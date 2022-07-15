@@ -17,7 +17,7 @@ label span {
   margin: 7px 0;
   transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
-
+/* 
 span:nth-of-type(1) {
   width: 50%;
 }
@@ -28,7 +28,7 @@ span:nth-of-type(2) {
 
 span:nth-of-type(3) {
   width: 75%;
-}
+} */
 
 input[type="checkbox"] {
   display: none;
@@ -711,6 +711,34 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 .instagram {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+}
+.footerInstaSide {
   background: radial-gradient(
       circle farthest-corner at 35% 90%,
       #fec564,
@@ -1898,7 +1926,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 .post_gallery_play .post__gallery_play_content .title {
   font-size: 36px;
-  line-height: 46px;
+  /* line-height: 46px; */
   margin-bottom: 3px;
   font-weight: 700;
 }
@@ -1910,8 +1938,8 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 @media (max-width: 767px) {
   .post_gallery_play .post__gallery_play_content .title {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
