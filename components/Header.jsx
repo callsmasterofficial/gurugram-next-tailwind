@@ -3,6 +3,7 @@ import HeaderSingleElement from "./HeaderSingleElement";
 import HeaderOthersTab from "./HeaderOthersTab";
 import { Search, User, DegreeCelcius, Sunrise, CloseButton } from "./icons";
 import NextLink from "next/link";
+import {Facebook, Twitter, Instagram, Youtube} from "./icons"
 
 export default function Header() {
   const [sidebar, setSidebar] = useState(false);
@@ -12,35 +13,35 @@ export default function Header() {
 
   const handleSearch = () => {
     console.log("search is happening...");
-  }
-  
+  };
+
   return (
     <div className="flex md:block ">
       {/* Header,Logo & Banner */}
       <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
-      <div className="hidden relative mb-0 md:flex md:items-center">
-        <div className="flex flex-wrap items-center justify-evenly" id="logo">
-          <a href="/">
+        <div className="hidden relative mb-0 md:flex md:items-center">
+          <div className="flex flex-wrap items-center justify-evenly" id="logo">
+            <a href="/">
+              <img
+                src="./assets/images/GurugramNewsLogo.png"
+                alt="gurugram-news-network"
+                className="w-28 mx-auto md:w-36 pt-4 pb-4"
+              />
+            </a>
+          </div>
+          <div
+            className="hidden w-100% md:visible md:w-[60%] 3xl:w-[50%] md:flex md:ml-auto p-2 cursor-pointer"
+            id="appOrAds"
+          >
             <img
-              src="./assets/images/GurugramNewsLogo.png"
-              alt="gurugram-news-network"
-              className="w-28 mx-auto md:w-36 pt-4 pb-4"
+              src="assets/images/Gurugram-News-Banner.jpg"
+              alt="gurugram-news-app-Banner"
+              className=""
             />
-          </a>
-        </div>
-        <div
-          className="hidden w-100% md:visible md:w-[60%] 3xl:w-[50%] md:flex md:ml-auto p-2 cursor-pointer"
-          id="appOrAds"
-        >
-          <img
-            src="assets/images/Gurugram-News-Banner.jpg"
-            alt="gurugram-news-app-Banner"
-            className=""
-          />
+          </div>
         </div>
       </div>
-      </div>
-      {/* Nav Bar */}
+      {/* Nav Bar -- Mobile View */}
       <div className="flex sm:p-2 md:p-1 bg-black" id="nav">
         {/* Sidebar Toggle */}
         <div
@@ -61,12 +62,12 @@ export default function Header() {
           <img
             src="./assets/images/GurugramNewsLogo.png"
             alt="gurugram-news-network"
-            className="w-32 sm:w-36 md:hidden "
+            className="w-32 sm:w-36 md:hidden mb-4"
           />
         </div>
 
         <div className="ml-1 my-0 p-1 z-50 rounded-md cursor-pointer pt-[23px] pb-[23px] md:hidden">
-          <Search color="white"/>
+          <Search color="white" />
         </div>
 
         {/* sidebar container */}
@@ -98,57 +99,104 @@ export default function Header() {
 
             {/* sidebar menu */}
             <ul className=" font-normal text-gray-500">
+              <li className="w-20 m-auto justify-center mb-3">
+                <img src="./assets/images/GurugramNewsLogo.png" alt="" />
+              </li>
               <li onClick={handleSidebar}>
+                <hr />
                 <NextLink href="/">
                   {/* active item */}
-                  <a className="bg-gray-100 font-medium inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    Desh
+                  <a className="font-medium flex justify-center cursor-pointer text-white px-4 py-2 transition w-full  hover:text-red-500">
+                    देश
                   </a>
                 </NextLink>
+                <hr />
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
-                  <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    Haryana
+                  <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                    हरियाणा
                   </a>
                 </NextLink>
+                <hr />
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
-                  <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    Shehar
+                  <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                    शहर
                   </a>
                 </NextLink>
+                <hr />
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
-                  <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    Crime
+                  <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                    अपराध
                   </a>
                 </NextLink>
+                <hr />
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
-                  <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    Technology
+                  <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                    दिल्ली एनसीआर
                   </a>
                 </NextLink>
+                <hr />
               </li>
               <li onClick={handleSidebar}>
                 <NextLink href="/">
-                  <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                    Delhi
+                  <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                    टेक्नोलॉजी
                   </a>
                 </NextLink>
+                <hr />
               </li>
               <li>
                 <NextLink href="/">
                   <>
-                    <a className="inline-flex items-center px-4 py-2 transition w-full hover:bg-gray-100">
-                      Others
+                    <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                      राजनीति
                     </a>
                   </>
                 </NextLink>
+                <hr />
+              </li>
+              <li>
+                <NextLink href="/">
+                  <>
+                    <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                      गांव
+                    </a>
+                  </>
+                </NextLink>
+                <hr />
+              </li>
+              <li>
+                <NextLink href="/">
+                  <>
+                    <a className="flex justify-center cursor-pointer text-white px-4 py-2 transition w-full hover:text-red-500">
+                      लेखक
+                    </a>
+                  </>
+                </NextLink>
+                <hr />
+              </li>
+              <hr />
+              <p className="capitalize flex justify-center">follow us</p>
+              <li className="flex justify-center mx-auto my-1">
+                <span className="p-2 mx-1 rounded-md transition-all cursor-pointer bg-[#4267B2]">
+                  <Facebook color="white" />
+                </span>
+                <span className=" p-2 mx-1 rounded-md transition-all cursor-pointer bg-[#1DA1F2]">
+                  <Twitter color="white" />
+                </span>
+                <span className="p-2 mx-1 rounded-md transition-all cursor-pointer bg-[#FF0000]">
+                  <Youtube color="white"/>
+                </span>
+                <span className=" p-2 mx-1 rounded-md transition-all cursor-pointer footerInstaSide">
+                  <Instagram color="white" />
+                </span>
               </li>
             </ul>
           </div>
@@ -161,30 +209,25 @@ export default function Header() {
 
         <div className="uppercase  hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
           <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
-          <ul className="flex items-center justify-between sm:mr-0 mr-4 p-2 md:w-[100%] ">
-            <HeaderSingleElement name="देश" />
-            <HeaderSingleElement name="हरियाणा" />
-            <HeaderSingleElement name="शहर" />
-            <HeaderSingleElement name="अपराध" /> 
-            <HeaderSingleElement name="दिल्ली एनसीआर" />
-            <HeaderSingleElement name="टेक्नोलॉजी" />
-            <HeaderSingleElement name="राजनीति" />
-            <HeaderSingleElement name="गांव" />
-            <HeaderSingleElement name="लेखक" />
-            {/* <HeaderOthersTab /> */}
+            <ul className="flex items-center justify-between sm:mr-0 mr-4 p-2 md:w-[100%] ">
+              <HeaderSingleElement name="देश" />
+              <HeaderSingleElement name="हरियाणा" />
+              <HeaderSingleElement name="शहर" />
+              <HeaderSingleElement name="अपराध" />
+              <HeaderSingleElement name="दिल्ली एनसीआर" />
+              <HeaderSingleElement name="टेक्नोलॉजी" />
+              <HeaderSingleElement name="राजनीति" />
+              <HeaderSingleElement name="गांव" />
+              <HeaderSingleElement name="लेखक" />
+              {/* <HeaderOthersTab /> */}
 
-            <div className="searchBox hidden   md:block cursor-pointer">
-              <Search  color="white" />
-              
-           </div>
-          </ul>
-
+              <div className="searchBox hidden   md:block cursor-pointer">
+                <Search color="white" />
+              </div>
+            </ul>
           </div>
-
         </div>
-        
       </div>
-      
     </div>
   );
 }
