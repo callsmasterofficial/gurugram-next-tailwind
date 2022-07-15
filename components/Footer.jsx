@@ -79,7 +79,7 @@ export default function Footer() {
             <div className="">
               <div className="w-[100%]">
                 <div className=" md:flex  sm:border-b-2 border-gray border-dashed">
-                  <div className="text-white md:w-[50%]  sm:border-b-2  md:border-b-0 md:border-r-2 md:border-gray border-dashed pb-6  h-80 ml-7 md:mx-auto">
+                  <div className="text-white md:w-[50%]  sm:border-b-2  md:border-b-0 md:border-r-2 md:border-gray border-dashed pb-6  h-80  md:mx-auto">
                     <h2 className="m-3.5 mx-5">News Categories</h2>
                     <div className="flex justify-between mr-20 mx-3 ">
                       <div className="left">
