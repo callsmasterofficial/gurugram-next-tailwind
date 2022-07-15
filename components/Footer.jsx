@@ -17,11 +17,11 @@ export default function Footer() {
           <div className="pt-12 pb-4">
             <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
               <div className="col-span-1 ">
-                <div className="ml-[14px]">
+                <div className="">
                 <img
                   src="./assets/images/GurugramNewsLogo.png"
                   alt="gurugram-news-network"
-                  className="mx-auto w-48 md:mx-0 md:w-60  sm:w-48 sm:mx-auto  "
+                  className="mx-auto w-40 md:mx-0 md:w-60  sm:w-48 sm:mx-auto  "
                 />
                 </div>
 
@@ -79,7 +79,7 @@ export default function Footer() {
             <div className="">
               <div className="w-[100%]">
                 <div className=" md:flex  sm:border-b-2 border-gray border-dashed">
-                  <div className="text-white md:w-[50%]  sm:border-b-2  md:border-b-0 md:border-r-2 md:border-gray border-dashed pb-6  h-80 ml-7 md:mx-auto">
+                  <div className="text-white md:w-[50%]  sm:border-b-2  md:border-b-0 md:border-r-2 md:border-gray border-dashed pb-6  h-80  md:mx-auto">
                     <h2 className="m-3.5 mx-5">News Categories</h2>
                     <div className="flex justify-between mr-20 mx-3 ">
                       <div className="left">
@@ -104,7 +104,7 @@ export default function Footer() {
                     </div>
                   </div>
 
-                  <div className="text-white md:w-[50%] ml-7">
+                  <div className="text-white md:w-[50%] ">
                     <h2 className="m-3.5 mx-6">Living</h2>
                     <div className="flex justify-between mr-20 mx-3 text-white">
                       <div className="left">
@@ -128,23 +128,23 @@ export default function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="md:flex">
-                  <div className="col-span-2 text-white w-screen">
-                    <div className="items-start m-6  mr-[50px]  rounded-md border-gray border-dashed	mt-2 p-2">
-                      <h2 className="mt-2">Newpark News Services</h2>
-                      <div className="flex items-center	mt-2">
+                <div className="md:flex sm:flex sm:justify-between ">
+                  <div className="col-span-2 text-white">
+                    <div className="items-start rounded-md border-gray border-dashed	mt-2 p-2">
+                      <h2 className="mt-2 m-3.5 ">Newpark News Services</h2>
+                      <div className="flex items-center	mt-2 m-3.5">
                         <FooterMobile />
                         <a href="#">
                         <p className="mx-2  hover:text-red-500">On your mobile</p>
                         </a>
                       </div>
-                      <div className="flex items-center mt-2	">
+                      <div className="flex items-center mt-2 m-3.5	">
                         <FooterMicophone />
                         <a href="#">
                         <p className="mx-2  hover:text-red-500">On smart speakers</p>
                         </a>
                       </div>
-                      <div className="flex items-center mt-2">
+                      <div className="flex items-center mt-2 m-3.5">
                         <FooterMessage />
                         <a href="#">
                         <p className="mx-2  hover:text-red-500">Contact Newspark news</p>
@@ -152,37 +152,37 @@ export default function Footer() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-span-2 text-white w-screen">
-                    <div className="items-start m-6  mr-[50px]  p-2 rounded-md border-gray border-dashed	mt-2 ">
+                  <div className="col-span-2 text-white">
+                    <div className="items-start   p-2 rounded-md border-gray border-dashed	mt-2 sm:mr-[55px] ">
                       {/* <h2 className="mt-2">Newpark News Services</h2> */}
                       <div className="flex items-center	mt-2">
                         {/* <FooterMobile /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500" >About</p>
+                        <p className="mx-2  hover:text-red-500 m-2.5" >About</p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2	">
                         {/* <FooterMicophone /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500">Privacy & Policy</p>
+                        <p className="mx-2  hover:text-red-500 m-2.5">Privacy & Policy</p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500">Advertise</p>
+                        <p className="mx-2  hover:text-red-500 m-2.5">Advertise</p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500">Terms Of Use</p>
+                        <p className="mx-2  hover:text-red-500 m-2.5">Terms Of Use</p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500">Contact Us</p>
+                        <p className="mx-2  hover:text-red-500 m-1.5">Contact Us</p>
                         </a>
                       </div>
                     </div>
@@ -195,7 +195,7 @@ export default function Footer() {
               <div className=" text-white text-[14px] text-center">
                   <a href="#">© Copyright 2022, All Rights Reserved |</a>
                   <a href="#">❤️Gurugram News Network | Developed by</a>
-                  <a className="ml-1" href="#">Callsmaster Services LLP</a>
+                  <a className="ml-1  hover:text-red-500" href="https://www.callsmaster.com/" target="_blank">Callsmaster Services LLP</a>
               </div>
             </div>
           </div>

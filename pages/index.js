@@ -26,7 +26,6 @@ export default function Home() {
       <Header_smallSlider />
       <MainGalleryArea />
       <FeatureArea />
-      
       <TrendingNewsArea />
       <PlayPostArea />
       <VideoNewsArea />
