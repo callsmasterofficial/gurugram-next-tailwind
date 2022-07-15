@@ -20,19 +20,20 @@ export default function Home() {
     <div >
 
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
-      {/* <Weather/> */}
+     
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />
       <MainGalleryArea />
       <FeatureArea />
+      
       <TrendingNewsArea />
       <PlayPostArea />
       <VideoNewsArea />
       <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
-      <Footer/>
+      {/* <Footer/> */}
 
     </div>
   )
