@@ -12,6 +12,7 @@ import SportsArea from "../components/SportsArea"
 import TrendingSidebar from "../components/TrendingSidebar"
 import HeaderTopBar from "../components/HeaderTopBar"
 import Weather from "../components/Weather"
+import FixedBottomMobile from "../components/FixedBottomMobile"
 // import Testing from "../components/Testing"
 // import 'tw-elements';
 
@@ -20,7 +21,7 @@ export default function Home() {
     <div >
 
       {/* <h1 className="bg-red-300">Hello world@!</h1> */}
-     
+      <FixedBottomMobile />
       <HeaderTopBar/>
       <Header />
       <Header_smallSlider />
@@ -32,7 +33,7 @@ export default function Home() {
       <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
-      {/* <Footer/> */}
+      <Footer/>
 
     </div>
   )
