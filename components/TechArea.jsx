@@ -3,43 +3,89 @@ import React from "react";
 function TechArea() {
   return (
     <>
-<div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-          {TechAreaData.map((techArea) => {
+      <div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+        {TechAreaData.map((techArea) => {
           return (
-            <div className="formatMdMain">
+            <div className="formatMdMain mt-10">
               <div className=" format formatMd  ">
-                <div className=" format">
-                  <img
-                    className="mb-1 rounded-md h-36 w-[100%]"
-                    src={techArea.firstDivImg_1}
-                  />
+                <div className="relative format">
+                  <div className="format">
+                    <img
+                      className="mb-1 rounded-md h-36 w-[100%]"
+                      src={techArea.firstDivImg_1}
+                    />
+                  </div>
+                  <div className="absolute text-white bottom-2 left-4">
+                    <p>
+                      {techArea.title}
+                    </p>
+                  </div>
                 </div>
-                <div className="format  ">
-                  <img
-                    className="mb-1 rounded-md h-36 w-[100%] "
-                    src={techArea.firstDivImg_2}
-                  />
+                <div className="relative format">
+
+                  <div className="format  ">
+                    <img
+                      className="mb-1 rounded-md h-36 w-[100%] "
+                      src={techArea.firstDivImg_2}
+                    />
+                  </div>
+                  <div className="absolute text-white bottom-2 left-4">
+                    <p>
+                      {techArea.title}
+                    </p>
+                  </div>
                 </div>
               </div>
+
               <div className="image formatMmd">
-                <img
-                  className="mb-1 rounded-md h-36 w-[100%] formatHeight"
-                  src={techArea.secondDivImg_1}
-                />
+                <div className="relative format">
+                  <div className=" format">
+
+                    <img
+                      className="mb-1 rounded-md h-36 w-[100%] formatHeight"
+                      src={techArea.secondDivImg_1}
+                    />
+                  </div>
+                  <div className="absolute text-white bottom-2 left-4">
+                    <p>
+                      {techArea.title}
+                    </p>
+                  </div>
+                </div>
               </div>
+
+
               <div className="format formatMd">
-                <div className=" format">
-                  <img
-                    className="mb-1 rounded-md h-36 w-[100%]"
-                    src={techArea.thirdDivImg_1}
-                  />
+                <div className="relative format">
+
+                  <div className=" format">
+                    <img
+                      className="mb-1 rounded-md h-36 w-[100%]"
+                      src={techArea.thirdDivImg_1}
+                    />
+                  </div>
+                  <div className="absolute text-white bottom-2 left-4">
+                    <p>
+                      {techArea.title}
+                    </p>
+                  </div>
                 </div>
-                <div className="format">
-                  <img
-                    className="mb-1 rounded-md h-36 w-[100%]"
-                    src={techArea.thirdDivImg_2}
-                  />
+
+                <div className="relative format">
+
+                  <div className="format">
+                    <img
+                      className="mb-1 rounded-md h-36 w-[100%]"
+                      src={techArea.thirdDivImg_2}
+                    />
+                  </div>
+                  <div className="absolute text-white bottom-2 left-4">
+                    <p>
+                      {techArea.title}
+                    </p>
+                  </div>
                 </div>
+
               </div>
             </div>
           );
@@ -64,6 +110,6 @@ const TechAreaData = [
       " https://www.teztarrar.com/wp-content/uploads/2022/06/featured-image1.png",
     thirdDivImg_2:
       " https://www.teztarrar.com/wp-content/uploads/2022/06/featured-image1.png",
-    title: "huge discount on  ipone 10",
+    title: "huge discount on  ipone 10 huge discount on  ipone 10",
   },
 ];
