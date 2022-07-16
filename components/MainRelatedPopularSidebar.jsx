@@ -5,7 +5,7 @@ export default function MainRelatedPopularSidebar() {
   const [active, setActive] = useState(0);
   return (
     <>
-      <div className="col-span-1 mx-0 md:ml-2 md:mr-1 mt-[-27px] sm:mt-0">
+      <div className="col-span-1 mx-0 md:ml-2 md:mr-1 mt-[-27px] sm:mt-0 border-2 p-2">
         <div className="post_gallery_sidebar ">
           <ul
             className="grid grid-cols-3 text-[12px] mb-2"
