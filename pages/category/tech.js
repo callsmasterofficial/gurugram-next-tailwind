@@ -4,6 +4,7 @@ import Header from '../../components/Header'
 import TechArea from "../../components/TechArea"
 import Testing from "../../components/Testing"
 import Footer from '../../components/Footer'
+import TechAreaTile from '../../components/TechAreaTile'
 
 export default function tech() {
   return (
@@ -11,7 +12,8 @@ export default function tech() {
       <HeaderTopBar/>
       <Header />
       <TechArea/>
-      <Testing />
+
+      <TechAreaTile/>
       <Footer/>
     </div>
   )

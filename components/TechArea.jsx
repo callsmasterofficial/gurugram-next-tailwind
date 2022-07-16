@@ -2,33 +2,50 @@ import React from "react";
 
 function TechArea() {
   return (
-    <div className="w-[90%]  m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-      {TechAreaData.map((data) => {
-        <div>
-          <div className="mt-10">
-            <img
-              className="mb-1 rounded-md h-36 w-[100%]"
-              src={data.firstDivImg_1}
-              alt="workingData"
-            />
-            <img
-              className="mb-1 rounded-md h-36 w-[100%]"
-              src={data.firstDivImg_2}
-              alt="workingData"
-            />
-            <p>{data.title
-            }</p>
-          </div>
-          <div className="">
-            <img className="mb-1 rounded-md h-36 w-[100%]" src="" alt="workingData" />
-          </div>
-          <div className="">
-            <img className="mb-1 rounded-md h-36 w-[100%]" src="" alt="workingData" />
-            <img className="mb-1 rounded-md h-36 w-[100%]" src="" alt="workingData" />
-          </div>
-        </div>;
-      })}
-    </div>
+    <>
+<div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
+          {TechAreaData.map((techArea) => {
+          return (
+            <div className="formatMdMain">
+              <div className=" format formatMd  ">
+                <div className=" format">
+                  <img
+                    className="mb-1 rounded-md h-36 w-[100%]"
+                    src={techArea.firstDivImg_1}
+                  />
+                </div>
+                <div className="format  ">
+                  <img
+                    className="mb-1 rounded-md h-36 w-[100%] "
+                    src={techArea.firstDivImg_2}
+                  />
+                </div>
+              </div>
+              <div className="image formatMmd">
+                <img
+                  className="mb-1 rounded-md h-36 w-[100%] formatHeight"
+                  src={techArea.secondDivImg_1}
+                />
+              </div>
+              <div className="format formatMd">
+                <div className=" format">
+                  <img
+                    className="mb-1 rounded-md h-36 w-[100%]"
+                    src={techArea.thirdDivImg_1}
+                  />
+                </div>
+                <div className="format">
+                  <img
+                    className="mb-1 rounded-md h-36 w-[100%]"
+                    src={techArea.thirdDivImg_2}
+                  />
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 }
 
