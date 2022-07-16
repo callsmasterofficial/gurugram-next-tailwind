@@ -12,6 +12,9 @@ import Youtube from './Youtube'
 import Telegram from './Telegram'
 import Whatsapp from './Whatsapp'
 import ThunderButton from './ThunderButton'
+import HomeIcon from './HomeIcon'
+import Person from './Person'
+import VideoIcon from './VideoIcon'
 
 export {
     Search,
@@ -28,4 +31,7 @@ export {
     Telegram,
     Whatsapp,
     ThunderButton,
+    HomeIcon,
+    Person,
+    VideoIcon,
 }
