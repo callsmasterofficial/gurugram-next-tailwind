@@ -25,23 +25,14 @@ export default function Home() {
       <Header />
       <Header_smallSlider />
       <MainGalleryArea />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      {/* <FeatureArea /> */}
-=======
       <FeatureArea />
-      
->>>>>>> origin/main
-=======
-      <FeatureArea />
->>>>>>> fac1b2daabaae71443c1332ad4ea7b2c0f6557e1
       <TrendingNewsArea />
       <PlayPostArea />
       <VideoNewsArea />
       <EntertainmentArea />
       <SportsArea/>
       <BusinessArea/>
-      {/* <Footer/> */}
+      <Footer/>
 
     </div>
   )
