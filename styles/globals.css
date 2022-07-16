@@ -2839,3 +2839,41 @@ sup{
 /* .slick-slider{
   width: 95%;
 } */
+
+@media only screen and (min-width:320px) and (max-width:1000px) {
+  .format{
+    display: flex;
+    width: 100%;
+    padding: 2px;
+  }
+  
+}
+@media only screen and (min-width:320px) and (max-width:1000px) {
+  .image{
+    width: 100%;
+  }
+  
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:6000px) {
+  .formatMd{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+  }
+
+  .formatMdMain{
+    display: flex;
+  }
+
+  .formatMmd{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .formatHeight{
+    height: 292px;
+  }
+}
