@@ -25,18 +25,19 @@ export default function DateTime() {
     "Saturday",
   ];
   const d = new Date();
-  console.log(d);
   const Day = d.getDay();
   const Month = d.getMonth();
   const dateToday = d.getDate();
-  const Hour = d.getHours()%12;
+  const Year = d.getFullYear();
+  const H = d.getHours();
   const Min = d.getMinutes();  
-  console.log(Hour>12 ? `${Hour} AM`: `${Hour} PM`);
-  console.log(Min);
+  const TimeNow =(H<12 ? `${H}:${Min} AM`: `${H}:${Min} PM`);
+  // Mon Jul 18 2022 11:32:08 GMT+0530 (India Standard Time)
+  const CurrentDate = `${AllDays[Day]} ${AllMonths[Month]} ${dateToday} ${Year} ${TimeNow}`
+  
   return (
     <>
-      <h1>working!</h1>
-      
+      <p>{CurrentDate}</p>  
     </>
   );
 }
