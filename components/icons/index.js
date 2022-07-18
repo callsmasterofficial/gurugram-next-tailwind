@@ -14,7 +14,10 @@ import Whatsapp from './Whatsapp'
 import ThunderButton from './ThunderButton'
 import HomeIcon from './HomeIcon'
 import Person from './Person'
+import Chat from './Chat'
+import Fire from './Fire'
 import VideoIcon from './VideoIcon'
+import ShareIcon from './ShareIcon'
 
 export {
     Search,
@@ -33,5 +36,8 @@ export {
     ThunderButton,
     HomeIcon,
     Person,
+    Chat,
+    Fire,
     VideoIcon,
+    ShareIcon,
 }
