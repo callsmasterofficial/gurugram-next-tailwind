@@ -27,7 +27,7 @@ export default function Footer() {
 
                 <div className=" mx-auto p-4  iconBox md:mx-0 mt-6  sm:mx-auto text-white">
                   <div className="">
-                    <h3 className="bg-black  w-fit p-2">About US</h3>
+                    <h3 className= "w-fit p-2 titleSkew -skew-x-3">About US</h3>
                   </div>
                   <div className="text-justify	">
                     <span>

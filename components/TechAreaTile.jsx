@@ -73,7 +73,7 @@ function TechAreaTile() {
           </div>
 
           <div className="lg:col-span-1">
-            <div className=" mb-10 border-2 p-2 md:mt-6 sm:mt-4 socials-gap">
+            <div className=" mb-10 border-2 p-2 md:mt-6 sm:mt-4 socials-gap lg:mt-0">
               <Socials />
             </div>
             <div className="mt-10 mb-10 border-2 p-2">
@@ -111,7 +111,7 @@ function TechAreaTile() {
       </div>
       <div className="md:grid md:grid-cols-1  lg:grid lg:grid-cols-3 ">
         <div className="col-span-1 lg:col-span-2 border-2  p-4 mr-3 mt-6">
-          <h1 className="mb-7 bg-black w-fit text-white ">Popular Searches</h1>
+          <h1 className="mb-7 w-fit text-white titleSkew -skew-x-3">Popular Searches</h1>
           <p><a className="text-red-500" href="#">Tech News</a>, Latest Tech News, Tech News in Hindi, Tech News Today, Tech News India, Tech News Hindi, Latest Tech News in Hindi, Hindi Tech News, <a className="text-red-500" href="#">टेक न्यूज़</a>, टेक समाचार, Technology News, Latest Technology News, Technology News in Hindi,<a className="text-red-500" href="#">Delhi News</a>, <a className="text-red-500" href="#">Hindi News</a></p>
         </div>
       </div>

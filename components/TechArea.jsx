@@ -11,7 +11,7 @@ function TechArea() {
                 <div className="relative format">
                   <div className="format">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%]"
+                      className="mb-1 rounded-md h-60 w-[100%]"
                       src={techArea.firstDivImg_1}
                     />
                   </div>
@@ -25,7 +25,7 @@ function TechArea() {
 
                   <div className="format  ">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%] "
+                      className="mb-1 rounded-md h-60 w-[100%] "
                       src={techArea.firstDivImg_2}
                     />
                   </div>
@@ -42,7 +42,7 @@ function TechArea() {
                   <div className=" format">
 
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%] formatHeight"
+                      className="mb-1 rounded-md h-60 w-[100%] formatHeight"
                       src={techArea.secondDivImg_1}
                     />
                   </div>
@@ -60,7 +60,7 @@ function TechArea() {
 
                   <div className=" format">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%]"
+                      className="mb-1 rounded-md h-60 w-[100%]"
                       src={techArea.thirdDivImg_1}
                     />
                   </div>
@@ -75,7 +75,7 @@ function TechArea() {
 
                   <div className="format">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%]"
+                      className="mb-1 rounded-md h-60 w-[100%]"
                       src={techArea.thirdDivImg_2}
                     />
                   </div>
