@@ -106,7 +106,6 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 } */
 
-
 .post_gallery_play .bg-image {
   /* background-image: url("../public/assets/images/gallery-post.jpg"); */
   left: 0;
@@ -461,9 +460,6 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 .feature-post-slider .slick-arrow.next {
   right: 0;
 }
-
-
-
 
 /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 /*   */
@@ -1217,8 +1213,8 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 .video-news-post-item {
   background: #e9eaeb;
 }
-.video-news-post-thumb{
-  padding :15px;
+.video-news-post-thumb {
+  padding: 15px;
 }
 .video-news-post-item .video-news-post-thumb {
   position: relative;
@@ -1817,6 +1813,12 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
     margin: 0 auto;
   }
 }
+
+@media only screen and (min-width: 924px) and (max-width: 1050px) {
+  .socialDiv {
+    flex-wrap: nowrap;
+  }
+}
 /* @media only screen and (min-width: 769px) and (max-width: 910px) {
   .socialLogo {
     margin: 0 0 0 auto;
@@ -1829,8 +1831,6 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   }
 } */
 
-
-  
 /*===========================
     Header Post Area css 
 ===========================*/
@@ -1846,21 +1846,20 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   align-items: flex-end;
 }
 
-@media only screen and (min-width:280px) and (max-width: 520px){
-  .post_gallery_play{
+@media only screen and (min-width: 280px) and (max-width: 520px) {
+  .post_gallery_play {
     height: 280px;
   }
-  .post_gallery_play .title a{
+  .post_gallery_play .title a {
     font-size: 13px;
     line-height: 0;
   }
-  .post_gallery_play p{
+  .post_gallery_play p {
     font-size: 9px;
   }
-  .post_gallery_play .post-meta{
+  .post_gallery_play .post-meta {
     font-size: 2px;
   }
-  
 }
 
 .post_gallery_play .bg-image {
@@ -2623,7 +2622,6 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   display: flex;
 }
 
-
 .post_gallery_inner_slider .slick-arrow {
   position: absolute;
   top: 0;
@@ -2820,92 +2818,107 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   background-color: red;
 } */
 
-
-
-sup{
+sup {
   font-size: 18px;
   top: -15px;
 }
 
 /* 90% width in Mobile View */
 
-@media only screen and (min-width:270px) and (max-width:640px) {
-  .ninetyPercentWidth{
+@media only screen and (min-width: 270px) and (max-width: 640px) {
+  .ninetyPercentWidth {
     width: 90%;
   }
-  
 }
 
 /* .slick-slider{
   width: 95%;
 } */
 
-@media only screen and (min-width:320px) and (max-width:1000px) {
-  .format{
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+  .format {
     display: flex;
     width: 100%;
     padding: 2px;
   }
-  
 }
-@media only screen and (min-width:320px) and (max-width:1000px) {
-  .image{
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+  .image {
     width: 100%;
   }
-  
 }
 
-
-@media only screen and (min-width:1000px) and (max-width:6000px) {
-  .formatMd{
+@media only screen and (min-width: 1000px) and (max-width: 6000px) {
+  .formatMd {
     display: flex;
     width: 25%;
     flex-direction: column;
   }
 
-  .formatMdMain{
+  .formatMdMain {
     display: flex;
   }
 
-  .formatMmd{
+  .formatMmd {
     display: flex;
     width: 50%;
     flex-direction: column;
   }
 
-  .formatHeight{
+  .formatHeight {
     height: 292px;
   }
 }
 
-
-@media only screen and (min-width:270px) and (max-width:700px) {
-.socials-gap{
-  margin-top:10px
-}
+@media only screen and (min-width: 270px) and (max-width: 700px) {
+  .socials-gap {
+    margin-top: 10px;
+  }
 }
 
 /* Skew animation */
 
-.titleSkew::before{
+.titleSkew::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  height:100%;
+  height: 100%;
   background-color: #dc3545;
   z-index: -1;
 }
 
-.titleSkew::after{
-  content:"";
+.titleSkew::after {
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
   width: 70%;
   height: 100%;
   background-color: #dc3545;
-  transform:skew(-40deg) translateX(14px);
+  transform: skew(-40deg) translateX(14px);
   z-index: -1;
 }
+
+/* Post Page CSS */
+
+@media only screen and  (min-width: 250px) and (max-width: 285px) {
+  .sidebar {
+    border: 1px solid gray;
+    margin-left: 11px;
+  }
+}
+@media only screen and  (min-width: 280px) and (max-width: 400px) {
+  .sidebar {
+    border: 1px solid gray;
+    margin-left: 21px;
+    width: auto;
+  }
+}
+/* @media only screen and  (min-width: 250px) and (max-width: 285px) {
+  .sidebar {
+    border: 1px solid gray;
+    margin-left: 11px;
+  }
+} */

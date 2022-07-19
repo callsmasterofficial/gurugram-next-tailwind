@@ -15,8 +15,8 @@ export default function TrendingNewsArea() {
         <h1>Trending News</h1>
       </div>
       <div className="md:grid  md:grid-cols-5 border-l-2 border-r-2 border-b-2 p-2">
-        <div className="trendingCarousel md:col-span-3">
-          <div className="mt-2">
+        <div className="trendingCarousel md:col-span-3 ">
+          <div className="md:mt-[-20px]">
             <TrendingNewsCarousel />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2">
@@ -24,7 +24,7 @@ export default function TrendingNewsArea() {
             <TrendingCarouselBottom className="" />
           </div>
         </div>
-        <div className="md:col-span-2 md:mt-6 ml-3">
+        <div className="md:col-span-2">
           <TrendingSidebar className="" />
         </div>
       </div>
