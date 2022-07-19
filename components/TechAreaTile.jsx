@@ -73,7 +73,7 @@ function TechAreaTile() {
           </div>
 
           <div className="lg:col-span-1">
-            <div className=" mb-10 border-2 p-2 md:mt-6 sm:mt-4 socials-gap">
+            <div className=" mb-10 border-2 p-2  socials-gap">
               <Socials />
             </div>
             <div className="mt-10 mb-10 border-2 p-2">
