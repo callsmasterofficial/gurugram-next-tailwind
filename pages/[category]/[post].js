@@ -16,7 +16,7 @@ export default function Post() {
           <div className="col-span-7">
             <ParticularPost />
           </div>
-          <div className="sidebar col-span-3">
+          <div className="sidebar col-span-3 ">
             <ParticularPostSidebar />
           </div>
         </div>

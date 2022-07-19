@@ -7,7 +7,7 @@ import TazaKhabar from "./TazaKhabar";
 export default function ParticularPostSidebar() {
   return (
     <div className="">
-      <div className="">
+      <div className="mt-2 socialDiv">
         <Socials />
       </div>
       <div className="">
