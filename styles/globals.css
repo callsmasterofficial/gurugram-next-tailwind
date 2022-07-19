@@ -2909,3 +2909,23 @@ sup{
   transform:skew(-40deg) translateX(14px);
   z-index: -1;
 }
+
+
+@media only screen and (min-width:270px) and (max-width:767px) {
+  .newsPark-gap{
+    margin-top:10px
+  }
+  }
+
+  @media only screen and (min-width:270px) and (max-width:767px) {
+    .categories-gap{
+      margin-left:10px;
+    }
+    }
+
+    @media only screen and (min-width:270px) and (max-width:767px) {
+      .business-gap{
+        margin-right:10px;
+      }
+      }
+  

@@ -38,7 +38,7 @@ function TechAreaTile() {
                         alt="imge not found"
                       />
                     </div>
-                    <div className="px-3 col-span-1 sm: mt-2 ">
+                    <div className="px-3 col-span-1 ">
                       <h4 className=" text-gray-400 text-xs">
                         <div className="flex">
                           <div className="flex">
@@ -55,7 +55,7 @@ function TechAreaTile() {
 
                         {/* {data.category} / {data.date} */}
                       </h4>
-                      <h2 className="font-extrabold text-xl	 hover:text-blue-500 mt-2 mb-2">
+                      <h2 className="font-extrabold text-xl	 hover:text-blue-500 mt-2 mb-2 text-justify">
                         {/* {data.title.length>35? data.title.slice(0,35)+"...": data.title} */}
                         {/* {data.title.length>40? data.title.slice(0,35)+"...": data.title} */}
                         {data.title}
@@ -188,7 +188,7 @@ const TechAreaTileData = [
       "https://www.teztarrar.com/wp-content/uploads/2022/07/9-july-7-1-390x220.jpg",
     category: "Technology",
     date: "June 24, 2022",
-    title: "Jio कंपनी के नए मालिक ने सालभर सबकुछ फ्री देने का किया ऐलान",
+    title: "अब JIO, AIRTEL, IDEA को टक्कर देने आ रहा है अड़ानी का नया टेलीकॉम नेटवर्क",
     description:
       "Reliance Jio देश की सबसे बड़ी कम्पनी है। जियो ने 2016 में फ्री इंटरनेट और कालिंग देकर हर किसी को…",
   },
