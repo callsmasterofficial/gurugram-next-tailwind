@@ -46,9 +46,9 @@ function SportsArea() {
           <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1 ">
             <SportsAreaCarousel/>
           </div>
-          <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1 ">
+          <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1">
             {/* <NewsLetter/> */}
-            <img src="./assets/images/ad/ad-3.png" />
+            <img className="w-[896px] newsPark-gap" src="./assets/images/ad/ad-3.png" />
           </div>
         </div>
         
