@@ -2870,7 +2870,7 @@ sup {
   }
 }
 
-@media only screen and (min-width: 270px) and (max-width: 700px) {
+@media only screen and (min-width: 270px) and (max-width: 1023px) {
   .socials-gap {
     margin-top: 10px;
   }
@@ -2901,16 +2901,15 @@ sup {
   z-index: -1;
 }
 
-
 /* Post Page CSS */
 
-@media only screen and  (min-width: 250px) and (max-width: 285px) {
+@media only screen and (min-width: 250px) and (max-width: 285px) {
   .sidebar {
     border: 1px solid gray;
     margin-left: 11px;
   }
 }
-@media only screen and  (min-width: 280px) and (max-width: 400px) {
+@media only screen and (min-width: 280px) and (max-width: 400px) {
   .sidebar {
     border: 1px solid gray;
     margin-left: 21px;
@@ -2924,22 +2923,26 @@ sup {
   }
 } */
 
-
-@media only screen and (min-width:270px) and (max-width:767px) {
-  .newsPark-gap{
-    margin-top:10px
+@media only screen and (min-width: 270px) and (max-width: 767px) {
+  .newsPark-gap {
+    margin-top: 10px;
   }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 767px) {
+  .categories-gap {
+    margin-right: 10px;
   }
+}
 
-  @media only screen and (min-width:270px) and (max-width:767px) {
-    .categories-gap{
-      margin-left:10px;
-    }
-    }
+@media only screen and (min-width: 270px) and (max-width: 767px) {
+  .business-gap {
+    margin-right: 10px;
+  }
+}
 
-    @media only screen and (min-width:270px) and (max-width:767px) {
-      .business-gap{
-        margin-right:10px;
-      }
-      }
-  
+@media only screen and (min-width: 900px) {
+  .socials-gap {
+    margin-top: 10px;
+  }
+}
