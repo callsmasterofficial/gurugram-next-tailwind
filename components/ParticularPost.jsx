@@ -11,9 +11,9 @@ import LeaveReply from "./LeaveReply";
 export default function ParticularPost() {
   return (
     <>
-      <div className="w-[90%] ninetyPercentWidth m-auto 3xl:w-[90%]  3xl:m-auto">
+      <div className="m-auto border-2">
         {/* Home/tech/dynamic_route */}
-        <div className="slugLink flex flex-start my-2 p-2">
+        <div className="slugLink flex flex-start my-2 p-2 text-gray-400">
           <HomeIcon />
           <span className="text-[12px] ml-2 mr-1 hover:text-red-500">
             <a href="#"> होम /</a>
