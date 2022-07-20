@@ -2866,7 +2866,7 @@ sup {
   }
 
   .formatHeight {
-    height: 292px;
+    height: 452px;
   }
 }
 
@@ -2944,5 +2944,11 @@ sup {
 @media only screen and (min-width: 900px) {
   .socials-gap {
     margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 270px) and (max-width: 767px) {
+  .category-gap {
+    margin-top: 20px;
   }
 }
