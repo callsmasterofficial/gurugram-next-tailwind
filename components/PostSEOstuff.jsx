@@ -24,83 +24,83 @@ export default function PostSEOstuff() {
 const SEOdata = [
     {
         id: "1",
-        tag: "Flipkart"
+        tag: "#Flipkart"
     },
     {
         id: "2",
-        tag: "Flipkart Electronics Sale"
+        tag: "#Flipkart Electronics Sale"
     },
     {
         id: "3",
-        tag: "Flipkart Sale"
+        tag: "#Flipkart Sale"
     },
     {
         id: "4",
-        tag: "iPhone 12"
+        tag: "#iPhone 12"
     },
     {
         id: "5",
-        tag: "iPhone 12 Battery"
+        tag: "#iPhone 12 Battery"
     },
     {
         id: "6",
-        tag: "iPhone 12 Camera"
+        tag: "#iPhone 12 Camera"
     },
     {
         id: "7",
-        tag: "iPhone 12 Display"
+        tag: "#iPhone 12 Display"
     },
     {
         id: "8",
-        tag: "iPhone 12 Features"
+        tag: "#iPhone 12 Features"
     },
     {
         id: "9",
-        tag: "iPhone 12 Flipkart Sale"
+        tag: "#iPhone 12 Flipkart Sale"
     },
     {
         id: "10",
-        tag: "iPhone 12 Latest News"
+        tag: "#iPhone 12 Latest News"
     },
     {
         id: "11",
-        tag: "Flipkart"
+        tag: "#Flipkart"
     },
     {
         id: "12",
-        tag: "Flipkart Electronics Sale"
+        tag: "#Flipkart Electronics Sale"
     },
     {
         id: "13",
-        tag: "Flipkart Sale"
+        tag: "#Flipkart Sale"
     },
     {
         id: "14",
-        tag: "iPhone 12"
+        tag: "#iPhone 12"
     },
     {
         id: "15",
-        tag: "iPhone 12 Battery"
+        tag: "#iPhone 12 Battery"
     },
     {
         id: "16",
-        tag: "iPhone 12 Camera"
+        tag: "#iPhone 12 Camera"
     },
     {
         id: "17",
-        tag: "iPhone 12 Display"
+        tag: "#iPhone 12 Display"
     },
     {
         id: "18",
-        tag: "iPhone 12 Features"
+        tag: "#iPhone 12 Features"
     },
     {
         id: "19",
-        tag: "iPhone 12 Flipkart Sale"
+        tag: "#iPhone 12 Flipkart Sale"
     },
     {
         id: "20",
-        tag: "iPhone 12 Latest News"
+        tag: "#iPhone 12 Latest News"
     },
     
 ]

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PostRead2Next() {
   return (
-    <div className="w-[90%] ninetyPercentWidth m-auto 3xl:w-[90%] grid md:grid-cols-2 border-2 mt-3 sm:p-3">
+    <div className="m-auto grid md:grid-cols-2 border-2 mt-3 sm:p-3">
         <div className="mx-1 cursor-pointer col-span-1">
             <div className="">
                 <img src="https://teztarrar.com/wp-content/uploads/2022/07/2022-07-14.jpg" alt="read next article i-1" />

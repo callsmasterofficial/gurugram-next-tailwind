@@ -1,24 +1,17 @@
 import React from "react";
-import Socials from "./Socials";
+import NewSocials from "./NewSocials";
 import WeatherCard from "./WeatherCard";
 import MainRelatedPopularSidebar from "./MainRelatedPopularSidebar";
 import TazaKhabar from "./TazaKhabar";
 
 export default function ParticularPostSidebar() {
   return (
-    <div className="">
-      <div className="mt-2 socialDiv">
-        <Socials />
-      </div>
+    <div className="m-auto border-2">
+      {/* New Socials */}
       <div className="">
-        <WeatherCard />
+        <NewSocials />
       </div>
-      <div className="m-2 mt-10 md:mt-5">
-        <MainRelatedPopularSidebar />
-      </div>
-      <div>
-        <TazaKhabar />
-      </div>
+      
     </div>
   );
 }

@@ -2886,6 +2886,7 @@ sup {
   width: 100%;
   height: 100%;
   background-color: #dc3545;
+  transform: skew(5deg);
   z-index: -1;
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 export default function PostRelatedArticles() {
   return (
     <>
-      <div className="w-[90%] ninetyPercentWidth m-auto 3xl:w-[90%]  border-2 mt-3 sm:p-3">
+      <div className="m-auto border-2 mt-3 sm:p-3">
         <div className="bg-red-600 text-white font-bold px-2 py-1 mb-3 w-fit titleSkew -skew-x-3">
           <p>Related Articles</p>
         </div>
