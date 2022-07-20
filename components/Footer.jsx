@@ -15,16 +15,15 @@ export default function Footer() {
       <div className="w-[100%] md:w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
         <div className="footermain ">
           <div className="pt-12 pb-4">
-            <div className="grid md:grid-cols-2  border-b-2 border-gray	border-dashed pb-6">
+            <div className="grid md:grid-cols-3  border-b-2 border-gray	border-dashed pb-6">
+              {/* <div className="">
+                  <img
+                    src="./assets/images/GurugramNewsLogo.png"
+                    alt="gurugram-news-network"
+                    className="mx-auto w-40 md:mx-0 md:w-60  sm:w-48 sm:mx-auto  "
+                  />
+                </div> */}
               <div className="col-span-1 ">
-                <div className="">
-                <img
-                  src="./assets/images/GurugramNewsLogo.png"
-                  alt="gurugram-news-network"
-                  className="mx-auto w-40 md:mx-0 md:w-60  sm:w-48 sm:mx-auto  "
-                />
-                </div>
-
                 <div className=" mx-auto p-4  iconBox md:mx-0 mt-6  sm:mx-auto text-white">
                   <div className="">
                     <h3 className="bg-black  w-fit p-2">About US</h3>
@@ -44,19 +43,60 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-span-1 mt-20 mx-10 md:mx-0">
-                <div className="flex mb-6 h-14">
-                  <input
-                    type="text"
-                    placeholder="Your email address"
-                    className="p-4 w-[80%] rounded-sm rounded-r-none border-none outline-none "
-                  />
-                  <button className="text-white w-[50%] bg-blue-400 rounded-sm rounded-l-none hover:bg-blue-800 hover:font-bold">
-                    SIGN UP
-                  </button>
+
+              <div className="col-span-1 mt-10 mx-10 md:mx-0">
+                <div className="grid grid-cols-3	">
+                  <div className="col-span-1">
+                    <div className="text-white">
+                      <h3 className="bg-black  w-fit p-2">Latest Post</h3>
+                    </div>
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                  </div>
+                  <div className="col-span-1 mt-10">
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                  </div>
+                  <div className="col-span-1 mt-10">
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                    <img
+                      className="p-1"
+                      src="https://www.teztarrar.com/wp-content/uploads/2022/07/20-july-3-390x220.jpg"
+                    />
+                  </div>
                 </div>
+              </div>
+
+              <div className="col-span-1 mt-10 mx-10 md:mx-0">
                 <div className="text-white">
-                  <p>We hate spam as much as you do</p>
+                  <h3 className="bg-black  w-fit p-2">Follow Us</h3>
                 </div>
                 <div className=" mx-auto w-48 iconBox md:mx-0  flex mt-6 sm:w-48 sm:mx-auto">
                   <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#1DA1F2]">
@@ -72,6 +112,22 @@ export default function Footer() {
                     <Instagram color="white" />
                   </div>
                 </div>
+                {/* <img src="./assets/images/playstore.png" /> */}
+                {/* <input
+                    type="text"
+                    placeholder="Your email address"
+                    className="p-4 w-[80%] rounded-sm rounded-r-none border-none outline-none "
+                  />
+                  <button className="text-white w-[50%] bg-blue-400 rounded-sm rounded-l-none hover:bg-blue-800 hover:font-bold">
+                    SIGN UP
+                  </button> */}
+                    <div className="text-white mt-5">
+                  <h3 className="bg-black  w-fit p-2">Available on Store</h3>
+                </div>
+                <div className="mt-5 mb-5">
+                  <img className="w-48" src="https://www.teztarrar.com/wp-content/uploads/2021/09/playstore-image.jpg" /> 
+
+                </div>
               </div>
             </div>
           </div>
@@ -83,23 +139,52 @@ export default function Footer() {
                     <h2 className="m-3.5 mx-5">News Categories</h2>
                     <div className="flex justify-between mr-20 mx-3 ">
                       <div className="left">
-                        <li className="list-none m-3.5  hover:text-red-500"> <a href="#">Politics</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Business</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Technology</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Science</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Health</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Sports</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Entertainment</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          {" "}
+                          <a href="#">Politics</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#">Business</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#">Technology</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#">Science</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Health</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Sports</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Entertainment</a>
+                        </li>
                       </div>
 
                       <div className="right">
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Education</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Obituaries</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Obituaries</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Corrections</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Newspaper</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Corrections</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Foods</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Education</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Obituaries</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Obituaries</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Corrections</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Newspaper</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Corrections</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Foods</a>
+                        </li>
                       </div>
                     </div>
                   </div>
@@ -108,22 +193,50 @@ export default function Footer() {
                     <h2 className="m-3.5 mx-6">Living</h2>
                     <div className="flex justify-between mr-20 mx-3 text-white">
                       <div className="left">
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Crossword</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Food</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#">Automobiles</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Education</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Health</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Magazine</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Weddings</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#">Crossword</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#">Food</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#">Automobiles</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Education</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Health</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Magazine</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Weddings</a>
+                        </li>
                       </div>
                       <div className="right ">
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Classifieds</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Photographies</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> NYT Store</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Journalisms</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Public Editor</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> Tools Services</a></li>
-                        <li className="list-none m-3.5  hover:text-red-500"><a href="#"> My Account</a></li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Classifieds</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Photographies</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> NYT Store</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Journalisms</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Public Editor</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> Tools Services</a>
+                        </li>
+                        <li className="list-none m-3.5  hover:text-red-500">
+                          <a href="#"> My Account</a>
+                        </li>
                       </div>
                     </div>
                   </div>
@@ -135,19 +248,25 @@ export default function Footer() {
                       <div className="flex items-center	mt-2 m-3.5">
                         <FooterMobile />
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500">On your mobile</p>
+                          <p className="mx-2  hover:text-red-500">
+                            On your mobile
+                          </p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2 m-3.5	">
                         <FooterMicophone />
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500">On smart speakers</p>
+                          <p className="mx-2  hover:text-red-500">
+                            On smart speakers
+                          </p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2 m-3.5">
                         <FooterMessage />
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500">Contact Newspark news</p>
+                          <p className="mx-2  hover:text-red-500">
+                            Contact Newspark news
+                          </p>
                         </a>
                       </div>
                     </div>
@@ -158,31 +277,41 @@ export default function Footer() {
                       <div className="flex items-center	mt-2">
                         {/* <FooterMobile /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500 m-2.5" >About</p>
+                          <p className="mx-2  hover:text-red-500 m-2.5">
+                            About
+                          </p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2	">
                         {/* <FooterMicophone /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500 m-2.5">Privacy & Policy</p>
+                          <p className="mx-2  hover:text-red-500 m-2.5">
+                            Privacy & Policy
+                          </p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500 m-2.5">Advertise</p>
+                          <p className="mx-2  hover:text-red-500 m-2.5">
+                            Advertise
+                          </p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500 m-2.5">Terms Of Use</p>
+                          <p className="mx-2  hover:text-red-500 m-2.5">
+                            Terms Of Use
+                          </p>
                         </a>
                       </div>
                       <div className="flex items-center mt-2">
                         {/* <FooterMessage /> */}
                         <a href="#">
-                        <p className="mx-2  hover:text-red-500 m-1.5">Contact Us</p>
+                          <p className="mx-2  hover:text-red-500 m-1.5">
+                            Contact Us
+                          </p>
                         </a>
                       </div>
                     </div>
@@ -191,11 +320,16 @@ export default function Footer() {
               </div>
             </div>
             <div className="p-4 border-t-2 border-dashed ">
-
-              <div className=" text-white text-[14px] text-center">
-                  <a href="#">© Copyright 2022, All Rights Reserved |</a>
-                  <a href="#">❤️Gurugram News Network | Developed by</a>
-                  <a className="ml-1  hover:text-red-500" href="https://www.callsmaster.com/" target="_blank">Callsmaster Services LLP</a>
+              <div className=" text-white text-[14px] flex flex-nowrap	justify-center	">
+                <p>© Copyright 2022, All Rights Reserved |</p>
+                <p>❤️Gurugram News Network | Developed by</p>
+                <a
+                  className="ml-1  hover:text-red-500"
+                  href="https://www.callsmaster.com/"
+                  target="_blank"
+                >
+                  Callsmaster Services LLP
+                </a>
               </div>
             </div>
           </div>
