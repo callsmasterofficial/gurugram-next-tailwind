@@ -6,12 +6,12 @@ function TechArea() {
       <div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
         {TechAreaData.map((techArea) => {
           return (
-            <div className="formatMdMain mt-10">
+            <div className="formatMdMain mt-10 mb-10">
               <div className=" format formatMd  ">
                 <div className="relative format">
                   <div className="format">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%]"
+                      className="mb-1  h-56 w-[100%]"
                       src={techArea.firstDivImg_1}
                     />
                   </div>
@@ -25,7 +25,7 @@ function TechArea() {
 
                   <div className="format  ">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%] "
+                      className="mb-1  h-56 w-[100%] "
                       src={techArea.firstDivImg_2}
                     />
                   </div>
@@ -42,7 +42,7 @@ function TechArea() {
                   <div className=" format">
 
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%] formatHeight"
+                      className="mb-1 ml-1  h-56 w-[100%] formatHeight"
                       src={techArea.secondDivImg_1}
                     />
                   </div>
@@ -60,7 +60,7 @@ function TechArea() {
 
                   <div className=" format">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%]"
+                      className="mb-1 ml-2  h-56 w-[100%]"
                       src={techArea.thirdDivImg_1}
                     />
                   </div>
@@ -75,7 +75,7 @@ function TechArea() {
 
                   <div className="format">
                     <img
-                      className="mb-1 rounded-md h-36 w-[100%]"
+                      className="mb-1 ml-2 h-56 w-[100%]"
                       src={techArea.thirdDivImg_2}
                     />
                   </div>
