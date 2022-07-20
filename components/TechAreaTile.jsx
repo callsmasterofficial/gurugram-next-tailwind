@@ -10,138 +10,103 @@ import { HomeIcon } from "./icons";
 
 function TechAreaTile() {
   return (
-    <div className="w-[80%] ninetyPercentWidth m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-      <div className="  m-auto text-xl font-semibold  mb-4  p-2 mt-24"></div>
-      <div className="TechTileArea m-auto ">
-        <div className="md:grid md:grid-cols-1  lg:grid lg:grid-cols-3 ">
-          <div className="col-span-1 lg:col-span-2 border-2  p-4 mr-3">
-            <div className="flex text-gray-400 items-center">
-              <HomeIcon />
-              <p className="ml-2">Home / Tech</p>
-            </div>
-            <div className="mt-3 font-bold border-b-2 p-3 text-3xl">
-              <h1>Tech</h1>
-            </div>
-            {TechAreaTileData.map((data) => {
-              return (
-                <div key={data.id} className=" mb-4 mt-4 ">
-                  <div className="grid  md:grid-cols-2 ">
-                    <div
-                      className="overflow-hidden
+    <div className="w-[100%] ninetyPercentWidth m-auto 3xl:w-[90%]  3xl:m-auto ">
+      <div className=" border-2  p-4 mr-3">
+        <div className="flex text-gray-400 items-center">
+          <HomeIcon />
+          <p className="ml-2">Home / Tech</p>
+        </div>
+        <div className="mt-3 font-bold border-b-2 p-3 text-3xl">
+          <h1>Tech</h1>
+        </div>
+        {TechAreaTileData.map((data) => {
+          return (
+            <div key={data.id} className=" mb-4 mt-4 ">
+              <div className="grid  md:grid-cols-2 ">
+                <div
+                  className="overflow-hidden
                         w-[100%] h-[100%]  m-auto col-span-1"
-                    >
-                      <img
-                        className="object-cover w-[100%] h-[100%] lg:h-52 mx-auto sm:mx-auto"
-                        src={data.image}
-                        alt="imge not found"
-                      />
-                    </div>
-                    <div className="px-3 col-span-1 relative">
-                      <h4 className=" text-gray-400 text-xs">
-                        <div className="flex">
-                          <div className="flex">
-                            <Person />
-                            <p className="mx-1 items-center">Pulkit Mittal</p>
-                          </div>
-                          <div className="flex md:ml-auto	">
-                            <Chat />
-                            <p className="mx-1">0</p>
-                            <Fire />
-                            <p className="mx-1">32</p>
-                          </div>
-                        </div>
-
-                        {/* {data.category} / {data.date} */}
-                      </h4>
-                      <h2 className="font-bold text-[12px] xl:text-[20px] hover:text-blue-500 mt-2 mb-1 text-justify leading-[26px]">
-                        {/* {data.title.length>35? data.title.slice(0,35)+"...": data.title} */}
-                        {/* {data.title.length>40? data.title.slice(0,35)+"...": data.title} */}
-                        {data.title}
-                      </h2>
-                      <p className=" mt-1 mb-1 text-[8px] xl:text-[16px] text-gray-600 ">
-                        {data.description}
-                      </p>
-                      <button className="hover:bg-red-800 text-white text-[12px] absolute bottom-1 right-2 font-semibold py-2 px-4 border border-black-900 hover:border-transparent rounded bg-red-500">
-                        Read More
-                      </button>
-                    </div>
-                  </div>
+                >
+                  <img
+                    className="object-cover w-[100%] h-[100%] lg:h-52 mx-auto sm:mx-auto"
+                    src={data.image}
+                    alt="imge not found"
+                  />
                 </div>
-              );
-            })}{" "}
-          </div>
-
-          <div className="lg:col-span-1">
-            <div className=" mb-10 border-2 p-2  socials-gap">
-              <Socials />
-            </div>
-            <div className="border-2">
-              <WeatherCard />
-            </div>
-            <div className="mt-10 mb-10">
-              <MainRelatedPopularSidebar />
-            </div>
-            <div className="mt-10 mb-10 border-2 p-2">
-              <TazaKhabar />
-            </div>
-          </div>
-
-          {/* <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1 ">
-                 <SportsAreaCarousel/>
+                <div className="px-3 col-span-1 relative">
+                  <h4 className=" text-gray-400 text-xs">
+                    <div className="flex">
+                      <div className="flex">
+                        <Person />
+                        <p className="mx-1 items-center">Pulkit Mittal</p>
+                      </div>
+                      <div className="flex md:ml-auto	">
+                        <Chat />
+                        <p className="mx-1">0</p>
+                        <Fire />
+                        <p className="mx-1">32</p>
+                      </div>
+                    </div>
+                  </h4>
+                  <h2 className="font-bold text-[12px] xl:text-[20px] hover:text-blue-500 mt-2 mb-1 text-justify leading-[26px]">
+                    {data.title}
+                  </h2>
+                  <p className=" mt-1 mb-1 text-[8px] xl:text-[16px] text-gray-600 ">
+                    {data.description}
+                  </p>
+                  <button className="hover:bg-red-800 text-white text-[12px]  font-semibold py-2 px-4 border border-black-900 hover:border-transparent rounded bg-red-500">
+                    Read More
+                  </button>
+                </div>
               </div>
-              <div className="col-span-1 grid grid-cols-1 sm:grid-cols-1 ">
-                 <NewsLetter/> 
-                 <img src="./assets/images/ad/ad-3.png" /> 
-              </div> */}
-        </div>
+            </div>
+          );
+        })}{" "}
       </div>
-      {/* button Next Page */}
-      <div className="md:grid md:grid-cols-1  lg:grid lg:grid-cols-3 ">
-        <div className="col-span-1 lg:col-span-2  mr-3 mt-6">
-          <div className="btnBox flex md:items-center justify-start  ">
-            <button className=" border-y-2 p-2  border-x-2 rounded-tr-sm rounded-tb-sm">
-              {" < "}
-            </button>
-            <button className="border-y-2  p-2  border-r-2 rounded-tr-sm rounded-tb-sm hover:bg-red-500 hover:text-white">
-              Prev Page
-            </button>
-            <button className="border-y-2  p-2  border-l-2 rounded-tr-sm rounded-tb-sm ml-auto hover:bg-red-500 hover:text-white">
-              Next Page
-            </button>
-            <button className=" border-y-2 p-2  border-x-2 rounded-tr-sm rounded-tb-sm">
-              {" > "}
-            </button>
-          </div>
+
+      <div>
+        <div className="btnBox flex md:items-center justify-start  ">
+          <button className=" border-y-2 p-2  border-x-2 rounded-tr-sm rounded-tb-sm">
+            {" < "}
+          </button>
+          <button className="border-y-2  p-2  border-r-2 rounded-tr-sm rounded-tb-sm hover:bg-red-500 hover:text-white">
+            Prev Page
+          </button>
+          <button className="border-y-2  p-2  border-l-2 rounded-tr-sm rounded-tb-sm ml-auto hover:bg-red-500 hover:text-white">
+            Next Page
+          </button>
+          <button className=" border-y-2 p-2  border-x-2 rounded-tr-sm rounded-tb-sm">
+            {" > "}
+          </button>
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-1  lg:grid lg:grid-cols-3 ">
-        <div className="col-span-1 lg:col-span-2 border-2  p-4 mr-3 mt-6">
-          <h1 className="mb-7 w-fit text-white px-2 py-1 titleSkew -skew-x-3">
-            Popular Searches
-          </h1>
-          <p>
-            <a className="text-red-500" href="#">
-              Tech News
-            </a>
-            , Latest Tech News, Tech News in Hindi, Tech News Today, Tech News
-            India, Tech News Hindi, Latest Tech News in Hindi, Hindi Tech News,{" "}
-            <a className="text-red-500" href="#">
-              टेक न्यूज़
-            </a>
-            , टेक समाचार, Technology News, Latest Technology News, Technology
-            News in Hindi,
-            <a className="text-red-500" href="#">
-              Delhi News
-            </a>
-            ,{" "}
-            <a className="text-red-500" href="#">
-              Hindi News
-            </a>
-          </p>
-        </div>
+      <div>
+        <h1 className="mb-7 w-fit text-white px-2 py-1 titleSkew -skew-x-3">
+          Popular Searches
+        </h1>
+        <p>
+          <a className="text-red-500" href="#">
+            Tech News
+          </a>
+          , Latest Tech News, Tech News in Hindi, Tech News Today, Tech News
+          India, Tech News Hindi, Latest Tech News in Hindi, Hindi Tech News,{" "}
+          <a className="text-red-500" href="#">
+            टेक न्यूज़
+          </a>
+          , टेक समाचार, Technology News, Latest Technology News, Technology News
+          in Hindi,
+          <a className="text-red-500" href="#">
+            Delhi News
+          </a>
+          ,{" "}
+          <a className="text-red-500" href="#">
+            Hindi News
+          </a>
+        </p>
       </div>
     </div>
+    // </div>
   );
 }
 
