@@ -2947,3 +2947,17 @@ sup {
     margin-top: 10px;
   }
 }
+
+
+.weatherbgImage{
+  background: url(../public/assets/images/indiaGate.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+.spanK {
+  content: "\2103";
+}

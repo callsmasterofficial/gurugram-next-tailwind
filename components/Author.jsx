@@ -13,13 +13,15 @@ export default function Author(props) {
         />
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
           <blockquote>
+            <figcaption className="text-xl mb-2">
+              <div className="text-sky-500 dark:text-sky-400">Yash Hasani</div>
+            </figcaption>
             <p className="text-lg font-medium">
-            यश हासानी तेज़ तर्रार न्यूज़ में बतौर पत्रकार कार्य कर रहे है और इनका मानना है कि एक पत्रकार समाज के लोगो से बात कर उनकी बात को सबके सामने रखता है
+              यश हासानी तेज़ तर्रार न्यूज़ में बतौर पत्रकार कार्य कर रहे है और
+              इनका मानना है कि एक पत्रकार समाज के लोगो से बात कर उनकी बात को
+              सबके सामने रखता है
             </p>
           </blockquote>
-          <figcaption className="font-medium">
-            <div className="text-sky-500 dark:text-sky-400">Yash Hasani</div>
-          </figcaption>
         </div>
       </figure>
     </>

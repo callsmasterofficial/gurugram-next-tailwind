@@ -19,7 +19,7 @@ export default function tech() {
           <div className="col-span-7">
             <TechAreaTile />
           </div>
-          <div className="sidebar col-span-3 ">
+          <div className="col-span-3 ">
             <ParticularPostSidebar />
           </div>
     </div>

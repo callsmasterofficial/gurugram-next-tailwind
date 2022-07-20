@@ -13,10 +13,10 @@ export default function Post() {
         <HeaderTopBar />
         <Header />
         <div className="grid md:grid-cols-10 w-[80%] ninetyPercentWidth m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-          <div className="md:col-span-7">
+          <div className="md:col-span-7 mt-4">
             <ParticularPost />
           </div>
-          <div className="md:col-span-3">
+          <div className="md:col-span-3 mt-4">
             <ParticularPostSidebar />
           </div>
         </div>
