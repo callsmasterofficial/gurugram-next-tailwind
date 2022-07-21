@@ -16,10 +16,12 @@ export default function tech() {
       <Header />
       <TechArea/>
       <div className="grid md:grid-cols-10 w-[80%] ninetyPercentWidth m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-          <div className="col-span-7">
+          <div className="md:col-span-7">
             <TechAreaTile />
           </div>
-          <div className="col-span-3 ">
+
+          <div className=" md:col-span-3 ">
+
             <ParticularPostSidebar />
           </div>
     </div>

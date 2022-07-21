@@ -10,8 +10,8 @@ import { HomeIcon } from "./icons";
 
 function TechAreaTile() {
   return (
-    <div className="w-[100%] ninetyPercentWidth m-auto 3xl:w-[90%]  3xl:m-auto ">
-      <div className=" border-2  p-4 mr-3">
+    <div className=" ">
+      <div className=" border-2  p-4 ">
         <div className="flex text-gray-400 items-center">
           <HomeIcon />
           <p className="ml-2">Home / Tech</p>
@@ -33,7 +33,7 @@ function TechAreaTile() {
                     alt="imge not found"
                   />
                 </div>
-                <div className="px-3 col-span-1 relative">
+                <div className="px-3 col-span-1 relative category-gap">
                   <h4 className=" text-gray-400 text-xs">
                     <div className="flex">
                       <div className="flex">
@@ -48,10 +48,10 @@ function TechAreaTile() {
                       </div>
                     </div>
                   </h4>
-                  <h2 className="font-bold text-[12px] xl:text-[20px] hover:text-blue-500 mt-2 mb-1 text-justify leading-[26px]">
-                    {data.title}
+                  <h2 className="font-bold  xl:text-[20px] hover:text-blue-500 mt-2 mb-1  leading-[26px]">
+                    <a href="#"> {data.title} </a>
                   </h2>
-                  <p className=" mt-1 mb-1 text-[8px] xl:text-[16px] text-gray-600 ">
+                  <p className=" mt-1 mb-1 text-[12px] xl:text-[16px] text-gray-600 ">
                     {data.description}
                   </p>
                   <button className="hover:bg-red-800 text-white text-[12px]  font-semibold py-2 px-4 border border-black-900 hover:border-transparent rounded bg-red-500">
@@ -65,7 +65,7 @@ function TechAreaTile() {
       </div>
 
       <div>
-        <div className="btnBox flex md:items-center justify-start  ">
+        <div className="btnBox flex md:items-center justify-start  mt-[12px] mb-[12px]">
           <button className=" border-y-2 p-2  border-x-2 rounded-tr-sm rounded-tb-sm">
             {" < "}
           </button>
@@ -81,8 +81,8 @@ function TechAreaTile() {
         </div>
       </div>
 
-      <div>
-        <h1 className="mb-7 w-fit text-white px-2 py-1 titleSkew -skew-x-3">
+      <div className="p-6 border-2">
+        <h1 className="w-fit text-white px-2 py-1 titleSkew -skew-x-3 mb-4 ">
           Popular Searches
         </h1>
         <p>
