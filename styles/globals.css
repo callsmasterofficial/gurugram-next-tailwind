@@ -2948,10 +2948,24 @@ sup {
   }
 }
 
+
+
+.weatherbgImage{
+  background: url(../public/assets/images/indiaGate.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+
+
 @media only screen and (min-width: 270px) and (max-width: 767px) {
   .category-gap {
     margin-top: 20px;
   }
+
 }
 
 @media only screen and (min-width: 270px) and (max-width: 767px) {
@@ -2987,4 +3001,5 @@ sup {
   background-color: black;
   transform: skew(-40deg) translateX(14px);
   z-index: -1;
+
 }

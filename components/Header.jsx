@@ -209,7 +209,7 @@ export default function Header() {
 
         <div className="uppercase  hidden sm:hidden md:block md:w-[100%] md:rounded-lg">
           <div className="md:w-[90%]  lg:w-[80%] m-auto   3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
-            <ul className="flex items-center justify-between sm:mr-0 mr-4 p-2 md:w-[100%] ">
+            <ul className="flex items-center justify-between sm:mr-0 mr-4 p-1 md:w-[100%] ">
               <HeaderSingleElement name="देश" />
               <HeaderSingleElement name="हरियाणा" />
               <HeaderSingleElement name="शहर" />

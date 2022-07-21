@@ -18,6 +18,11 @@ import Chat from './Chat'
 import Fire from './Fire'
 import VideoIcon from './VideoIcon'
 import ShareIcon from './ShareIcon'
+import Pinterest from './Pinterest'
+import LinkedIn from './LinkedIn'
+import Tumblr from './Tumblr'
+import Reddit from './Reddit'
+import Temperature from './Temperature'
 
 export {
     Search,
@@ -40,4 +45,10 @@ export {
     Fire,
     VideoIcon,
     ShareIcon,
+    Pinterest,
+    LinkedIn,
+    Tumblr,
+    Reddit,
+    Temperature,
+
 }

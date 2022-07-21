@@ -11,7 +11,7 @@ import LeaveReply from "./LeaveReply";
 export default function ParticularPost() {
   return (
     <>
-      <div className="m-auto border-2">
+      <div className="m-auto border-2 p-4">
         {/* Home/tech/dynamic_route */}
         <div className="slugLink flex flex-start my-2 p-2 text-gray-400">
           <HomeIcon />
