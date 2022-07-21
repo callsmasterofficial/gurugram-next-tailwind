@@ -2953,3 +2953,38 @@ sup {
     margin-top: 20px;
   }
 }
+
+@media only screen and (min-width: 270px) and (max-width: 767px) {
+  .Latest-post {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+
+/* Skew animation */
+
+.titleSkewFooter::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform: skew(5deg);
+  z-index: -1;
+}
+
+.titleSkewFooter::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70%;
+  height: 100%;
+  background-color: black;
+  transform: skew(-40deg) translateX(14px);
+  z-index: -1;
+}

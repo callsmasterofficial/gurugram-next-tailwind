@@ -42,7 +42,7 @@ function TechArea() {
                   <div className=" format">
 
                     <img
-                      className="mb-1 ml-1  h-56 w-[100%] formatHeight"
+                      className="mb-1 ml-1  h-56 w-[100%] formatHeight scale-100"
                       src={techArea.secondDivImg_1}
                     />
                   </div>
@@ -60,7 +60,7 @@ function TechArea() {
 
                   <div className=" format">
                     <img
-                      className="mb-1 ml-2  h-56 w-[100%]"
+                      className="mb-1 ml-2  h-56 w-[100%] scale-100"
                       src={techArea.thirdDivImg_1}
                     />
                   </div>
@@ -105,7 +105,7 @@ const TechAreaData = [
     firstDivImg_2:
       "https://www.teztarrar.com/wp-content/uploads/2022/06/featured-image1.png",
     secondDivImg_1:
-      "https://www.teztarrar.com/wp-content/uploads/2022/07/image-1-1.jpg",
+      "https://www.teztarrar.com/wp-content/uploads/2022/07/oppo-reno-series.jpg",
     thirdDivImg_1:
       " https://www.teztarrar.com/wp-content/uploads/2022/06/featured-image1.png",
     thirdDivImg_2:
