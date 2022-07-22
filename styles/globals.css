@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
 /* Hamburger CSS */
 label {
   display: flex;
@@ -2950,13 +2952,13 @@ sup {
 
 
 
-.weatherbgImage{
-  background: url(../public/assets/images/indiaGate.png);
+/* .weatherbgImage{
+  background: url(../public/assets/images/indiaGateClouds.jpg) !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
-}
+  z-index: 5;
+} */
 
 
 
@@ -3002,4 +3004,8 @@ sup {
   transform: skew(-40deg) translateX(14px);
   z-index: -1;
 
+}
+
+.fontModak{
+  font-family: 'Modak', cursive;
 }

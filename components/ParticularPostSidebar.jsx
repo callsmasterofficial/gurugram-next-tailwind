@@ -1,8 +1,7 @@
 import React from "react";
 import NewSocials from "./NewSocials";
 import NewTWeather from "./NewTWeather";
-import WeatherCard from "./WeatherCard";
-import MainRelatedPopularSidebar from "./MainRelatedPopularSidebar";
+import ParticularRelatedPopular from "./ParticularRelatedPopular";
 import TazaKhabar from "./TazaKhabar";
 
 export default function ParticularPostSidebar() {
@@ -14,8 +13,18 @@ export default function ParticularPostSidebar() {
       </div>
       
       {/* Weather --- NewTWeather */}
-      <div className="">
+      <div className="my-5 p-3 ">
         <NewTWeather />
+      </div>
+
+      {/* Related */}
+      <div className="p-3">
+        <ParticularRelatedPopular />
+      </div>
+
+      {/* Taza Khabhar */}
+      <div className="p-3">
+        <TazaKhabar />
       </div>
     </div>
   );
