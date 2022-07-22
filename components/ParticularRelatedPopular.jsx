@@ -7,17 +7,17 @@ export default function ParticularRelatedPopular() {
         {/* Headings */}
         <div className="grid grid-cols-3 bg-gray-50 p-2 mb-1">
           {/* Popular */}
-          <div className="text-center border-r-2 text-[16px]">
+          <div className="text-center border-r-2 text-[16px] hover:text-red-400 hover:cursor-pointer">
             <a>Popular</a>
           </div>
 
           {/* Recent */}
-          <div className="text-center border-r-2 text-[16px]">
+          <div className="text-center border-r-2 text-[16px] hover:text-red-400 hover:cursor-pointer">
             <a>Recent</a>
           </div>
 
           {/* Comments */}
-          <div className="text-center text-[16px]">
+          <div className="text-center text-[16px] hover:text-red-400 hover:cursor-pointer">
             <a>Comments</a>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function ParticularRelatedPopular() {
                   />
                 </div>
                 {/* Description */}
-                <div className="col-span-4 mx-1 md:mx-2 text-[12px] md:text-[18px]">
+                <div className="col-span-4 mx-1 md:mx-2 text-[12px] md:text-[18px] hover:text-red-400 hover:cursor-pointer">
                   <p>
                     दिल्ली में जींस कारोबारी से बदमाशों ने मांगे 30 लाख, न देने
                     पर दी हत्या की धमकी

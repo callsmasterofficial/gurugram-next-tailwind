@@ -12,7 +12,7 @@ function TazaKhabar() {
             <>
               <div className="col-span-1 p-2">
                 <img src={data.image} />
-                <h2> {data.description} </h2>
+                <p> {data.description} </p>
               </div>
             </>
           );

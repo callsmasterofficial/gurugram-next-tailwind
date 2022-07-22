@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PostSEOstuff() {
   return (
-    <div className="border-2 p-2 mt-2">
+    <div className=" p-2 mt-2">
         {/* Next Article Link */}
         <div className="flex flex-wrap p-2">
             <p>ये भी पढ़े:</p>
