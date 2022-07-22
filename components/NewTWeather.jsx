@@ -9,7 +9,7 @@ export default function NewTWeather() {
     <div className="">
       <div className="border-2 relative">
         {/* Place */}
-        <div className=" p-2 text-[12px] text-center z-50">
+        <div className=" p-2 text-[12px] text-center z-50 bg-[#dde4ee]">
           <div className="fontModak font-bold text-[16px]">
             <p>दिल्ली</p>
           </div>
@@ -21,7 +21,7 @@ export default function NewTWeather() {
           <img
             src="../../assets/images/indiaGateClouds.jpg"
             alt=""
-            className="w-[100%] h-[100%] overflow-hidden"
+            className="overflow-hidden"
           />
         </div>
         <div>
@@ -39,7 +39,7 @@ export default function NewTWeather() {
           </div>
 
           {/* min-max AND precipitation */}
-          <div className="flex justify-between absolute bottom-1 p-2 left-3 right-3">
+          <div className="flex justify-between">
             <div className="precipitation flex flex-col items-center p-2 rounded-2xl md:mr-2">
               <Precipitation />
               <p className="text-[12px] md:text-[16px]">56%</p>

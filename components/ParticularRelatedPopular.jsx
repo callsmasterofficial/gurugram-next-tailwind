@@ -5,19 +5,19 @@ export default function ParticularRelatedPopular() {
     <>
       <div className="border-2 ">
         {/* Headings */}
-        <div className="grid grid-cols-3 md:grid-cols-1 lg:grid-cols-3 bg-gray-50 p-2 mb-1">
+        <div className="grid grid-cols-3 bg-gray-50 p-2 mb-1">
           {/* Popular */}
-          <div className="text-center border-r-2 md:border-r-0 md:text-[12px] xl:text-[16px]  lg:border-r-2 md:border-b-2 lg:border-b-0">
+          <div className="text-center border-r-2 text-[16px]">
             <a>Popular</a>
           </div>
 
           {/* Recent */}
-          <div className="text-center border-r-2 md:border-r-0  md:text-[12px] xl:text-[16px] lg:border-r-2 md:border-b-2 lg:border-b-0">
+          <div className="text-center border-r-2 text-[16px]">
             <a>Recent</a>
           </div>
 
           {/* Comments */}
-          <div className="text-center  md:text-[12px] xl:text-[16px]">
+          <div className="text-center text-[16px]">
             <a>Comments</a>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function ParticularRelatedPopular() {
         <div className="">
           {ParticularSidebarSinglePostData.map((data) => {
             return (
-              <div key={data.id} className="singlePost grid grid-cols-6 md:grid-cols-1 xl:grid-cols-6 p-2 ">
+              <div key={data.id} className="singlePost grid grid-cols-6 p-2 ">
                 {/* Image */}
                 <div className="col-span-2">
                   <img
