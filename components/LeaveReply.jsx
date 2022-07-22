@@ -13,7 +13,7 @@ export default function LeaveReply() {
                 <p>Fill your details to proceed:- </p>
             </div>
         </div>
-        <div className="btn bg-red-600 text-white text-[12px] font-bold w-fit p-3 ml-auto mt-2">
+        <div className="btn bg-red-600 text-white text-[12px] font-bold w-fit p-3 ml-auto mt-2 hover:bg-red-700">
             <button className="uppercase">Post Comment</button>
         </div>
       </div>

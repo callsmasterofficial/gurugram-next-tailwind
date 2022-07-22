@@ -17,7 +17,7 @@ export default function NewTWeather() {
             <DateTime />
           </div>
         </div>
-        <div className="">
+        <div className="max-h-max w-auto">
           <img
             src="../../assets/images/CroppedIndiaGateclouds.jpg"
             alt=""
