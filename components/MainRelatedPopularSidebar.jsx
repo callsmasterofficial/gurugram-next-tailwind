@@ -167,28 +167,3 @@ export default function MainRelatedPopularSidebar() {
     </>
   );
 }
-/*
-<div classNameName="w-[35%] rounded-md md:my-0 bg-blue-50">
-        <div classNameName="sidebarHeading flex flex-wrap justify-evenly mx-4 lg:mx-1">
-          <div>
-            <button classNameName={active===0?`${btnclassName} border-b-4`: `${btnclassName}`} onClick={()=>setActive(0)}>
-              Related
-            </button>
-          </div>
-          <div>
-            <button classNameName={active===1?`${btnclassName} border-b-4`: `${btnclassName}`} onClick={()=>setActive(1)}>
-              Tech
-            </button>
-          </div>
-          <div>
-            <button classNameName={active===2?`${btnclassName} border-b-4`: `${btnclassName}`} onClick={()=>setActive(2)}>
-              Popular
-            </button>
-          </div>
-        </div>
-        <div classNameName="">
-          <MainSinglepostItem active={active} />
-        </div>
-      </div>
-
-*/

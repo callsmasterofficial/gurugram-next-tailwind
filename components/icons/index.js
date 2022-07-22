@@ -23,6 +23,9 @@ import LinkedIn from './LinkedIn'
 import Tumblr from './Tumblr'
 import Reddit from './Reddit'
 import Temperature from './Temperature'
+import Precipitation from './Precipitation'
+import Wind from './Wind'
+import IndiaGate from './IndiaGate'
 
 export {
     Search,
@@ -50,5 +53,8 @@ export {
     Tumblr,
     Reddit,
     Temperature,
+    Precipitation,
+    Wind,
+    IndiaGate,
 
 }
