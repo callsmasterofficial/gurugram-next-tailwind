@@ -6,7 +6,7 @@ import TazaKhabar from "./TazaKhabar";
 
 export default function ParticularPostSidebar() {
   return (
-    <div className="m-auto mt-2 md:m-[8px] md:mt-0">
+    <div className="m-auto border-2">
       {/* New Socials */}
       <div className="">
         <NewSocials />
