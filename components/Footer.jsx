@@ -31,6 +31,7 @@ export default function Footer() {
                     </h3>
                   </div>
                   <div className="text-justify	">
+
                     <p>
                       'Gurugram News' channel is the only web news channel in
                       the city of Gurugram, which has made a different identity
@@ -42,6 +43,7 @@ export default function Footer() {
                       of news related to Gurugram are broadcast to the viewers
                       by 'Gurugram News' like politics, sports, crime,
                     </p>
+
                   </div>
                 </div>
               </div>
@@ -135,6 +137,7 @@ export default function Footer() {
                     Available on Store
                   </h3>
                 </div>
+
                 <div className="mt-5 mb-5 cursor-pointer">
                   <a href="">
                     <img
