@@ -26,29 +26,34 @@ export default function Footer() {
               <div className="col-span-1 ">
                 <div className=" mx-auto p-4  iconBox md:mx-0 mt-6  sm:mx-auto text-white">
                   <div className="">
-                    <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">About US</h3>
+                    <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">
+                      About US
+                    </h3>
                   </div>
                   <div className="text-justify	">
                     <span>
-                      'Gurugram News' channel is the only web news channel in
-                      the city of Gurugram, which has made a different identity
-                      in the hearts of people in a very short time. It is our
-                      endeavor to show you every important news of Gurugram
-                      which is important for you. 'Gurugram News' channel is
-                      such a platform through which the voice of the people of
-                      Gurugram is brought prominently to the rulers. All types
-                      of news related to Gurugram are broadcast to the viewers
-                      by 'Gurugram News' like politics, sports, crime,
+                      "तेज़ तर्रार" चैनल आपकी अपनी राजधानी दिल्ली की सभी छोटी और
+                      बड़ी ख़बरों को आप तक प्रमुखता के साथ पहुँचाता है। हम सदैव ही
+                      ये प्रयास करते हैं कि आप तक हर एक ख़बर को उसके वास्तविक
+                      स्वरुप में पहुँचाया जाए। अपने इसी प्रयास एवं तत्परता के
+                      कारण तेज़ तर्रार न्यूज़ चैनल ने अपने दर्शकों के दिलों में एक
+                      महत्वपूर्ण स्थान प्राप्त किया है। यह एक ऐसा मंच है जहाँ
+                      आपके शहर दिल्ली से जुड़े सभी प्रकार के, जैसे राजनीती,
+                      अपराध, खेल, मनोरंजन आदि से सम्बंधित समाचारों को प्रसारित
+                      किया जाता है। दिल्ली से जुड़ी सभी ताज़ा और महत्वपूर्ण ख़बरों
+                      के बारे में सही जानकारी सबसे पहले पाने के लिए तेज़ तर्रार
+                      न्यूज़ चैनल से जुड़ें।
                     </span>
                   </div>
                 </div>
               </div>
 
               <div className="col-span-1 mt-10 md:mx-10  md:ml-6 Latest-post">
-                
                 <div className="text-white">
-                      <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">Latest Post</h3>
-                    </div>
+                  <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">
+                    Latest Post
+                  </h3>
+                </div>
                 <div className="grid grid-cols-3 mx-auto	">
                   <div className="col-span-1 ">
                     {/* <div className="text-white">
@@ -100,7 +105,9 @@ export default function Footer() {
 
               <div className="col-span-1 mt-10 mx-10 md:mx-0 md:ml-6 Latest-post">
                 <div className="text-white">
-                  <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">Follow Us</h3>
+                  <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">
+                    Follow Us
+                  </h3>
                 </div>
                 <div className=" mx-auto  iconBox md:mx-0  flex mt-6 sm:w-48 sm:mx-auto">
                   <div className="bg-gray-600 mx-1 flex p-3 rounded-md transition-all cursor-pointer hover:bg-[#1DA1F2]">
@@ -125,12 +132,16 @@ export default function Footer() {
                   <button className="text-white w-[50%] bg-blue-400 rounded-sm rounded-l-none hover:bg-blue-800 hover:font-bold">
                     SIGN UP
                   </button> */}
-                    <div className="text-white mt-5">
-                  <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">Available on Store</h3>
+                <div className="text-white mt-5">
+                  <h3 className="titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">
+                    Available on Store
+                  </h3>
                 </div>
                 <div className="mt-5 mb-5">
-                  <img className="w-48" src="https://www.teztarrar.com/wp-content/uploads/2021/09/playstore-image.jpg" /> 
-
+                  <img
+                    className="w-48"
+                    src="https://www.teztarrar.com/wp-content/uploads/2021/09/playstore-image.jpg"
+                  />
                 </div>
               </div>
             </div>
@@ -140,7 +151,9 @@ export default function Footer() {
               <div className="w-[100%]">
                 <div className=" md:flex  sm:border-b-2 border-gray border-dashed">
                   <div className="text-white md:w-[50%]  sm:border-b-2  md:border-b-0 md:border-r-2 md:border-gray border-dashed pb-6  h-80  md:mx-auto">
-                    <h2 className="m-3.5 mx-5 titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">News Categories</h2>
+                    <h2 className="m-3.5 mx-5 titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">
+                      News Categories
+                    </h2>
                     <div className="flex justify-between mr-20 mx-3 ">
                       <div className="left">
                         <li className="list-none m-3.5  hover:text-red-500">
@@ -194,7 +207,9 @@ export default function Footer() {
                   </div>
 
                   <div className="text-white md:w-[50%] ">
-                    <h2 className="m-3.5 mx-6 titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">Living</h2>
+                    <h2 className="m-3.5 mx-6 titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4 ">
+                      Living
+                    </h2>
                     <div className="flex justify-between mr-20 mx-3 text-white">
                       <div className="left">
                         <li className="list-none m-3.5  hover:text-red-500">
@@ -248,7 +263,9 @@ export default function Footer() {
                 <div className="md:flex sm:flex sm:justify-between ">
                   <div className="col-span-2 text-white">
                     <div className="items-start rounded-md border-gray border-dashed	mt-2 p-2">
-                      <h2 className="mt-2 m-3.5 titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4  ">Newpark News Services</h2>
+                      <h2 className="mt-2 m-3.5 titleSkewFooter w-fit text-white px-2 py-1  -skew-x-3 mb-4  ">
+                        Newpark News Services
+                      </h2>
                       <div className="flex items-center	mt-2 m-3.5">
                         <FooterMobile />
                         <a href="#">
