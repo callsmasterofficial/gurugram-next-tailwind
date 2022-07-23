@@ -17,16 +17,16 @@ export default function NewTWeather() {
             <DateTime />
           </div>
         </div>
-        <div className="">
+        <div className="max-h-max w-auto">
           <img
-            src="../../assets/images/indiaGateClouds.jpg"
+            src="../../assets/images/CroppedIndiaGateclouds.jpg"
             alt=""
             className="overflow-hidden"
           />
         </div>
         <div>
           {/* Temperature  */}
-          <div className=" flex items-center text-center absolute bottom-12 left-3 right-3">
+          <div className=" flex items-center text-center  bottom-12 left-3 right-3">
             <p className="w-fit mx-auto rounded-full text-[12px] font-bold md:hidden lg:block">
               22°c
             </p>
