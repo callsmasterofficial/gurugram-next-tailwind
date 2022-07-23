@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FiveCHeader() {
   return (
-    <div className="testingComponent bg-red-400">
+    <div className="testingComponent border-2">
         <div className="grid md:grid-cols-4 mx-auto" >
       {/* 1st grid */}
             <div className="col-span-1   grid grid-rows-2">

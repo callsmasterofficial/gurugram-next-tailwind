@@ -16,16 +16,16 @@ export default function tech() {
       <HeaderTopBar/>
       <Header />
       <div className="grid lg:grid-cols-10 w-[80%] ninetyPercentWidth m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto">
-        <div className="col-span-10 md:mr-2">
+        <div className="col-span-10">
           <FiveCHeader/>
         </div>
       </div>
-      <div className="grid lg:grid-cols-10 w-[80%] ninetyPercentWidth m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto ">
-          <div className="lg:col-span-7">
+      <div className="grid lg:grid-cols-10 w-[80%] ninetyPercentWidth m-auto 3xl:w-[70%] 4xl:w-[60%] 5xl:w-[50%] 6xl:w-[45%]  3xl:m-auto mt-4">
+          <div className="lg:col-span-7 lg:mr-2">
             <TechAreaTile />
           </div>
 
-          <div className=" lg:col-span-3 pr-[-4px]">
+          <div className=" lg:col-span-3 lg:ml-2">
             <ParticularPostSidebar />
           </div>
     </div>
